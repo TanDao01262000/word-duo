@@ -1,0 +1,699 @@
+[
+  {
+    "id": "think-sink",
+    "level": "A1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "think",
+      "ipa": "/θɪŋk/",
+      "gloss": "to use your mind"
+    },
+    "b": {
+      "lemma": "sink",
+      "ipa": "/sɪŋk/",
+      "gloss": "to go down under water"
+    },
+    "sentenceA": "I think the room is ready.",
+    "sentenceB": "Do not let the phone sink in the water."
+  },
+  {
+    "id": "they-day",
+    "level": "A1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "they",
+      "ipa": "/ðeɪ/",
+      "gloss": "the people already mentioned"
+    },
+    "b": {
+      "lemma": "day",
+      "ipa": "/deɪ/",
+      "gloss": "a period of twenty-four hours"
+    },
+    "sentenceA": "They arrive tonight.",
+    "sentenceB": "Have a nice day at the beach."
+  },
+  {
+    "id": "three-tree",
+    "level": "A1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "three",
+      "ipa": "/θɹiː/",
+      "gloss": "the number 3"
+    },
+    "b": {
+      "lemma": "tree",
+      "ipa": "/tɹiː/",
+      "gloss": "a tall plant with a wooden trunk"
+    },
+    "sentenceA": "We need three tickets.",
+    "sentenceB": "There is a tree in front of the house."
+  },
+  {
+    "id": "thank-tank",
+    "level": "A2",
+    "pitfall": "th",
+    "a": {
+      "lemma": "thank",
+      "ipa": "/θæŋk/",
+      "gloss": "to tell someone you are grateful"
+    },
+    "b": {
+      "lemma": "tank",
+      "ipa": "/tæŋk/",
+      "gloss": "a large container for liquid"
+    },
+    "sentenceA": "I want to thank the driver.",
+    "sentenceB": "The water tank is on the roof."
+  },
+  {
+    "id": "thin-tin",
+    "level": "A2",
+    "pitfall": "th",
+    "a": {
+      "lemma": "thin",
+      "ipa": "/ˈθɪn/",
+      "gloss": "not thick, with little distance between the sides"
+    },
+    "b": {
+      "lemma": "tin",
+      "ipa": "/tɪn/",
+      "gloss": "a metal container for food or drink"
+    },
+    "sentenceA": "The walls in this room are thin.",
+    "sentenceB": "Please open a tin of fruit."
+  },
+  {
+    "id": "thick-sick",
+    "level": "B1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "thick",
+      "ipa": "/θɪk/",
+      "gloss": "not thin, with a large distance between the sides"
+    },
+    "b": {
+      "lemma": "sick",
+      "ipa": "/sɪk/",
+      "gloss": "not well, ill"
+    },
+    "sentenceA": "The walls of the old house are thick.",
+    "sentenceB": "He felt sick after the long bus ride."
+  },
+  {
+    "id": "thirty-thirteen",
+    "level": "B1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "thirty",
+      "ipa": "/ˈθɜːti/",
+      "gloss": "the number 30"
+    },
+    "b": {
+      "lemma": "thirteen",
+      "ipa": "/ˌθɜːˈtiːn/",
+      "gloss": "the number 13"
+    },
+    "sentenceA": "The transfer takes about thirty minutes.",
+    "sentenceB": "The train leaves from platform thirteen."
+  },
+  {
+    "id": "both-boat",
+    "level": "B1",
+    "pitfall": "th",
+    "a": {
+      "lemma": "both",
+      "ipa": "/bəʊθ/",
+      "gloss": "the two things or people, not only one"
+    },
+    "b": {
+      "lemma": "boat",
+      "ipa": "/bəʊt/",
+      "gloss": "a vehicle that travels on water"
+    },
+    "sentenceA": "Both rooms are prepaid.",
+    "sentenceB": "They took a boat to the island."
+  },
+  {
+    "id": "see-she",
+    "level": "A1",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "see",
+      "ipa": "/siː/",
+      "gloss": "to notice with your eyes"
+    },
+    "b": {
+      "lemma": "she",
+      "ipa": "/ʃiː/",
+      "gloss": "a woman or girl already mentioned"
+    },
+    "sentenceA": "I can see the beach from here.",
+    "sentenceB": "She works from home."
+  },
+  {
+    "id": "sip-ship",
+    "level": "A1",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "sip",
+      "ipa": "/sɪp/",
+      "gloss": "to drink a very small amount"
+    },
+    "b": {
+      "lemma": "ship",
+      "ipa": "/ʃɪp/",
+      "gloss": "a large boat for sea travel"
+    },
+    "sentenceA": "She took a sip of coffee.",
+    "sentenceB": "The ship leaves in the evening."
+  },
+  {
+    "id": "seat-sheet",
+    "level": "A2",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "seat",
+      "ipa": "/siːt/",
+      "gloss": "a place to sit"
+    },
+    "b": {
+      "lemma": "sheet",
+      "ipa": "/ʃiːt/",
+      "gloss": "a large piece of cloth for a bed, or a piece of paper"
+    },
+    "sentenceA": "Please keep this seat for the child.",
+    "sentenceB": "There is a clean sheet on the bed."
+  },
+  {
+    "id": "save-shave",
+    "level": "A2",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "save",
+      "ipa": "/seɪv/",
+      "gloss": "to keep someone or something safe, or to keep money"
+    },
+    "b": {
+      "lemma": "shave",
+      "ipa": "/ʃeɪv/",
+      "gloss": "to cut hair from the skin with a razor"
+    },
+    "sentenceA": "This copy will save the booking details.",
+    "sentenceB": "He wants to shave before dinner."
+  },
+  {
+    "id": "sell-shell",
+    "level": "A2",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "sell",
+      "ipa": "/sɛl/",
+      "gloss": "to give something in exchange for money"
+    },
+    "b": {
+      "lemma": "shell",
+      "ipa": "/ʃɛl/",
+      "gloss": "the hard outer part of some sea animals or eggs"
+    },
+    "sentenceA": "They sell fruit at the market.",
+    "sentenceB": "The child found a shell on the beach."
+  },
+  {
+    "id": "sock-shock",
+    "level": "B1",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "sock",
+      "ipa": "/sɒk/",
+      "gloss": "a piece of clothing for the foot"
+    },
+    "b": {
+      "lemma": "shock",
+      "ipa": "/ʃɒk/",
+      "gloss": "a sudden, strong, unpleasant surprise"
+    },
+    "sentenceA": "Pack a warm sock for the mountain night.",
+    "sentenceB": "The cancelled flight was a shock."
+  },
+  {
+    "id": "class-clash",
+    "level": "B1",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "class",
+      "ipa": "/klas/",
+      "gloss": "a group of students, or a level of quality"
+    },
+    "b": {
+      "lemma": "clash",
+      "ipa": "/klaʃ/",
+      "gloss": "a short fight, or a serious disagreement of times or colours"
+    },
+    "sentenceA": "They booked a first-class seat.",
+    "sentenceB": "The two tours clash on Friday morning."
+  },
+  {
+    "id": "sign-shine",
+    "level": "B2",
+    "pitfall": "s-sh",
+    "a": {
+      "lemma": "sign",
+      "ipa": "/saɪn/",
+      "gloss": "a notice that gives information, or a movement that has a meaning"
+    },
+    "b": {
+      "lemma": "shine",
+      "ipa": "/ʃaɪn/",
+      "gloss": "to give out light, or to be bright"
+    },
+    "sentenceA": "Follow the sign to the station.",
+    "sentenceB": "The sun will shine on the rice field."
+  },
+  {
+    "id": "flight-fight",
+    "level": "A2",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "flight",
+      "ipa": "/flaɪt/",
+      "gloss": "a journey in a plane"
+    },
+    "b": {
+      "lemma": "fight",
+      "ipa": "/faɪt/",
+      "gloss": "an act of arguing or hitting, or an effort against something"
+    },
+    "sentenceA": "The flight is fully prepaid.",
+    "sentenceB": "Please do not fight about the window seat."
+  },
+  {
+    "id": "street-seat",
+    "level": "A2",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "street",
+      "ipa": "/stɹiːt/",
+      "gloss": "a road in a town with buildings along it"
+    },
+    "b": {
+      "lemma": "seat",
+      "ipa": "/siːt/",
+      "gloss": "a place to sit"
+    },
+    "sentenceA": "The hotel is on a quiet street.",
+    "sentenceB": "There is a seat by the window."
+  },
+  {
+    "id": "play-pray",
+    "level": "A1",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "play",
+      "ipa": "/pleɪ/",
+      "gloss": "to take part in a game, or to make music"
+    },
+    "b": {
+      "lemma": "pray",
+      "ipa": "/pɹeɪ/",
+      "gloss": "to speak to a god, often to ask for help"
+    },
+    "sentenceA": "The children play in the garden.",
+    "sentenceB": "They pray in the morning."
+  },
+  {
+    "id": "blue-brew",
+    "level": "B1",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "blue",
+      "ipa": "/bluː/",
+      "gloss": "the colour of a clear sky"
+    },
+    "b": {
+      "lemma": "brew",
+      "ipa": "/bɹuː/",
+      "gloss": "to make tea or coffee with hot water"
+    },
+    "sentenceA": "The sea is a deep blue this morning.",
+    "sentenceB": "I will brew a pot of tea."
+  },
+  {
+    "id": "pressed-pest",
+    "level": "B2",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "pressed",
+      "ipa": "/prest/",
+      "gloss": "pushed firmly, or busy and short of time"
+    },
+    "b": {
+      "lemma": "pest",
+      "ipa": "/pɛst/",
+      "gloss": "an insect or animal that causes damage"
+    },
+    "sentenceA": "She pressed the button for the next floor.",
+    "sentenceB": "A pest in the rice field can ruin the crop."
+  },
+  {
+    "id": "cloud-crowd",
+    "level": "A2",
+    "pitfall": "cluster",
+    "a": {
+      "lemma": "cloud",
+      "ipa": "/klaʊd/",
+      "gloss": "a white or grey mass in the sky"
+    },
+    "b": {
+      "lemma": "crowd",
+      "ipa": "/kɹaʊd/",
+      "gloss": "a large group of people in one place"
+    },
+    "sentenceA": "There is no cloud in the sky today.",
+    "sentenceB": "A crowd waited at the station."
+  },
+  {
+    "id": "book-booked",
+    "level": "A1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "book",
+      "ipa": "/bʊk/",
+      "gloss": "to arrange to have a room, seat, or ticket later"
+    },
+    "b": {
+      "lemma": "booked",
+      "ipa": "/bʊkt/",
+      "gloss": "already reserved, or reserved in the past"
+    },
+    "sentenceA": "I will book a room tonight.",
+    "sentenceB": "The room is already booked."
+  },
+  {
+    "id": "reserve-reserved",
+    "level": "B1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "reserve",
+      "ipa": "/ɹɪˈzɜːv/",
+      "gloss": "to arrange to keep something for later"
+    },
+    "b": {
+      "lemma": "reserved",
+      "ipa": "/rɪˈzɜːvd/",
+      "gloss": "kept for someone, or booked already"
+    },
+    "sentenceA": "Please reserve a quiet table.",
+    "sentenceB": "The table is reserved for seven o clock."
+  },
+  {
+    "id": "flight-flights",
+    "level": "A1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "flight",
+      "ipa": "/flaɪt/",
+      "gloss": "a journey in a plane"
+    },
+    "b": {
+      "lemma": "flights",
+      "ipa": "/flaɪts/",
+      "gloss": "more than one journey in a plane"
+    },
+    "sentenceA": "The flight leaves at six.",
+    "sentenceB": "She books flights every week."
+  },
+  {
+    "id": "walk-walked",
+    "level": "A1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "walk",
+      "ipa": "/wɔːk/",
+      "gloss": "to move on your feet at a normal speed"
+    },
+    "b": {
+      "lemma": "walked",
+      "ipa": "/wɔːkt/",
+      "gloss": "moved on your feet in the past"
+    },
+    "sentenceA": "We walk to the neighbours house.",
+    "sentenceB": "We walked to the rice field yesterday."
+  },
+  {
+    "id": "want-wanted",
+    "level": "A1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "want",
+      "ipa": "/wɔnt/",
+      "gloss": "to wish to have or do something"
+    },
+    "b": {
+      "lemma": "wanted",
+      "ipa": "/ˈwɒntɪd/",
+      "gloss": "wished to have or do something in the past"
+    },
+    "sentenceA": "I want a window seat.",
+    "sentenceB": "They wanted a later transfer."
+  },
+  {
+    "id": "watch-watches",
+    "level": "A2",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "watch",
+      "ipa": "/wɒt͡ʃ/",
+      "gloss": "to look at something for a period of time, or a small clock you wear"
+    },
+    "b": {
+      "lemma": "watches",
+      "ipa": "/ˈwɒtʃɪz/",
+      "gloss": "looks at something, or more than one small clock"
+    },
+    "sentenceA": "They watch the sunset from the balcony.",
+    "sentenceB": "He watches the departure board."
+  },
+  {
+    "id": "guest-guessed",
+    "level": "B1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "guest",
+      "ipa": "/ɡɛst/",
+      "gloss": "a person who visits you or stays in a hotel"
+    },
+    "b": {
+      "lemma": "guessed",
+      "ipa": "/ɡest/",
+      "gloss": "gave an answer without being sure it was right"
+    },
+    "sentenceA": "The guest is waiting in the lobby.",
+    "sentenceB": "I guessed the arrival time and I was wrong."
+  },
+  {
+    "id": "place-plays",
+    "level": "A2",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "place",
+      "ipa": "/pleɪs/",
+      "gloss": "a particular area, building, or position"
+    },
+    "b": {
+      "lemma": "plays",
+      "ipa": "/pleɪz/",
+      "gloss": "takes part in a game, or theatre performances"
+    },
+    "sentenceA": "This village is a quiet place to stay.",
+    "sentenceB": "She plays with the children at the weekend."
+  },
+  {
+    "id": "close-clothes",
+    "level": "B1",
+    "pitfall": "ending",
+    "a": {
+      "lemma": "close",
+      "ipa": "/kləʊz/",
+      "gloss": "to shut something, or not far"
+    },
+    "b": {
+      "lemma": "clothes",
+      "ipa": "/kləʊðz/",
+      "gloss": "the things you wear"
+    },
+    "sentenceA": "Please close the door.",
+    "sentenceB": "Pack light clothes for the warm weather."
+  },
+  {
+    "id": "rice-rise",
+    "level": "A2",
+    "pitfall": "final",
+    "a": {
+      "lemma": "rice",
+      "ipa": "/ɹaɪs/",
+      "gloss": "a grain that is a common food"
+    },
+    "b": {
+      "lemma": "rise",
+      "ipa": "/raɪz/",
+      "gloss": "to go up, or to get up"
+    },
+    "sentenceA": "The rice field is behind the house.",
+    "sentenceB": "The sun will rise early over the village."
+  },
+  {
+    "id": "life-live",
+    "level": "B1",
+    "pitfall": "final",
+    "a": {
+      "lemma": "life",
+      "ipa": "/laɪf/",
+      "gloss": "the time a person is alive, or the way a person lives"
+    },
+    "b": {
+      "lemma": "live",
+      "ipa": "/lɪv/",
+      "gloss": "to have your home in a place, or happening now"
+    },
+    "sentenceA": "She has a better work-life balance now.",
+    "sentenceB": "They live in a small village."
+  },
+  {
+    "id": "bus-buzz",
+    "level": "A2",
+    "pitfall": "final",
+    "a": {
+      "lemma": "bus",
+      "ipa": "/bɐs/",
+      "gloss": "a large vehicle that many people ride"
+    },
+    "b": {
+      "lemma": "buzz",
+      "ipa": "/bʌz/",
+      "gloss": "a low continuous sound, like a bee"
+    },
+    "sentenceA": "The bus stops outside the hotel.",
+    "sentenceB": "I could hear the buzz of the market."
+  },
+  {
+    "id": "ship-sheep",
+    "level": "A1",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "ship",
+      "ipa": "/ʃɪp/",
+      "gloss": "a large boat for sea travel"
+    },
+    "b": {
+      "lemma": "sheep",
+      "ipa": "/ʃiːp/",
+      "gloss": "a farm animal kept for wool or meat"
+    },
+    "sentenceA": "The ship leaves in the evening.",
+    "sentenceB": "There are sheep near the rice field."
+  },
+  {
+    "id": "sit-seat",
+    "level": "A1",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "sit",
+      "ipa": "/sɪt/",
+      "gloss": "to rest with your body on a chair"
+    },
+    "b": {
+      "lemma": "seat",
+      "ipa": "/siːt/",
+      "gloss": "a place to sit"
+    },
+    "sentenceA": "Please sit by the window.",
+    "sentenceB": "This seat is reserved."
+  },
+  {
+    "id": "live-leave",
+    "level": "A2",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "live",
+      "ipa": "/lɪv/",
+      "gloss": "to have your home in a place"
+    },
+    "b": {
+      "lemma": "leave",
+      "ipa": "/liːv/",
+      "gloss": "to go away from a place"
+    },
+    "sentenceA": "They live in central Vietnam.",
+    "sentenceB": "We leave the hotel at eight."
+  },
+  {
+    "id": "bad-bed",
+    "level": "A1",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "bad",
+      "ipa": "/bæːd/",
+      "gloss": "not good, or of low quality"
+    },
+    "b": {
+      "lemma": "bed",
+      "ipa": "/bed/",
+      "gloss": "a piece of furniture you sleep on"
+    },
+    "sentenceA": "A bad delay ruined the first morning.",
+    "sentenceB": "The bed in the room is comfortable."
+  },
+  {
+    "id": "hat-hot",
+    "level": "A1",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "hat",
+      "ipa": "/hæt/",
+      "gloss": "a piece of clothing you wear on your head"
+    },
+    "b": {
+      "lemma": "hot",
+      "ipa": "/hɒt/",
+      "gloss": "having a high temperature"
+    },
+    "sentenceA": "Take a hat for the sunny walk.",
+    "sentenceB": "The countryside is quite hot at noon."
+  },
+  {
+    "id": "full-fool",
+    "level": "B1",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "full",
+      "ipa": "/fʊl/",
+      "gloss": "containing as much as possible, or complete"
+    },
+    "b": {
+      "lemma": "fool",
+      "ipa": "/fuːl/",
+      "gloss": "a person who acts in a silly way, or to trick someone"
+    },
+    "sentenceA": "The morning flight is already full.",
+    "sentenceB": "Do not let a wrong time fool you."
+  },
+  {
+    "id": "pool-pull",
+    "level": "A2",
+    "pitfall": "vowel",
+    "a": {
+      "lemma": "pool",
+      "ipa": "/pul/",
+      "gloss": "a place made for people to swim"
+    },
+    "b": {
+      "lemma": "pull",
+      "ipa": "/pʊl/",
+      "gloss": "to move something toward you"
+    },
+    "sentenceA": "The hotel has a small pool.",
+    "sentenceB": "Please pull the door, do not push it."
+  }
+]

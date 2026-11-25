@@ -1,0 +1,7960 @@
+[
+  {
+    "id": "bag",
+    "lemma": "bag",
+    "level": "A1",
+    "ipa": "/ˈbæːɡ/",
+    "audioUrl": "",
+    "syllables": [
+      "bag"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a soft container you carry things in",
+    "examples": [
+      "I put my passport in my bag."
+    ],
+    "collocations": [
+      "pack a bag"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "beach",
+    "lemma": "beach",
+    "level": "A1",
+    "ipa": "/biːt͡ʃ/",
+    "audioUrl": "",
+    "syllables": [
+      "beach"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "sand and sea where people swim and sit",
+    "examples": [
+      "We walked on the beach in the morning."
+    ],
+    "collocations": [
+      "go to the beach"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "bed",
+    "lemma": "bed",
+    "level": "A1",
+    "ipa": "/bed/",
+    "audioUrl": "",
+    "syllables": [
+      "bed"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a piece of furniture you sleep on",
+    "examples": [
+      "The hotel bed was soft and clean."
+    ],
+    "collocations": [
+      "go to bed"
+    ],
+    "family": [],
+    "pairs": [
+      "bad-bed"
+    ],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "bird",
+    "lemma": "bird",
+    "level": "A1",
+    "ipa": "/bɜd/",
+    "audioUrl": "",
+    "syllables": [
+      "bird"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an animal with wings and feathers",
+    "examples": [
+      "A small bird sat in the tree."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "breakfast",
+    "lemma": "breakfast",
+    "level": "A1",
+    "ipa": "/ˈbɹɛkfəst/",
+    "audioUrl": "",
+    "syllables": [
+      "break",
+      "fast"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the first meal of the day",
+    "examples": [
+      "Breakfast at the hotel starts at seven."
+    ],
+    "collocations": [
+      "have breakfast"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday",
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "brother",
+    "lemma": "brother",
+    "level": "A1",
+    "ipa": "/ˈbɹɐðɘ(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "broth",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a male sibling",
+    "examples": [
+      "My brother lives near my parents."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "bus",
+    "lemma": "bus",
+    "level": "A1",
+    "ipa": "/bɐs/",
+    "audioUrl": "",
+    "syllables": [
+      "bus"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a large vehicle that many people ride",
+    "examples": [
+      "We took a bus from the airport."
+    ],
+    "collocations": [
+      "catch a bus"
+    ],
+    "family": [],
+    "pairs": [
+      "bus-buzz"
+    ],
+    "tags": [
+      "everyday",
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "cake",
+    "lemma": "cake",
+    "level": "A1",
+    "ipa": "/keɪk/",
+    "audioUrl": "",
+    "syllables": [
+      "cake"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a sweet baked food, often for a celebration",
+    "examples": [
+      "She made a cake for the family dinner."
+    ],
+    "collocations": [
+      "birthday cake"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "car",
+    "lemma": "car",
+    "level": "A1",
+    "ipa": "/kɑː/",
+    "audioUrl": "",
+    "syllables": [
+      "car"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a road vehicle with four wheels for a few people",
+    "examples": [
+      "They hired a car for the weekend."
+    ],
+    "collocations": [
+      "drive a car"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "chair",
+    "lemma": "chair",
+    "level": "A1",
+    "ipa": "/t͡ʃɛə(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "chair"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a seat for one person",
+    "examples": [
+      "Please take a chair and wait."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "city",
+    "lemma": "city",
+    "level": "A1",
+    "ipa": "/sɪtɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "cit",
+      "y"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a large and important town",
+    "examples": [
+      "Hanoi is a busy city."
+    ],
+    "collocations": [
+      "city centre"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "coffee",
+    "lemma": "coffee",
+    "level": "A1",
+    "ipa": "/ˈkɑ.fi/",
+    "audioUrl": "",
+    "syllables": [
+      "cof",
+      "fee"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a hot brown drink made from coffee beans",
+    "examples": [
+      "I drink coffee when I start work."
+    ],
+    "collocations": [
+      "a cup of coffee"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "cold",
+    "lemma": "cold",
+    "level": "A1",
+    "ipa": "/kɔʊld/",
+    "audioUrl": "",
+    "syllables": [
+      "cold"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "having a low temperature",
+    "examples": [
+      "The water in the pool was cold."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "daughter",
+    "lemma": "daughter",
+    "level": "A1",
+    "ipa": "/ˈdɑ.tɚ/",
+    "audioUrl": "",
+    "syllables": [
+      "daugh",
+      "ter"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a female child",
+    "examples": [
+      "Their daughter is still at school."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "dinner",
+    "lemma": "dinner",
+    "level": "A1",
+    "ipa": "/ˈdɪnə/",
+    "audioUrl": "",
+    "syllables": [
+      "din",
+      "ner"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the main meal, usually in the evening",
+    "examples": [
+      "We have dinner with the family on Sundays."
+    ],
+    "collocations": [
+      "have dinner"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday",
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "door",
+    "lemma": "door",
+    "level": "A1",
+    "ipa": "/dɔː/",
+    "audioUrl": "",
+    "syllables": [
+      "door"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the way into a room or building",
+    "examples": [
+      "Please close the door behind you."
+    ],
+    "collocations": [
+      "open the door"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "email",
+    "lemma": "email",
+    "level": "A1",
+    "ipa": "/ˈiːmeɪl/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "mail"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a message you send on a computer or phone",
+    "examples": [
+      "Every day she checks the clients emails."
+    ],
+    "collocations": [
+      "send an email",
+      "reply to an email"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "evening",
+    "lemma": "evening",
+    "level": "A1",
+    "ipa": "/ˈivnɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "eve",
+      "ning"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the part of the day after the afternoon",
+    "examples": [
+      "The flight arrives in the evening."
+    ],
+    "collocations": [
+      "in the evening"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "family",
+    "lemma": "family",
+    "level": "A1",
+    "ipa": "/ˈfɛm(ɘ)li/",
+    "audioUrl": "",
+    "syllables": [
+      "fam",
+      "i",
+      "ly"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "your parents, children, and close relatives",
+    "examples": [
+      "I am close to my family."
+    ],
+    "collocations": [
+      "spend time with family"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "father",
+    "lemma": "father",
+    "level": "A1",
+    "ipa": "/ˈfaːðə/",
+    "audioUrl": "",
+    "syllables": [
+      "fa",
+      "ther"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a male parent",
+    "examples": [
+      "Everyone says I look like my father."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "flight",
+    "lemma": "flight",
+    "level": "A1",
+    "ipa": "/flaɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "flight"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a journey in a plane",
+    "examples": [
+      "She books flights and hotels for clients."
+    ],
+    "collocations": [
+      "book a flight",
+      "catch a flight"
+    ],
+    "family": [
+      "fly",
+      "flight"
+    ],
+    "pairs": [
+      "flight-fight",
+      "flight-flights"
+    ],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "flower",
+    "lemma": "flower",
+    "level": "A1",
+    "ipa": "/ˈflaʊ.ə/",
+    "audioUrl": "",
+    "syllables": [
+      "flow",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the colourful part of a plant",
+    "examples": [
+      "There are flowers in front of the house."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "food",
+    "lemma": "food",
+    "level": "A1",
+    "ipa": "/fuːd/",
+    "audioUrl": "",
+    "syllables": [
+      "food"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "things that people eat",
+    "examples": [
+      "The neighbours sometimes share delicious food."
+    ],
+    "collocations": [
+      "share food"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday",
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "friend",
+    "lemma": "friend",
+    "level": "A1",
+    "ipa": "/fɹɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "friend"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person you like and enjoy spending time with",
+    "examples": [
+      "I met a friend at the station."
+    ],
+    "collocations": [
+      "close friend"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "garden",
+    "lemma": "garden",
+    "level": "A1",
+    "ipa": "/ˈɡɑːdn̩/",
+    "audioUrl": "",
+    "syllables": [
+      "gar",
+      "den"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "land by a house where plants grow",
+    "examples": [
+      "The garden behind the house is quiet."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "guest",
+    "lemma": "guest",
+    "level": "A1",
+    "ipa": "/ɡɛst/",
+    "audioUrl": "",
+    "syllables": [
+      "guest"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who visits you or stays in a hotel",
+    "examples": [
+      "The guest arrives at three this afternoon."
+    ],
+    "collocations": [
+      "hotel guest"
+    ],
+    "family": [],
+    "pairs": [
+      "guest-guessed"
+    ],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "happy",
+    "lemma": "happy",
+    "level": "A1",
+    "ipa": "/ˈhæpiː/",
+    "audioUrl": "",
+    "syllables": [
+      "hap",
+      "py"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "feeling pleased and glad",
+    "examples": [
+      "The children were happy on holiday."
+    ],
+    "collocations": [],
+    "family": [
+      "happiness"
+    ],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "hotel",
+    "lemma": "hotel",
+    "level": "A1",
+    "ipa": "/(h)əʊˈtɛl/",
+    "audioUrl": "",
+    "syllables": [
+      "ho",
+      "tel"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a place you stay when you travel",
+    "examples": [
+      "We booked a hotel near the beach."
+    ],
+    "collocations": [
+      "book a hotel",
+      "hotel room"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "house",
+    "lemma": "house",
+    "level": "A1",
+    "ipa": "/hʌʊs/",
+    "audioUrl": "",
+    "syllables": [
+      "house"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a building where a family lives",
+    "examples": [
+      "Their house is close to a large rice field."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown",
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "kitchen",
+    "lemma": "kitchen",
+    "level": "A1",
+    "ipa": "/ˈkɪt͡ʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "kitch",
+      "en"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the room where you cook",
+    "examples": [
+      "She is making lunch in the kitchen."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "lunch",
+    "lemma": "lunch",
+    "level": "A1",
+    "ipa": "/lʌnt͡ʃ/",
+    "audioUrl": "",
+    "syllables": [
+      "lunch"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a meal in the middle of the day",
+    "examples": [
+      "We had lunch at a small restaurant."
+    ],
+    "collocations": [
+      "have lunch"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "mother",
+    "lemma": "mother",
+    "level": "A1",
+    "ipa": "/ˈmʌðə(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "moth",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a female parent",
+    "examples": [
+      "My mother and father come from the same hometown."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "night",
+    "lemma": "night",
+    "level": "A1",
+    "ipa": "/naɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "night"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the time when it is dark and most people sleep",
+    "examples": [
+      "The train leaves late at night."
+    ],
+    "collocations": [
+      "at night"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "phone",
+    "lemma": "phone",
+    "level": "A1",
+    "ipa": "/fəʊ̯n/",
+    "audioUrl": "",
+    "syllables": [
+      "phone"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a device you use to call or send messages",
+    "examples": [
+      "Please call me on my phone if the flight changes."
+    ],
+    "collocations": [
+      "phone number",
+      "on the phone"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday",
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "plane",
+    "lemma": "plane",
+    "level": "A1",
+    "ipa": "/pleɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "plane"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a vehicle that flies in the sky",
+    "examples": [
+      "The plane to Da Nang was on time."
+    ],
+    "collocations": [
+      "by plane"
+    ],
+    "family": [
+      "flight"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "rain",
+    "lemma": "rain",
+    "level": "A1",
+    "ipa": "/ɹeɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "rain"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "water that falls from the sky",
+    "examples": [
+      "The rain was heavy in the afternoon."
+    ],
+    "collocations": [
+      "heavy rain"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "rice",
+    "lemma": "rice",
+    "level": "A1",
+    "ipa": "/ɹaɪs/",
+    "audioUrl": "",
+    "syllables": [
+      "rice"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a grain that is a common food, often white or brown",
+    "examples": [
+      "There is a large rice field around the house."
+    ],
+    "collocations": [
+      "rice field"
+    ],
+    "family": [],
+    "pairs": [
+      "rice-rise"
+    ],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "room",
+    "lemma": "room",
+    "level": "A1",
+    "ipa": "/ɹuːm/",
+    "audioUrl": "",
+    "syllables": [
+      "room"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a space in a building with its own walls",
+    "examples": [
+      "I booked a room for two nights."
+    ],
+    "collocations": [
+      "book a room",
+      "hotel room"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "school",
+    "lemma": "school",
+    "level": "A1",
+    "ipa": "/skuːl/",
+    "audioUrl": "",
+    "syllables": [
+      "school"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a place where children go to learn",
+    "examples": [
+      "The village school is near the rice field."
+    ],
+    "collocations": [
+      "go to school"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "sister",
+    "lemma": "sister",
+    "level": "A1",
+    "ipa": "/ˈsɪs.tə/",
+    "audioUrl": "",
+    "syllables": [
+      "sis",
+      "ter"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a female sibling",
+    "examples": [
+      "My sister often visits at the weekend."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "son",
+    "lemma": "son",
+    "level": "A1",
+    "ipa": "/sɒn/",
+    "audioUrl": "",
+    "syllables": [
+      "son"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a male child",
+    "examples": [
+      "Their son is starting school this year."
+    ],
+    "collocations": [],
+    "family": [
+      "family"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "student",
+    "lemma": "student",
+    "level": "A1",
+    "ipa": "/ˈstjuː.dənt/",
+    "audioUrl": "",
+    "syllables": [
+      "stu",
+      "dent"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who is studying",
+    "examples": [
+      "The student is practising English at home."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "table",
+    "lemma": "table",
+    "level": "A1",
+    "ipa": "/ˈteɪbəl/",
+    "audioUrl": "",
+    "syllables": [
+      "ta",
+      "ble"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a piece of furniture with a flat top",
+    "examples": [
+      "Please leave your key on the table."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "ticket",
+    "lemma": "ticket",
+    "level": "A1",
+    "ipa": "/ˈtɪkɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "tick",
+      "et"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a piece of paper or a code that lets you travel or enter",
+    "examples": [
+      "She sent the train ticket by email."
+    ],
+    "collocations": [
+      "train ticket",
+      "plane ticket"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "village",
+    "lemma": "village",
+    "level": "A1",
+    "ipa": "/ˈvɪlɪd͡ʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "vil",
+      "lage"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a small group of houses in the countryside",
+    "examples": [
+      "She lives in a small village in Phu Yen."
+    ],
+    "collocations": [
+      "small village"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "walk",
+    "lemma": "walk",
+    "level": "A1",
+    "ipa": "/wɔːk/",
+    "audioUrl": "",
+    "syllables": [
+      "walk"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to move on your feet at a normal speed",
+    "examples": [
+      "We walk to the neighbours house."
+    ],
+    "collocations": [
+      "go for a walk"
+    ],
+    "family": [],
+    "pairs": [
+      "walk-walked"
+    ],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "warm",
+    "lemma": "warm",
+    "level": "A1",
+    "ipa": "/wɔːm/",
+    "audioUrl": "",
+    "syllables": [
+      "warm"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "a little hot, in a comfortable way",
+    "examples": [
+      "The countryside is quite warm in the afternoon."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "water",
+    "lemma": "water",
+    "level": "A1",
+    "ipa": "/ˈwoːtə/",
+    "audioUrl": "",
+    "syllables": [
+      "wa",
+      "ter"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the clear liquid that people drink",
+    "examples": [
+      "Please bring a bottle of water for the trip."
+    ],
+    "collocations": [
+      "a glass of water"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "window",
+    "lemma": "window",
+    "level": "A1",
+    "ipa": "/ˈwɪndəʊ/",
+    "audioUrl": "",
+    "syllables": [
+      "win",
+      "dow"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a glass opening in a wall",
+    "examples": [
+      "I opened the window because the room was warm."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "work",
+    "lemma": "work",
+    "level": "A1",
+    "ipa": "/wɜːk/",
+    "audioUrl": "",
+    "syllables": [
+      "work"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a job, or the things you do in your job",
+    "examples": [
+      "She can work from home, so her hours are flexible."
+    ],
+    "collocations": [
+      "go to work",
+      "work from home"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "book",
+    "lemma": "book",
+    "level": "A1",
+    "ipa": "/bʊk/",
+    "audioUrl": "",
+    "syllables": [
+      "book"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to arrange to have a room, seat, or ticket later",
+    "examples": [
+      "I book flights and rooms for the guests."
+    ],
+    "collocations": [
+      "book a flight",
+      "book a room"
+    ],
+    "family": [
+      "booking"
+    ],
+    "pairs": [
+      "book-booked"
+    ],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "airport",
+    "lemma": "airport",
+    "level": "A2",
+    "ipa": "/ˈɛə.pɔːt/",
+    "audioUrl": "",
+    "syllables": [
+      "air",
+      "port"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a place where planes take off and land",
+    "examples": [
+      "Please meet the driver at the airport."
+    ],
+    "collocations": [
+      "at the airport"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "birthday",
+    "lemma": "birthday",
+    "level": "A2",
+    "ipa": "/ˈbɜːθ.deɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "birth",
+      "day"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the date each year when you were born",
+    "examples": [
+      "We spent her birthday with the family."
+    ],
+    "collocations": [
+      "birthday party"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "busy",
+    "lemma": "busy",
+    "level": "A2",
+    "ipa": "/ˈbɪzi/",
+    "audioUrl": "",
+    "syllables": [
+      "bus",
+      "y"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "having a lot of things to do",
+    "examples": [
+      "The reservation desk is busy in the morning."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "cinema",
+    "lemma": "cinema",
+    "level": "A2",
+    "ipa": "/ˈsɪn.ɪ.mɑː/",
+    "audioUrl": "",
+    "syllables": [
+      "cin",
+      "e",
+      "ma"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a place where people watch films",
+    "examples": [
+      "We went to the cinema at the weekend."
+    ],
+    "collocations": [
+      "go to the cinema"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "client",
+    "lemma": "client",
+    "level": "A2",
+    "ipa": "/ˈklʌɪənt/",
+    "audioUrl": "",
+    "syllables": [
+      "cli",
+      "ent"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who pays a company for a service",
+    "examples": [
+      "She replies to clients emails every day."
+    ],
+    "collocations": [
+      "a new client"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "countryside",
+    "lemma": "countryside",
+    "level": "A2",
+    "ipa": "/ˈkʌntrisaɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "coun",
+      "try",
+      "side"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "land outside towns, with fields and trees",
+    "examples": [
+      "She loves living in the countryside."
+    ],
+    "collocations": [
+      "in the countryside"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "customer",
+    "lemma": "customer",
+    "level": "A2",
+    "ipa": "/ˈkʌstəmə/",
+    "audioUrl": "",
+    "syllables": [
+      "cus",
+      "to",
+      "mer"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who buys something from a shop or company",
+    "examples": [
+      "The customer asked for a quiet room."
+    ],
+    "collocations": [
+      "customer service"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "delay",
+    "lemma": "delay",
+    "level": "A2",
+    "ipa": "/dɪˈleɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "lay"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a time when something happens later than planned",
+    "examples": [
+      "There was a delay, so the flight left at nine."
+    ],
+    "collocations": [
+      "a short delay"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "depart",
+    "lemma": "depart",
+    "level": "A2",
+    "ipa": "/dɪˈpɑːt/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "part"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to leave, especially of a plane, train, or bus",
+    "examples": [
+      "The train will depart at six in the morning."
+    ],
+    "collocations": [
+      "depart from"
+    ],
+    "family": [
+      "departure"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "early",
+    "lemma": "early",
+    "level": "A2",
+    "ipa": "/ˈɜː.li/",
+    "audioUrl": "",
+    "syllables": [
+      "ear",
+      "ly"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "before the usual or expected time",
+    "examples": [
+      "We need an early check-in tomorrow."
+    ],
+    "collocations": [
+      "early morning"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "enough",
+    "lemma": "enough",
+    "level": "A2",
+    "ipa": "/iˈnʌf/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "nough"
+    ],
+    "stressIndex": 1,
+    "pos": "determiner",
+    "gloss": "as much as you need",
+    "examples": [
+      "There is enough time to reach the station."
+    ],
+    "collocations": [
+      "enough time"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "famous",
+    "lemma": "famous",
+    "level": "A2",
+    "ipa": "/ˈfeɪməs/",
+    "audioUrl": "",
+    "syllables": [
+      "fa",
+      "mous"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "known by many people",
+    "examples": [
+      "Hoi An is famous for its old town."
+    ],
+    "collocations": [
+      "famous for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "farmer",
+    "lemma": "farmer",
+    "level": "A2",
+    "ipa": "/fɑːmə/",
+    "audioUrl": "",
+    "syllables": [
+      "farm",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who grows food or keeps animals",
+    "examples": [
+      "Her parents are farmers in Phu Yen."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family",
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "forget",
+    "lemma": "forget",
+    "level": "A2",
+    "ipa": "/fəˈɡɛt/",
+    "audioUrl": "",
+    "syllables": [
+      "for",
+      "get"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to not remember something",
+    "examples": [
+      "Do not forget to take your passport."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "holiday",
+    "lemma": "holiday",
+    "level": "A2",
+    "ipa": "/ˈhɒlɪdeɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "hol",
+      "i",
+      "day"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a time when you do not work, or a trip you take for fun",
+    "examples": [
+      "The family spends a lot of time together on holiday."
+    ],
+    "collocations": [
+      "go on holiday"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family",
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "hometown",
+    "lemma": "hometown",
+    "level": "A2",
+    "ipa": "/ˈhəʊmtaʊn/",
+    "audioUrl": "",
+    "syllables": [
+      "home",
+      "town"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the town or village where you grew up",
+    "examples": [
+      "Her hometown is in central Vietnam."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "hungry",
+    "lemma": "hungry",
+    "level": "A2",
+    "ipa": "/ˈhʌŋ.ɡɹi/",
+    "audioUrl": "",
+    "syllables": [
+      "hun",
+      "gry"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "wanting to eat",
+    "examples": [
+      "The children were hungry after the walk."
+    ],
+    "collocations": [
+      "feel hungry"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "island",
+    "lemma": "island",
+    "level": "A2",
+    "ipa": "/ˈaɪ̯lənd/",
+    "audioUrl": "",
+    "syllables": [
+      "is",
+      "land"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a piece of land with water all around it",
+    "examples": [
+      "They spent three nights on the island."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "job",
+    "lemma": "job",
+    "level": "A2",
+    "ipa": "/d͡ʒɒb/",
+    "audioUrl": "",
+    "syllables": [
+      "job"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the work you do, usually for money",
+    "examples": [
+      "She has had this job for two years."
+    ],
+    "collocations": [
+      "a flexible job"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "luggage",
+    "lemma": "luggage",
+    "level": "A2",
+    "ipa": "/ˈlʌɡɪd͡ʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "lug",
+      "gage"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the bags you take with you when you travel",
+    "examples": [
+      "Please keep your luggage with you at the station."
+    ],
+    "collocations": [
+      "heavy luggage"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "map",
+    "lemma": "map",
+    "level": "A2",
+    "ipa": "/mæp/",
+    "audioUrl": "",
+    "syllables": [
+      "map"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a drawing that shows roads, towns, and places",
+    "examples": [
+      "The driver sent a map of the hotel."
+    ],
+    "collocations": [
+      "on the map"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "neighbour",
+    "lemma": "neighbour",
+    "level": "A2",
+    "ipa": "/ˈneɪbə/",
+    "audioUrl": "",
+    "syllables": [
+      "neigh",
+      "bour"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a person who lives near you",
+    "examples": [
+      "The neighbours help take care of the house when she is away."
+    ],
+    "collocations": [
+      "next-door neighbour"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown",
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "passport",
+    "lemma": "passport",
+    "level": "A2",
+    "ipa": "/ˈpɑːspɔːt/",
+    "audioUrl": "",
+    "syllables": [
+      "pass",
+      "port"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an official book that lets you travel to other countries",
+    "examples": [
+      "Please check that the passport is still valid."
+    ],
+    "collocations": [
+      "passport number"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "polite",
+    "lemma": "polite",
+    "level": "A2",
+    "ipa": "/pəˈlaɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "po",
+      "lite"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "speaking and acting in a kind, respectful way",
+    "examples": [
+      "The receptionist was polite and clear."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "queue",
+    "lemma": "queue",
+    "level": "A2",
+    "ipa": "/kjuː/",
+    "audioUrl": "",
+    "syllables": [
+      "queue"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a line of people waiting for something",
+    "examples": [
+      "There was a long queue at the check-in desk."
+    ],
+    "collocations": [
+      "wait in a queue"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "quiet",
+    "lemma": "quiet",
+    "level": "A2",
+    "ipa": "/ˈkwaɪ.ət/",
+    "audioUrl": "",
+    "syllables": [
+      "qui",
+      "et"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "with little or no noise",
+    "examples": [
+      "They asked for a quiet room at the back."
+    ],
+    "collocations": [
+      "a quiet room"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "relax",
+    "lemma": "relax",
+    "level": "A2",
+    "ipa": "/ɹɪˈlæks/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "lax"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to rest and become calm",
+    "examples": [
+      "What she likes most about her hometown is that she can relax."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "restaurant",
+    "lemma": "restaurant",
+    "level": "A2",
+    "ipa": "/ˈɹɛs.t(ə).ɹ(ə)nt/",
+    "audioUrl": "",
+    "syllables": [
+      "res",
+      "tau",
+      "rant"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a place where you pay to eat a meal",
+    "examples": [
+      "We booked a restaurant for Friday evening."
+    ],
+    "collocations": [
+      "book a restaurant"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "return",
+    "lemma": "return",
+    "level": "A2",
+    "ipa": "/ɹɪˈtɜːn/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "turn"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a ticket for going to a place and coming back",
+    "examples": [
+      "She booked a return flight for Sunday."
+    ],
+    "collocations": [
+      "a return ticket"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "season",
+    "lemma": "season",
+    "level": "A2",
+    "ipa": "/ˈsiːzən/",
+    "audioUrl": "",
+    "syllables": [
+      "sea",
+      "son"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a part of the year, such as summer or winter",
+    "examples": [
+      "The dry season is a popular time to travel."
+    ],
+    "collocations": [
+      "busy season"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "share",
+    "lemma": "share",
+    "level": "A2",
+    "ipa": "/ʃɛə/",
+    "audioUrl": "",
+    "syllables": [
+      "share"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to let someone use or have part of something",
+    "examples": [
+      "The neighbours often share food with us."
+    ],
+    "collocations": [
+      "share food"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family",
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "shopping",
+    "lemma": "shopping",
+    "level": "A2",
+    "ipa": "/ˈʃɒpɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "shop",
+      "ping"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the activity of buying things from shops",
+    "examples": [
+      "They went shopping in the old town."
+    ],
+    "collocations": [
+      "go shopping"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "sightseeing",
+    "lemma": "sightseeing",
+    "level": "A2",
+    "ipa": "/ˈsaɪtsiːɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "sight",
+      "see",
+      "ing"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "visiting famous or interesting places as a visitor",
+    "examples": [
+      "The morning is free for sightseeing."
+    ],
+    "collocations": [
+      "go sightseeing"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "station",
+    "lemma": "station",
+    "level": "A2",
+    "ipa": "/ˈsteɪʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "sta",
+      "tion"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a place where trains or buses stop",
+    "examples": [
+      "Please wait for the driver outside the station."
+    ],
+    "collocations": [
+      "train station"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "stay",
+    "lemma": "stay",
+    "level": "A2",
+    "ipa": "/steɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "stay"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to live or sleep somewhere for a short time",
+    "examples": [
+      "They will stay at the hotel for two nights."
+    ],
+    "collocations": [
+      "stay at a hotel"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "sunny",
+    "lemma": "sunny",
+    "level": "A2",
+    "ipa": "/ˈsʌni/",
+    "audioUrl": "",
+    "syllables": [
+      "sun",
+      "ny"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "with a lot of bright sun",
+    "examples": [
+      "It is usually sunny in her hometown."
+    ],
+    "collocations": [
+      "a sunny day"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "surprise",
+    "lemma": "surprise",
+    "level": "A2",
+    "ipa": "/səˈpɹaɪz/",
+    "audioUrl": "",
+    "syllables": [
+      "sur",
+      "prise"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something you did not expect",
+    "examples": [
+      "The free fruit basket was a nice surprise."
+    ],
+    "collocations": [
+      "a nice surprise"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "sweater",
+    "lemma": "sweater",
+    "level": "A2",
+    "ipa": "/ˈswetə/",
+    "audioUrl": "",
+    "syllables": [
+      "sweat",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a warm piece of clothing for the upper body",
+    "examples": [
+      "Pack a sweater for the evening in the mountains."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "tidy",
+    "lemma": "tidy",
+    "level": "A2",
+    "ipa": "/ˈtaɪdi/",
+    "audioUrl": "",
+    "syllables": [
+      "ti",
+      "dy"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "clean, with things in the right place",
+    "examples": [
+      "Please leave the room tidy when you check out."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "tired",
+    "lemma": "tired",
+    "level": "A2",
+    "ipa": "/taɪəd/",
+    "audioUrl": "",
+    "syllables": [
+      "tired"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "needing to rest",
+    "examples": [
+      "He felt tired after the long flight."
+    ],
+    "collocations": [
+      "feel tired"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "travel",
+    "lemma": "travel",
+    "level": "A2",
+    "ipa": "/ˈtɹævəl/",
+    "audioUrl": "",
+    "syllables": [
+      "trav",
+      "el"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to go from one place to another",
+    "examples": [
+      "She does not need to travel to an office every day."
+    ],
+    "collocations": [
+      "travel for work"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "useful",
+    "lemma": "useful",
+    "level": "A2",
+    "ipa": "/ˈjuːsfəl/",
+    "audioUrl": "",
+    "syllables": [
+      "use",
+      "ful"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "helping you do something",
+    "examples": [
+      "A simple map of the village is useful for guests."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "visit",
+    "lemma": "visit",
+    "level": "A2",
+    "ipa": "/ˈvɪzɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "vis",
+      "it"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to go and see a person or a place",
+    "examples": [
+      "We visit our parents every weekend."
+    ],
+    "collocations": [
+      "visit family"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "weather",
+    "lemma": "weather",
+    "level": "A2",
+    "ipa": "/ˈwɛðə/",
+    "audioUrl": "",
+    "syllables": [
+      "weath",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the rain, sun, wind, or temperature at a time",
+    "examples": [
+      "The weather in the countryside is quite warm."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "weekend",
+    "lemma": "weekend",
+    "level": "A2",
+    "ipa": "/wiːˈkɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "week",
+      "end"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "Saturday and Sunday",
+    "examples": [
+      "The family spends a lot of time together at the weekend."
+    ],
+    "collocations": [
+      "at the weekend"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "worried",
+    "lemma": "worried",
+    "level": "A2",
+    "ipa": "/ˈwʌɹid/",
+    "audioUrl": "",
+    "syllables": [
+      "wor",
+      "ried"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "thinking about a problem and feeling uneasy",
+    "examples": [
+      "She was worried the email had gone to the wrong client."
+    ],
+    "collocations": [
+      "worried about"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "province",
+    "lemma": "province",
+    "level": "A2",
+    "ipa": "/ˈpɹɒvɪns/",
+    "audioUrl": "",
+    "syllables": [
+      "prov",
+      "ince"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a region that is part of a country",
+    "examples": [
+      "Her parents come from Phu Yen province."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "autumn",
+    "lemma": "autumn",
+    "level": "A2",
+    "ipa": "/ˈɔːtəm/",
+    "audioUrl": "",
+    "syllables": [
+      "au",
+      "tumn"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the season between summer and winter",
+    "examples": [
+      "They prefer to travel in autumn, when it is cooler."
+    ],
+    "collocations": [
+      "in autumn"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "change",
+    "lemma": "change",
+    "level": "A2",
+    "ipa": "/tʃeɪndʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "change"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to make something different, or to become different",
+    "examples": [
+      "Please tell us if you change your departure time."
+    ],
+    "collocations": [
+      "change a booking"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "please",
+    "lemma": "please",
+    "level": "A1",
+    "ipa": "/pliːz/",
+    "audioUrl": "",
+    "syllables": [
+      "please"
+    ],
+    "stressIndex": 0,
+    "pos": "exclamation",
+    "gloss": "a polite word you use when you ask for something",
+    "examples": [
+      "A seat by the window, please."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "accommodation",
+    "lemma": "accommodation",
+    "level": "B1",
+    "ipa": "/əˌkɒməˈdeɪʃn/",
+    "audioUrl": "",
+    "syllables": [
+      "ac",
+      "com",
+      "mo",
+      "da",
+      "tion"
+    ],
+    "stressIndex": 3,
+    "pos": "noun",
+    "gloss": "a place to stay, such as a hotel room",
+    "examples": [
+      "The company booked accommodation near the old town."
+    ],
+    "collocations": [
+      "book accommodation"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "advice",
+    "lemma": "advice",
+    "level": "B1",
+    "ipa": "/ədˈvaɪs/",
+    "audioUrl": "",
+    "syllables": [
+      "ad",
+      "vice"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "an idea about what someone should do",
+    "examples": [
+      "My parents always give me kind advice, even about work."
+    ],
+    "collocations": [
+      "give advice"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "agree",
+    "lemma": "agree",
+    "level": "B1",
+    "ipa": "/əˈɡɹi/",
+    "audioUrl": "",
+    "syllables": [
+      "a",
+      "gree"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to have the same opinion as someone",
+    "examples": [
+      "We agree that the morning flight is better."
+    ],
+    "collocations": [
+      "agree with"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "arrange",
+    "lemma": "arrange",
+    "level": "B1",
+    "ipa": "/əˈɹeɪndʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "ar",
+      "range"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to plan and organize something",
+    "examples": [
+      "She will arrange a transfer from the airport."
+    ],
+    "collocations": [
+      "arrange a transfer"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "available",
+    "lemma": "available",
+    "level": "B1",
+    "ipa": "/əˈveɪləb(ə)l/",
+    "audioUrl": "",
+    "syllables": [
+      "a",
+      "vail",
+      "a",
+      "ble"
+    ],
+    "stressIndex": 2,
+    "pos": "adjective",
+    "gloss": "free to be used, or free to meet",
+    "examples": [
+      "Is a double room available on Friday night?"
+    ],
+    "collocations": [
+      "available for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "avoid",
+    "lemma": "avoid",
+    "level": "B1",
+    "ipa": "/əˈvɔɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "a",
+      "void"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to stay away from something",
+    "examples": [
+      "We should avoid the rush hour at the station."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "booking",
+    "lemma": "booking",
+    "level": "B1",
+    "ipa": "/ˈbʊkɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "book",
+      "ing"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an arrangement to have a room, table, or seat",
+    "examples": [
+      "Please send the booking by email today."
+    ],
+    "collocations": [
+      "make a booking",
+      "change a booking"
+    ],
+    "family": [
+      "book"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "cancel",
+    "lemma": "cancel",
+    "level": "B1",
+    "ipa": "/ˈkænsl̩/",
+    "audioUrl": "",
+    "syllables": [
+      "can",
+      "cel"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to say that a planned thing will not happen",
+    "examples": [
+      "The guest had to cancel the second night."
+    ],
+    "collocations": [
+      "cancel a booking"
+    ],
+    "family": [
+      "cancellation"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "confirm",
+    "lemma": "confirm",
+    "level": "B1",
+    "ipa": "/kənˈfɜːm/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "firm"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to say that something is definite or correct",
+    "examples": [
+      "Please confirm the departure time by this afternoon."
+    ],
+    "collocations": [
+      "confirm a booking"
+    ],
+    "family": [
+      "confirmation"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "convenient",
+    "lemma": "convenient",
+    "level": "B1",
+    "ipa": "/kənˈviːniənt/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "ven",
+      "ient"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "easy to use, or well placed for you",
+    "examples": [
+      "The hotel is convenient for the train station."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "decision",
+    "lemma": "decision",
+    "level": "B1",
+    "ipa": "/dɪˈsɪʒən/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "ci",
+      "sion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a choice you make after thinking",
+    "examples": [
+      "Her parents always support her decision."
+    ],
+    "collocations": [
+      "make a decision"
+    ],
+    "family": [
+      "decide"
+    ],
+    "pairs": [],
+    "tags": [
+      "family",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "describe",
+    "lemma": "describe",
+    "level": "B1",
+    "ipa": "/dəˈskɹaɪb/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "scribe"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to say what something or someone is like",
+    "examples": [
+      "Please describe the room to the guest in simple words."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "discount",
+    "lemma": "discount",
+    "level": "B1",
+    "ipa": "/dɪsˈkaʊnt/",
+    "audioUrl": "",
+    "syllables": [
+      "dis",
+      "count"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a lower price than usual",
+    "examples": [
+      "The hotel offered a discount for a longer stay."
+    ],
+    "collocations": [
+      "give a discount"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "experience",
+    "lemma": "experience",
+    "level": "B1",
+    "ipa": "/ɪkˈspɪə.ɹɪəns/",
+    "audioUrl": "",
+    "syllables": [
+      "ex",
+      "pe",
+      "ri",
+      "ence"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "knowledge from doing something, or something that happens to you",
+    "examples": [
+      "She has two years of experience in this job."
+    ],
+    "collocations": [
+      "work experience"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "flexible",
+    "lemma": "flexible",
+    "level": "B1",
+    "ipa": "/ˈflɛk.sə.bəl/",
+    "audioUrl": "",
+    "syllables": [
+      "flex",
+      "i",
+      "ble"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "able to change easily when needed",
+    "examples": [
+      "The job is quite flexible because she works from home."
+    ],
+    "collocations": [
+      "flexible hours"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "include",
+    "lemma": "include",
+    "level": "B1",
+    "ipa": "/ɪnˈkluːd/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "clude"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to have something as a part",
+    "examples": [
+      "The price includes breakfast and a late transfer."
+    ],
+    "collocations": [
+      "include breakfast"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "journey",
+    "lemma": "journey",
+    "level": "B1",
+    "ipa": "/ˈd͡ʒɜːni/",
+    "audioUrl": "",
+    "syllables": [
+      "jour",
+      "ney"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "travel from one place to another",
+    "examples": [
+      "The train journey takes about five hours."
+    ],
+    "collocations": [
+      "a long journey"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "mention",
+    "lemma": "mention",
+    "level": "B1",
+    "ipa": "/ˈmɛnʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "men",
+      "tion"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to speak about something briefly",
+    "examples": [
+      "Please mention the late arrival in the email."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "offer",
+    "lemma": "offer",
+    "level": "B1",
+    "ipa": "/ˈɑfɚ/",
+    "audioUrl": "",
+    "syllables": [
+      "of",
+      "fer"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to say you will give something or do something",
+    "examples": [
+      "The airline offered a later flight."
+    ],
+    "collocations": [
+      "offer a room"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "prefer",
+    "lemma": "prefer",
+    "level": "B1",
+    "ipa": "/pɹɪˈfɜː/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "fer"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to like one thing more than another",
+    "examples": [
+      "They prefer a quiet room at the back."
+    ],
+    "collocations": [
+      "prefer to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "prepare",
+    "lemma": "prepare",
+    "level": "B1",
+    "ipa": "/pɹɪˈpɛə/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "pare"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to get ready, or to make something ready",
+    "examples": [
+      "She will prepare the itinerary this evening."
+    ],
+    "collocations": [
+      "prepare for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "provide",
+    "lemma": "provide",
+    "level": "B1",
+    "ipa": "/pɹəˈvaɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "pro",
+      "vide"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to give something that is needed",
+    "examples": [
+      "The hotel will provide a shuttle to the airport."
+    ],
+    "collocations": [
+      "provide a service"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "receipt",
+    "lemma": "receipt",
+    "level": "B1",
+    "ipa": "/ɹɪˈsiːt/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "ceipt"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a piece of paper or a message that shows you paid",
+    "examples": [
+      "Please keep the receipt for the transfer."
+    ],
+    "collocations": [
+      "a payment receipt"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "reservation",
+    "lemma": "reservation",
+    "level": "B1",
+    "ipa": "/ˌɹɛzəˈveɪʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "res",
+      "er",
+      "va",
+      "tion"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "an arrangement to keep a room, table, or seat for you",
+    "examples": [
+      "She made a reservation for two nights in Hoi An."
+    ],
+    "collocations": [
+      "make a reservation"
+    ],
+    "family": [
+      "reserve",
+      "reserved"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "responsible",
+    "lemma": "responsible",
+    "level": "B1",
+    "ipa": "/ɹɪˈspɒnsəbl̩/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "spon",
+      "si",
+      "ble"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "having the duty to take care of something",
+    "examples": [
+      "She is responsible for booking all the services."
+    ],
+    "collocations": [
+      "responsible for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "schedule",
+    "lemma": "schedule",
+    "level": "B1",
+    "ipa": "/ˈʃedjuːl/",
+    "audioUrl": "",
+    "syllables": [
+      "sched",
+      "ule"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a plan of times for things to happen",
+    "examples": [
+      "The new schedule arrives in your email tonight."
+    ],
+    "collocations": [
+      "a busy schedule"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "suggest",
+    "lemma": "suggest",
+    "level": "B1",
+    "ipa": "/səˈdʒɛst/",
+    "audioUrl": "",
+    "syllables": [
+      "sug",
+      "gest"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to give an idea for someone to consider",
+    "examples": [
+      "I suggest a morning departure, when the road is quieter."
+    ],
+    "collocations": [
+      "suggest a hotel"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "suitable",
+    "lemma": "suitable",
+    "level": "B1",
+    "ipa": "/ˈsuːtəbl/",
+    "audioUrl": "",
+    "syllables": [
+      "suit",
+      "a",
+      "ble"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "right for a person, purpose, or situation",
+    "examples": [
+      "This family room is suitable for two adults and a child."
+    ],
+    "collocations": [
+      "suitable for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "support",
+    "lemma": "support",
+    "level": "B1",
+    "ipa": "/səˈpɔːt/",
+    "audioUrl": "",
+    "syllables": [
+      "sup",
+      "port"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to help someone, or to agree with a choice",
+    "examples": [
+      "Her parents always support her decision."
+    ],
+    "collocations": [
+      "support a decision"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "transfer",
+    "lemma": "transfer",
+    "level": "B1",
+    "ipa": "/ˈtɹænzfɜː/",
+    "audioUrl": "",
+    "syllables": [
+      "trans",
+      "fer"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a journey that moves a guest from one place to another, such as the airport to a hotel",
+    "examples": [
+      "The airport transfer is already prepaid."
+    ],
+    "collocations": [
+      "airport transfer",
+      "book a transfer"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "typical",
+    "lemma": "typical",
+    "level": "B1",
+    "ipa": "/ˈtɪpɪkl̩/",
+    "audioUrl": "",
+    "syllables": [
+      "typ",
+      "i",
+      "cal"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "usual or normal for a person or thing",
+    "examples": [
+      "A typical day starts with checking emails."
+    ],
+    "collocations": [
+      "a typical day"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "voucher",
+    "lemma": "voucher",
+    "level": "B1",
+    "ipa": "/ˈvaʊtʃə(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "vouch",
+      "er"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a ticket or code you can use instead of money",
+    "examples": [
+      "Please send the hotel voucher to the guest today."
+    ],
+    "collocations": [
+      "a hotel voucher"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "accept",
+    "lemma": "accept",
+    "level": "B1",
+    "ipa": "/ækˈsɛpt/",
+    "audioUrl": "",
+    "syllables": [
+      "ac",
+      "cept"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to say yes to something that is offered",
+    "examples": [
+      "The hotel can accept a late check-in."
+    ],
+    "collocations": [
+      "accept a booking"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "attend",
+    "lemma": "attend",
+    "level": "B1",
+    "ipa": "/əˈtɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "at",
+      "tend"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to go to an event or a meeting",
+    "examples": [
+      "They will attend a family dinner on Sunday."
+    ],
+    "collocations": [
+      "attend a meeting"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "celebrate",
+    "lemma": "celebrate",
+    "level": "B1",
+    "ipa": "/ˈsɛl.ə.bɹeɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "cel",
+      "e",
+      "brate"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to do something enjoyable for a special day",
+    "examples": [
+      "We celebrate holidays at my parents house."
+    ],
+    "collocations": [
+      "celebrate a birthday"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "complain",
+    "lemma": "complain",
+    "level": "B1",
+    "ipa": "/kəmˈpleɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "plain"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to say you are not happy with something",
+    "examples": [
+      "The guest called to complain about the late transfer."
+    ],
+    "collocations": [
+      "complain about"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "connect",
+    "lemma": "connect",
+    "level": "B1",
+    "ipa": "/kəˈnɛkt/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "nect"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to join two things, or to join one flight to another",
+    "examples": [
+      "The afternoon flight connects to the night train."
+    ],
+    "collocations": [
+      "a connecting flight"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "culture",
+    "lemma": "culture",
+    "level": "B1",
+    "ipa": "/ˈkʌlt͡ʃə/",
+    "audioUrl": "",
+    "syllables": [
+      "cul",
+      "ture"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the way of life and traditions of a group of people",
+    "examples": [
+      "Guests often ask about the culture in central Vietnam."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown",
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "difference",
+    "lemma": "difference",
+    "level": "B1",
+    "ipa": "/ˈdɪfəɹən(t)s/",
+    "audioUrl": "",
+    "syllables": [
+      "dif",
+      "fer",
+      "ence"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a way that two things are not the same",
+    "examples": [
+      "There is a price difference between the two rooms."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "direction",
+    "lemma": "direction",
+    "level": "B1",
+    "ipa": "/d(a)ɪˈɹɛk.ʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "di",
+      "rec",
+      "tion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the way to go, or an instruction",
+    "examples": [
+      "The driver will send the direction to the hotel."
+    ],
+    "collocations": [
+      "give directions"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "event",
+    "lemma": "event",
+    "level": "B1",
+    "ipa": "/əˈvɛnt/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "vent"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something that happens, especially something planned",
+    "examples": [
+      "The family event is on Saturday evening."
+    ],
+    "collocations": [
+      "a special event"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "improve",
+    "lemma": "improve",
+    "level": "B1",
+    "ipa": "/ɪmˈpɹuːv/",
+    "audioUrl": "",
+    "syllables": [
+      "im",
+      "prove"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to make or become better",
+    "examples": [
+      "She wants to improve her English pronunciation."
+    ],
+    "collocations": [
+      "improve your English"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "invitation",
+    "lemma": "invitation",
+    "level": "B1",
+    "ipa": "/ɪn.vɪˈteɪ.ʃn̩/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "vi",
+      "ta",
+      "tion"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "a request for someone to come to an event",
+    "examples": [
+      "They sent an invitation for a family lunch."
+    ],
+    "collocations": [
+      "an invitation to"
+    ],
+    "family": [
+      "invite"
+    ],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "local",
+    "lemma": "local",
+    "level": "B1",
+    "ipa": "/ˈləʊkl̩/",
+    "audioUrl": "",
+    "syllables": [
+      "lo",
+      "cal"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "from a particular area nearby",
+    "examples": [
+      "The hotel serves local food from the market."
+    ],
+    "collocations": [
+      "local food"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown",
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "necessary",
+    "lemma": "necessary",
+    "level": "B1",
+    "ipa": "/ˈnɛsəsɹɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "nec",
+      "es",
+      "sar",
+      "y"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "needed for a purpose",
+    "examples": [
+      "A visa is necessary for this trip."
+    ],
+    "collocations": [
+      "if necessary"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "prepaid",
+    "lemma": "prepaid",
+    "level": "B1",
+    "ipa": "/ˌpriːˈpeɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "paid"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "paid for in advance",
+    "examples": [
+      "All services are fully prepaid by the company."
+    ],
+    "collocations": [
+      "fully prepaid"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "departure",
+    "lemma": "departure",
+    "level": "B1",
+    "ipa": "/dɪˈpɑː(ɹ)tjə(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "par",
+      "ture"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the act of leaving, especially of a plane or train",
+    "examples": [
+      "Please check the departure time again this evening."
+    ],
+    "collocations": [
+      "departure time"
+    ],
+    "family": [
+      "depart"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "almost",
+    "lemma": "almost",
+    "level": "B1",
+    "ipa": "/ɔːl.ˈməʊst/",
+    "audioUrl": "",
+    "syllables": [
+      "al",
+      "most"
+    ],
+    "stressIndex": 0,
+    "pos": "adverb",
+    "gloss": "nearly, but not completely",
+    "examples": [
+      "The booking is almost ready to send."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "check-in",
+    "lemma": "check-in",
+    "level": "B1",
+    "ipa": "/ˈtʃɛkɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "check",
+      "in"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the process of arriving and giving your name at a hotel or airport",
+    "examples": [
+      "Check-in at the hotel starts at two o clock."
+    ],
+    "collocations": [
+      "check-in time"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "request",
+    "lemma": "request",
+    "level": "B1",
+    "ipa": "/ɹɪˈkwɛst/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "quest"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "an act of politely asking for something",
+    "examples": [
+      "The guest sent a request for a late departure."
+    ],
+    "collocations": [
+      "a special request"
+    ],
+    "family": [
+      "request"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "advantage",
+    "lemma": "advantage",
+    "level": "B2",
+    "ipa": "/ədˈvɑːn.tɪdʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "ad",
+      "van",
+      "tage"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something that helps you or makes a situation better for you",
+    "examples": [
+      "Working from home is an advantage when the family needs her."
+    ],
+    "collocations": [
+      "an advantage of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "alternative",
+    "lemma": "alternative",
+    "level": "B2",
+    "ipa": "/ɒl.ˈtɜː(ɹ).nə.tɪv/",
+    "audioUrl": "",
+    "syllables": [
+      "al",
+      "ter",
+      "na",
+      "tive"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "another choice you can use instead",
+    "examples": [
+      "If the morning flight is full, there is an evening alternative."
+    ],
+    "collocations": [
+      "an alternative to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "attitude",
+    "lemma": "attitude",
+    "level": "B2",
+    "ipa": "/ˈætɪˌtjuːd/",
+    "audioUrl": "",
+    "syllables": [
+      "at",
+      "ti",
+      "tude"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the way you think or feel about something",
+    "examples": [
+      "A calm attitude helps when a booking changes suddenly."
+    ],
+    "collocations": [
+      "a positive attitude"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "benefit",
+    "lemma": "benefit",
+    "level": "B2",
+    "ipa": "/ˈbɛn.ɪ.fɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "ben",
+      "e",
+      "fit"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a good result you get from something",
+    "examples": [
+      "A clear itinerary is a benefit for every guest."
+    ],
+    "collocations": [
+      "the benefit of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "challenge",
+    "lemma": "challenge",
+    "level": "B2",
+    "ipa": "/ˈtʃæl.əndʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "chal",
+      "lenge"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "something difficult that tests your skill",
+    "examples": [
+      "A late change of hotel can be a challenge."
+    ],
+    "collocations": [
+      "a real challenge"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "coincidence",
+    "lemma": "coincidence",
+    "level": "B2",
+    "ipa": "/kəʊˈɪnsɪdəns/",
+    "audioUrl": "",
+    "syllables": [
+      "co",
+      "in",
+      "ci",
+      "dence"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "when two things happen at the same time by chance",
+    "examples": [
+      "By coincidence, both families come from the same village."
+    ],
+    "collocations": [
+      "by coincidence"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "commitment",
+    "lemma": "commitment",
+    "level": "B2",
+    "ipa": "/kəˈmɪtmənt/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "mit",
+      "ment"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a promise to do something, or a duty you accept",
+    "examples": [
+      "The company has a commitment to confirm every room in writing."
+    ],
+    "collocations": [
+      "a commitment to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "comparison",
+    "lemma": "comparison",
+    "level": "B2",
+    "ipa": "/kəmˈpæɹɪsən/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "par",
+      "i",
+      "son"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the act of looking at how two things are similar or different",
+    "examples": [
+      "A comparison of the two hotels helped the client decide."
+    ],
+    "collocations": [
+      "in comparison"
+    ],
+    "family": [
+      "compare"
+    ],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "complicated",
+    "lemma": "complicated",
+    "level": "B2",
+    "ipa": "/ˈkɒmplɪkeɪtɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "pli",
+      "cat",
+      "ed"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "with many parts and hard to understand",
+    "examples": [
+      "The train times were more complicated than the flight times."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "condition",
+    "lemma": "condition",
+    "level": "B2",
+    "ipa": "/kənˈdɪʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "di",
+      "tion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the state something is in, or a rule you must follow",
+    "examples": [
+      "The room was in excellent condition."
+    ],
+    "collocations": [
+      "in good condition"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "consequence",
+    "lemma": "consequence",
+    "level": "B2",
+    "ipa": "/ˈkɒnsɪkwɛns/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "se",
+      "quence"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a result of an action or a situation",
+    "examples": [
+      "A missed email can have a serious consequence for a booking."
+    ],
+    "collocations": [
+      "as a consequence"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "contrast",
+    "lemma": "contrast",
+    "level": "B2",
+    "ipa": "/ˈkɒntɹɑːst/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "trast"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a clear difference between two things",
+    "examples": [
+      "There is a clear contrast between city life and the village."
+    ],
+    "collocations": [
+      "in contrast"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "contribute",
+    "lemma": "contribute",
+    "level": "B2",
+    "ipa": "/kənˈt(ʃ)ɹɪb.juːt/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "trib",
+      "ute"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to give something as part of a group effort",
+    "examples": [
+      "Each person can contribute a dish to the family meal."
+    ],
+    "collocations": [
+      "contribute to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "definitely",
+    "lemma": "definitely",
+    "level": "B2",
+    "ipa": "/ˈdɛf.nɪt.li/",
+    "audioUrl": "",
+    "syllables": [
+      "def",
+      "i",
+      "nite",
+      "ly"
+    ],
+    "stressIndex": 0,
+    "pos": "adverb",
+    "gloss": "without any doubt",
+    "examples": [
+      "I will definitely confirm the transfer today."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "detail",
+    "lemma": "detail",
+    "level": "B2",
+    "ipa": "/ˈdiːteɪl/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "tail"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a small fact or piece of information",
+    "examples": [
+      "Please check every detail on the voucher before you send it."
+    ],
+    "collocations": [
+      "in detail"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "economy",
+    "lemma": "economy",
+    "level": "B2",
+    "ipa": "/iːˈkɒn.ə.mi/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "con",
+      "o",
+      "my"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the system of money and business in a country",
+    "examples": [
+      "Tourism is an important part of the local economy."
+    ],
+    "collocations": [
+      "the local economy"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "environment",
+    "lemma": "environment",
+    "level": "B2",
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "audioUrl": "",
+    "syllables": [
+      "en",
+      "vi",
+      "ron",
+      "ment"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the natural world, or the conditions around you",
+    "examples": [
+      "A quiet work environment helps her reply to emails carefully."
+    ],
+    "collocations": [
+      "a quiet environment"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "estimate",
+    "lemma": "estimate",
+    "level": "B2",
+    "ipa": "/ˈɛstɨmɨt/",
+    "audioUrl": "",
+    "syllables": [
+      "es",
+      "ti",
+      "mate"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to guess an amount using the information you have",
+    "examples": [
+      "I estimate the drive will take about forty minutes."
+    ],
+    "collocations": [
+      "estimate the time"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "evidence",
+    "lemma": "evidence",
+    "level": "B2",
+    "ipa": "/ˈevɪdəns/",
+    "audioUrl": "",
+    "syllables": [
+      "ev",
+      "i",
+      "dence"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "facts that show something is true",
+    "examples": [
+      "The confirmation email is evidence that the room is reserved."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "feature",
+    "lemma": "feature",
+    "level": "B2",
+    "ipa": "/ˈfiːtʃə/",
+    "audioUrl": "",
+    "syllables": [
+      "fea",
+      "ture"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an important or noticeable part of something",
+    "examples": [
+      "A private balcony is a nice feature of this room."
+    ],
+    "collocations": [
+      "a special feature"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "focus",
+    "lemma": "focus",
+    "level": "B2",
+    "ipa": "/ˈfəʊ.kəs/",
+    "audioUrl": "",
+    "syllables": [
+      "fo",
+      "cus"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to give all your attention to something",
+    "examples": [
+      "In the morning she can focus on the urgent emails."
+    ],
+    "collocations": [
+      "focus on"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "impact",
+    "lemma": "impact",
+    "level": "B2",
+    "ipa": "/ˈɪmpækt/",
+    "audioUrl": "",
+    "syllables": [
+      "im",
+      "pact"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a strong effect on someone or something",
+    "examples": [
+      "A cancelled flight has a big impact on the whole itinerary."
+    ],
+    "collocations": [
+      "have an impact on"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "income",
+    "lemma": "income",
+    "level": "B2",
+    "ipa": "/ˈɪnˌkʌm/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "come"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "money you receive from work or business",
+    "examples": [
+      "Farming is the main income for her parents."
+    ],
+    "collocations": [
+      "a regular income"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "independent",
+    "lemma": "independent",
+    "level": "B2",
+    "ipa": "/ɪndɪˈpɛndənt/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "de",
+      "pen",
+      "dent"
+    ],
+    "stressIndex": 2,
+    "pos": "adjective",
+    "gloss": "able to work or live without help from others",
+    "examples": [
+      "The job lets her be independent, but still close to her family."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work",
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "influence",
+    "lemma": "influence",
+    "level": "B2",
+    "ipa": "/ˈɪn.flu.əns/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "flu",
+      "ence"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the power to change how someone thinks or acts",
+    "examples": [
+      "Her family has a strong influence on her weekend plans, not on her career."
+    ],
+    "collocations": [
+      "a strong influence"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "intend",
+    "lemma": "intend",
+    "level": "B2",
+    "ipa": "/ɪnˈtɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "tend"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to have a plan to do something",
+    "examples": [
+      "They intend to stay two extra nights in the countryside."
+    ],
+    "collocations": [
+      "intend to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "itinerary",
+    "lemma": "itinerary",
+    "level": "B2",
+    "ipa": "/aɪˈtɪnərəri/",
+    "audioUrl": "",
+    "syllables": [
+      "i",
+      "tin",
+      "er",
+      "ar",
+      "y"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a plan of places to visit and times on a trip",
+    "examples": [
+      "Please send the final itinerary to the client this evening."
+    ],
+    "collocations": [
+      "a detailed itinerary"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "maintain",
+    "lemma": "maintain",
+    "level": "B2",
+    "ipa": "/meɪnˈteɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "main",
+      "tain"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to keep something in good condition, or to continue it",
+    "examples": [
+      "The neighbours help maintain the house when she is away."
+    ],
+    "collocations": [
+      "maintain a house"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "measure",
+    "lemma": "measure",
+    "level": "B2",
+    "ipa": "/ˈmɛʒə/",
+    "audioUrl": "",
+    "syllables": [
+      "meas",
+      "ure"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to find the size or amount of something",
+    "examples": [
+      "We measure success by how smoothly the trip goes."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "obvious",
+    "lemma": "obvious",
+    "level": "B2",
+    "ipa": "/ˈɒ.vɪəs/",
+    "audioUrl": "",
+    "syllables": [
+      "ob",
+      "vi",
+      "ous"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "easy to see or understand",
+    "examples": [
+      "It was obvious that the guest needed a quieter room."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "occasion",
+    "lemma": "occasion",
+    "level": "B2",
+    "ipa": "/əˈkeɪʒən/",
+    "audioUrl": "",
+    "syllables": [
+      "oc",
+      "ca",
+      "sion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a particular time, often a special event",
+    "examples": [
+      "The family dinner was a happy occasion."
+    ],
+    "collocations": [
+      "a special occasion"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "family"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "opportunity",
+    "lemma": "opportunity",
+    "level": "B2",
+    "ipa": "/ˌɒp.əˈtjuː.nɪ.tɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "op",
+      "por",
+      "tu",
+      "ni",
+      "ty"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "a chance to do something useful or enjoyable",
+    "examples": [
+      "The weekend is a good opportunity to visit her parents."
+    ],
+    "collocations": [
+      "an opportunity to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "option",
+    "lemma": "option",
+    "level": "B2",
+    "ipa": "/ˈɒpʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "op",
+      "tion"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "something you can choose",
+    "examples": [
+      "A later train is the safest option after the delay."
+    ],
+    "collocations": [
+      "another option"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "persuade",
+    "lemma": "persuade",
+    "level": "B2",
+    "ipa": "/pəˈsweɪd/",
+    "audioUrl": "",
+    "syllables": [
+      "per",
+      "suade"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to make someone agree by giving reasons",
+    "examples": [
+      "I had to persuade the hotel to keep the late check-out."
+    ],
+    "collocations": [
+      "persuade someone to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "previous",
+    "lemma": "previous",
+    "level": "B2",
+    "ipa": "/ˈpɹiːvɪəs/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "vi",
+      "ous"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "happening before the one you are talking about",
+    "examples": [
+      "The previous booking was for a single room."
+    ],
+    "collocations": [
+      "the previous day"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "process",
+    "lemma": "process",
+    "level": "B2",
+    "ipa": "/ˈpɹoʊsɛs/",
+    "audioUrl": "",
+    "syllables": [
+      "proc",
+      "ess"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a series of steps to do something",
+    "examples": [
+      "The check-in process is usually quick."
+    ],
+    "collocations": [
+      "a simple process"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "require",
+    "lemma": "require",
+    "level": "B2",
+    "ipa": "/ɹɪˈkwaɪə/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "quire"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to need something",
+    "examples": [
+      "This ticket will require a passport number."
+    ],
+    "collocations": [
+      "require information"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "resource",
+    "lemma": "resource",
+    "level": "B2",
+    "ipa": "/ɹɪˈsɔɹs/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "source"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something you can use to help you",
+    "examples": [
+      "A clear word list is a useful resource for practice."
+    ],
+    "collocations": [
+      "a useful resource"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "significant",
+    "lemma": "significant",
+    "level": "B2",
+    "ipa": "/sɪɡˈnɪ.fɪ.kənt/",
+    "audioUrl": "",
+    "syllables": [
+      "sig",
+      "nif",
+      "i",
+      "cant"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "important, or large enough to notice",
+    "examples": [
+      "There was a significant delay at the airport."
+    ],
+    "collocations": [
+      "a significant change"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "source",
+    "lemma": "source",
+    "level": "B2",
+    "ipa": "/sɔːs/",
+    "audioUrl": "",
+    "syllables": [
+      "source"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the place or person something comes from",
+    "examples": [
+      "The email is the best source for the new departure time."
+    ],
+    "collocations": [
+      "a source of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "specific",
+    "lemma": "specific",
+    "level": "B2",
+    "ipa": "/spəˈsɪf.ɪk/",
+    "audioUrl": "",
+    "syllables": [
+      "spe",
+      "cif",
+      "ic"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "exact and clear, not general",
+    "examples": [
+      "Please send a specific time for the transfer."
+    ],
+    "collocations": [
+      "a specific time"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "standard",
+    "lemma": "standard",
+    "level": "B2",
+    "ipa": "/ˈstændəd/",
+    "audioUrl": "",
+    "syllables": [
+      "stan",
+      "dard"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a level of quality that is expected",
+    "examples": [
+      "The hotel keeps a high standard of service."
+    ],
+    "collocations": [
+      "a high standard"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "temporary",
+    "lemma": "temporary",
+    "level": "B2",
+    "ipa": "/ˈtɛmpəɹi/",
+    "audioUrl": "",
+    "syllables": [
+      "tem",
+      "po",
+      "rar",
+      "y"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "lasting only for a limited time",
+    "examples": [
+      "This is a temporary change, not a new itinerary."
+    ],
+    "collocations": [
+      "a temporary change"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "trend",
+    "lemma": "trend",
+    "level": "B2",
+    "ipa": "/tɹɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "trend"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a general change or fashion over time",
+    "examples": [
+      "There is a trend toward longer stays in the countryside."
+    ],
+    "collocations": [
+      "a recent trend"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "variety",
+    "lemma": "variety",
+    "level": "B2",
+    "ipa": "/vəˈɹaɪ.ɪ.ti/",
+    "audioUrl": "",
+    "syllables": [
+      "va",
+      "ri",
+      "e",
+      "ty"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "many different types of something",
+    "examples": [
+      "The menu has a wide variety of local dishes."
+    ],
+    "collocations": [
+      "a variety of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "willing",
+    "lemma": "willing",
+    "level": "B2",
+    "ipa": "/ˈwɪlɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "will",
+      "ing"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "happy to do something if it is needed",
+    "examples": [
+      "The driver is willing to wait if the flight is late."
+    ],
+    "collocations": [
+      "willing to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "reliable",
+    "lemma": "reliable",
+    "level": "B2",
+    "ipa": "/ɹɪˈlaɪəbəl/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "li",
+      "a",
+      "ble"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "able to be trusted to do what you need",
+    "examples": [
+      "We only book reliable transfers for late arrivals."
+    ],
+    "collocations": [
+      "a reliable service"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "rural",
+    "lemma": "rural",
+    "level": "B2",
+    "ipa": "/ˈɹɔːɹəl/",
+    "audioUrl": "",
+    "syllables": [
+      "ru",
+      "ral"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "in the countryside, not in a city",
+    "examples": [
+      "She lives in a rural village with trees and rice fields."
+    ],
+    "collocations": [
+      "a rural area"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "balance",
+    "lemma": "balance",
+    "level": "B2",
+    "ipa": "/ˈbæləns/",
+    "audioUrl": "",
+    "syllables": [
+      "bal",
+      "ance"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a good mix between different things, such as work and rest",
+    "examples": [
+      "Working from home helps her keep a better work-life balance."
+    ],
+    "collocations": [
+      "work-life balance"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "overview",
+    "lemma": "overview",
+    "level": "B2",
+    "ipa": "/ˈəʊvə(ɹ)ˌvjuː/",
+    "audioUrl": "",
+    "syllables": [
+      "o",
+      "ver",
+      "view"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a short description of the main points",
+    "examples": [
+      "The first page of the itinerary is a clear overview of the trip."
+    ],
+    "collocations": [
+      "a brief overview"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "accurate",
+    "lemma": "accurate",
+    "level": "C1",
+    "ipa": "/ˈæk.jə.ɹɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "ac",
+      "cu",
+      "rate"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "correct and exact",
+    "examples": [
+      "Please make sure the passport number is accurate."
+    ],
+    "collocations": [
+      "an accurate record"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "amend",
+    "lemma": "amend",
+    "level": "C1",
+    "ipa": "/əˈmɛnd/",
+    "audioUrl": "",
+    "syllables": [
+      "a",
+      "mend"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to change something, usually to correct or improve it",
+    "examples": [
+      "We had to amend the booking after the schedule change."
+    ],
+    "collocations": [
+      "amend a booking"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "anticipate",
+    "lemma": "anticipate",
+    "level": "C1",
+    "ipa": "/ænˈtɪs.ɪ.peɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "an",
+      "tic",
+      "i",
+      "pate"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to expect something and get ready for it",
+    "examples": [
+      "I anticipate a late arrival, so I asked the hotel to wait."
+    ],
+    "collocations": [
+      "anticipate a delay"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "assessment",
+    "lemma": "assessment",
+    "level": "C1",
+    "ipa": "/əˈsesmənt/",
+    "audioUrl": "",
+    "syllables": [
+      "as",
+      "sess",
+      "ment"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a judgement of the quality or amount of something",
+    "examples": [
+      "A quick assessment of the two hotels helped us choose."
+    ],
+    "collocations": [
+      "make an assessment"
+    ],
+    "family": [
+      "assess"
+    ],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "assume",
+    "lemma": "assume",
+    "level": "C1",
+    "ipa": "/əˈsuːm/",
+    "audioUrl": "",
+    "syllables": [
+      "as",
+      "sume"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to believe something is true without complete proof",
+    "examples": [
+      "Do not assume the transfer is included until it is confirmed."
+    ],
+    "collocations": [
+      "assume that"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "complimentary",
+    "lemma": "complimentary",
+    "level": "C1",
+    "ipa": "/ˌkɒmplɪˈmentəri/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "pli",
+      "men",
+      "ta",
+      "ry"
+    ],
+    "stressIndex": 2,
+    "pos": "adjective",
+    "gloss": "given free, as a courtesy",
+    "examples": [
+      "The airline offered a complimentary voucher after the delay."
+    ],
+    "collocations": [
+      "a complimentary upgrade"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "confirmation",
+    "lemma": "confirmation",
+    "level": "C1",
+    "ipa": "/ˌkɒn.fəˈmeɪ.ʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "fir",
+      "ma",
+      "tion"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "an official statement that something is definite",
+    "examples": [
+      "The hotel sent confirmation of the room last night."
+    ],
+    "collocations": [
+      "a confirmation email"
+    ],
+    "family": [
+      "confirm"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "consistent",
+    "lemma": "consistent",
+    "level": "C1",
+    "ipa": "/kənˈsɪstənt/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "sist",
+      "ent"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "always happening or behaving in the same way",
+    "examples": [
+      "The times in the voucher should be consistent with the itinerary."
+    ],
+    "collocations": [
+      "consistent with"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "crucial",
+    "lemma": "crucial",
+    "level": "C1",
+    "ipa": "/ˈkɹuː.ʃəl/",
+    "audioUrl": "",
+    "syllables": [
+      "cru",
+      "cial"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "extremely important",
+    "examples": [
+      "An accurate departure time is crucial for the driver."
+    ],
+    "collocations": [
+      "crucial for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "efficient",
+    "lemma": "efficient",
+    "level": "C1",
+    "ipa": "/əˈfɪʃənt/",
+    "audioUrl": "",
+    "syllables": [
+      "ef",
+      "fi",
+      "cient"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "working well without wasting time or resources",
+    "examples": [
+      "An efficient morning routine leaves more time for emails."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "emerge",
+    "lemma": "emerge",
+    "level": "C1",
+    "ipa": "/iˈmɜːd͡ʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "merge"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to appear, or to become known",
+    "examples": [
+      "A better option may emerge if the first hotel is full."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "ensure",
+    "lemma": "ensure",
+    "level": "C1",
+    "ipa": "/ɪnˈʃɔː/",
+    "audioUrl": "",
+    "syllables": [
+      "en",
+      "sure"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to make sure that something happens",
+    "examples": [
+      "Please ensure the voucher shows the correct guest names."
+    ],
+    "collocations": [
+      "ensure that"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "equivalent",
+    "lemma": "equivalent",
+    "level": "C1",
+    "ipa": "/ɪˈkwɪvələnt/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "quiv",
+      "a",
+      "lent"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "equal in value, amount, or meaning",
+    "examples": [
+      "A later train is the equivalent of a delayed flight in this plan."
+    ],
+    "collocations": [
+      "equivalent to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "evaluate",
+    "lemma": "evaluate",
+    "level": "C1",
+    "ipa": "/ɨˈvaljʊeɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "val",
+      "u",
+      "ate"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to judge the quality or value of something",
+    "examples": [
+      "She will evaluate two hotels before she books."
+    ],
+    "collocations": [
+      "evaluate options"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "evident",
+    "lemma": "evident",
+    "level": "C1",
+    "ipa": "/ˈɛ.vɪ.dənt/",
+    "audioUrl": "",
+    "syllables": [
+      "ev",
+      "i",
+      "dent"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "easy to see or understand",
+    "examples": [
+      "It was evident from the email that the guest needed a quiet room."
+    ],
+    "collocations": [
+      "it is evident that"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "explicit",
+    "lemma": "explicit",
+    "level": "C1",
+    "ipa": "/ɪkˈsplɪsɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "ex",
+      "plic",
+      "it"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "said or shown clearly, with no doubt",
+    "examples": [
+      "The email was explicit about the prepaid dinner."
+    ],
+    "collocations": [
+      "explicit instructions"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "facilitate",
+    "lemma": "facilitate",
+    "level": "C1",
+    "ipa": "/fəˈsɪləteɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "fa",
+      "cil",
+      "i",
+      "tate"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to make a process easier",
+    "examples": [
+      "A clear itinerary can facilitate a smooth arrival."
+    ],
+    "collocations": [
+      "facilitate a process"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "fluctuate",
+    "lemma": "fluctuate",
+    "level": "C1",
+    "ipa": "/ˈflʌktʃueɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "fluc",
+      "tu",
+      "ate"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to change up and down often",
+    "examples": [
+      "Room prices fluctuate during the busy season."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "framework",
+    "lemma": "framework",
+    "level": "C1",
+    "ipa": "/ˈfɹeɪm.wɜːk/",
+    "audioUrl": "",
+    "syllables": [
+      "frame",
+      "work"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a basic structure that supports an idea or a system",
+    "examples": [
+      "The itinerary gives a simple framework for the whole trip."
+    ],
+    "collocations": [
+      "a framework for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "implication",
+    "lemma": "implication",
+    "level": "C1",
+    "ipa": "/ˌɪmpləˈkeɪʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "im",
+      "pli",
+      "ca",
+      "tion"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "a possible result, or a meaning that is not said directly",
+    "examples": [
+      "A missed transfer has implications for the next hotel booking."
+    ],
+    "collocations": [
+      "the implications of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "inevitable",
+    "lemma": "inevitable",
+    "level": "C1",
+    "ipa": "/ɪnˈɛvɪtəbəl/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "ev",
+      "i",
+      "ta",
+      "ble"
+    ],
+    "stressIndex": 2,
+    "pos": "adjective",
+    "gloss": "sure to happen and impossible to avoid",
+    "examples": [
+      "Small delays are almost inevitable in high season."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "interpret",
+    "lemma": "interpret",
+    "level": "C1",
+    "ipa": "/ɪnˈtɜː.pɹɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "ter",
+      "pret"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to explain or understand the meaning of something",
+    "examples": [
+      "It is easy to interpret a short email in the wrong way."
+    ],
+    "collocations": [
+      "interpret a message"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "justify",
+    "lemma": "justify",
+    "level": "C1",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "jus",
+      "ti",
+      "fy"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to give a good reason for something",
+    "examples": [
+      "I can justify the higher room rate because it includes breakfast."
+    ],
+    "collocations": [
+      "justify a decision"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "minimise",
+    "lemma": "minimise",
+    "level": "C1",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "audioUrl": "",
+    "syllables": [
+      "min",
+      "i",
+      "mise"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to make something as small as possible",
+    "examples": [
+      "An earlier departure will minimise the risk of a missed train."
+    ],
+    "collocations": [
+      "minimise the risk"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "notion",
+    "lemma": "notion",
+    "level": "C1",
+    "ipa": "/ˈnəʊʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "no",
+      "tion"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an idea or belief, often a general one",
+    "examples": [
+      "He had the notion that the countryside would be quiet."
+    ],
+    "collocations": [
+      "the notion that"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "overbook",
+    "lemma": "overbook",
+    "level": "C1",
+    "ipa": "/ˌəʊvəˈbʊk/",
+    "audioUrl": "",
+    "syllables": [
+      "o",
+      "ver",
+      "book"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to sell more seats or rooms than actually exist",
+    "examples": [
+      "The flight was overbooked, so the airline offered another seat."
+    ],
+    "collocations": [
+      "an overbooked flight"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "persist",
+    "lemma": "persist",
+    "level": "C1",
+    "ipa": "/pəˈsɪst/",
+    "audioUrl": "",
+    "syllables": [
+      "per",
+      "sist"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to continue, especially despite difficulty",
+    "examples": [
+      "If the error persists, please call the hotel directly."
+    ],
+    "collocations": [
+      "persist in"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "prior",
+    "lemma": "prior",
+    "level": "C1",
+    "ipa": "/ˈpɹaɪɚ/",
+    "audioUrl": "",
+    "syllables": [
+      "pri",
+      "or"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "happening before something else",
+    "examples": [
+      "Please send any changes prior to departure."
+    ],
+    "collocations": [
+      "prior to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "proportion",
+    "lemma": "proportion",
+    "level": "C1",
+    "ipa": "/pɹəˈpɔːʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "pro",
+      "por",
+      "tion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a part of a whole, or the relationship between sizes",
+    "examples": [
+      "A large proportion of her work is checking emails."
+    ],
+    "collocations": [
+      "a large proportion of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "reluctant",
+    "lemma": "reluctant",
+    "level": "C1",
+    "ipa": "/ɹɪˈlʌktənt/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "luc",
+      "tant"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "not wanting to do something",
+    "examples": [
+      "The guest was reluctant to change hotels at the last minute."
+    ],
+    "collocations": [
+      "reluctant to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "relevant",
+    "lemma": "relevant",
+    "level": "C1",
+    "ipa": "/ˈɹɛləvənt/",
+    "audioUrl": "",
+    "syllables": [
+      "rel",
+      "e",
+      "vant"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "closely connected to the subject",
+    "examples": [
+      "Please include only the relevant times in the voucher."
+    ],
+    "collocations": [
+      "relevant to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "surcharge",
+    "lemma": "surcharge",
+    "level": "C1",
+    "ipa": "/ˈsɜːtʃɑːdʒ/",
+    "audioUrl": "",
+    "syllables": [
+      "sur",
+      "charge"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an extra amount of money you must pay",
+    "examples": [
+      "A late check-out may include a small surcharge."
+    ],
+    "collocations": [
+      "a surcharge for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "sustain",
+    "lemma": "sustain",
+    "level": "C1",
+    "ipa": "/səˈsteɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "sus",
+      "tain"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to keep something going over time",
+    "examples": [
+      "Regular practice helps sustain her English."
+    ],
+    "collocations": [
+      "sustain a habit"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "thorough",
+    "lemma": "thorough",
+    "level": "C1",
+    "ipa": "/ˈθʌɹə/",
+    "audioUrl": "",
+    "syllables": [
+      "thor",
+      "ough"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "complete and careful",
+    "examples": [
+      "A thorough check of the names will prevent a problem at the airport."
+    ],
+    "collocations": [
+      "a thorough check"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "undertake",
+    "lemma": "undertake",
+    "level": "C1",
+    "ipa": "/ʌndəˈteɪk/",
+    "audioUrl": "",
+    "syllables": [
+      "un",
+      "der",
+      "take"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to start a task and accept responsibility for it",
+    "examples": [
+      "She will undertake the booking changes this afternoon."
+    ],
+    "collocations": [
+      "undertake a task"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "virtually",
+    "lemma": "virtually",
+    "level": "C1",
+    "ipa": "/ˈvɜːtʃuəli/",
+    "audioUrl": "",
+    "syllables": [
+      "vir",
+      "tu",
+      "al",
+      "ly"
+    ],
+    "stressIndex": 0,
+    "pos": "adverb",
+    "gloss": "almost, or done by computer rather than in person",
+    "examples": [
+      "The job is virtually all done from home."
+    ],
+    "collocations": [
+      "virtually all"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "widespread",
+    "lemma": "widespread",
+    "level": "C1",
+    "ipa": "/ˈwaɪdspred/",
+    "audioUrl": "",
+    "syllables": [
+      "wide",
+      "spread"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "happening or existing in many places",
+    "examples": [
+      "Delays were widespread after the storm."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "allocate",
+    "lemma": "allocate",
+    "level": "C1",
+    "ipa": "/ˈæl.ə.keɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "al",
+      "lo",
+      "cate"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to give a share of something for a purpose",
+    "examples": [
+      "The hotel will allocate a quiet room at the back."
+    ],
+    "collocations": [
+      "allocate a room"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "capability",
+    "lemma": "capability",
+    "level": "C1",
+    "ipa": "/keɪpəˈbɪləti/",
+    "audioUrl": "",
+    "syllables": [
+      "ca",
+      "pa",
+      "bil",
+      "i",
+      "ty"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "the power or skill to do something",
+    "examples": [
+      "The team has the capability to change a complex itinerary quickly."
+    ],
+    "collocations": [],
+    "family": [
+      "capable"
+    ],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "coherent",
+    "lemma": "coherent",
+    "level": "C1",
+    "ipa": "/koːˈhiɹənt/",
+    "audioUrl": "",
+    "syllables": [
+      "co",
+      "her",
+      "ent"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "clear, logical, and well organised",
+    "examples": [
+      "The itinerary should tell one coherent story of the week."
+    ],
+    "collocations": [
+      "a coherent plan"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "compensate",
+    "lemma": "compensate",
+    "level": "C1",
+    "ipa": "/ˈkɒm.pən.seɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "pen",
+      "sate"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to give money or something else for a loss or problem",
+    "examples": [
+      "The airline will compensate the guest with a voucher."
+    ],
+    "collocations": [
+      "compensate for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "concise",
+    "lemma": "concise",
+    "level": "C1",
+    "ipa": "/kənˈsaɪs/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "cise"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "short and clear, without wasted words",
+    "examples": [
+      "Please keep the email concise and polite."
+    ],
+    "collocations": [
+      "a concise email"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "constraint",
+    "lemma": "constraint",
+    "level": "C1",
+    "ipa": "/kənˈstɹeɪnt/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "straint"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a limit on what you can do",
+    "examples": [
+      "The only constraint is the early train the next morning."
+    ],
+    "collocations": [
+      "a time constraint"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "convey",
+    "lemma": "convey",
+    "level": "C1",
+    "ipa": "/kənˈveɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "vey"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to communicate an idea or a feeling",
+    "examples": [
+      "A short, kind email can convey the change clearly."
+    ],
+    "collocations": [
+      "convey a message"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "criteria",
+    "lemma": "criteria",
+    "level": "C1",
+    "ipa": "/kɹaɪˈtɪəɹ.i.ə/",
+    "audioUrl": "",
+    "syllables": [
+      "cri",
+      "te",
+      "ri",
+      "a"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the standards you use to judge something",
+    "examples": [
+      "Price and quiet are the main criteria for this booking."
+    ],
+    "collocations": [
+      "the criteria for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "duration",
+    "lemma": "duration",
+    "level": "C1",
+    "ipa": "/djʊˈɹeɪʃn̩/",
+    "audioUrl": "",
+    "syllables": [
+      "du",
+      "ra",
+      "tion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the length of time something lasts",
+    "examples": [
+      "The duration of the stay is four nights."
+    ],
+    "collocations": [
+      "the duration of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "priority",
+    "lemma": "priority",
+    "level": "C1",
+    "ipa": "/pɹaɪˈɒɹɨti/",
+    "audioUrl": "",
+    "syllables": [
+      "pri",
+      "or",
+      "i",
+      "ty"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something that is more important than other things",
+    "examples": [
+      "A correct name on the ticket is the first priority."
+    ],
+    "collocations": [
+      "a high priority"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "clarify",
+    "lemma": "clarify",
+    "level": "C1",
+    "ipa": "/ˈklæɹɪfaɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "clar",
+      "i",
+      "fy"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to make something easier to understand",
+    "examples": [
+      "I emailed the hotel to clarify the check-in time."
+    ],
+    "collocations": [
+      "clarify a detail"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "outcome",
+    "lemma": "outcome",
+    "level": "C1",
+    "ipa": "/ˈaʊtkʌm/",
+    "audioUrl": "",
+    "syllables": [
+      "out",
+      "come"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the final result of a process or a situation",
+    "examples": [
+      "The outcome was a later flight and a complimentary seat."
+    ],
+    "collocations": [
+      "the final outcome"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "procedure",
+    "lemma": "procedure",
+    "level": "C1",
+    "ipa": "/pɹəˈsiːdʒə/",
+    "audioUrl": "",
+    "syllables": [
+      "pro",
+      "ce",
+      "dure"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "the official or usual way of doing something",
+    "examples": [
+      "The check-in procedure is explained on the voucher."
+    ],
+    "collocations": [
+      "a standard procedure"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "allotment",
+    "lemma": "allotment",
+    "level": "C2",
+    "ipa": "/əˈlɒtmənt/",
+    "audioUrl": "",
+    "syllables": [
+      "al",
+      "lot",
+      "ment"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "an amount of something reserved or given for a purpose",
+    "examples": [
+      "The hotel is holding an allotment of ten rooms for the group."
+    ],
+    "collocations": [
+      "a room allotment"
+    ],
+    "family": [
+      "allocate"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "ambiguity",
+    "lemma": "ambiguity",
+    "level": "C2",
+    "ipa": "/æmbɪˈɡjuːɪti/",
+    "audioUrl": "",
+    "syllables": [
+      "am",
+      "bi",
+      "gu",
+      "i",
+      "ty"
+    ],
+    "stressIndex": 2,
+    "pos": "noun",
+    "gloss": "the state of having more than one possible meaning",
+    "examples": [
+      "The time in the email had some ambiguity, so I asked for confirmation."
+    ],
+    "collocations": [],
+    "family": [
+      "ambiguous"
+    ],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "analogous",
+    "lemma": "analogous",
+    "level": "C2",
+    "ipa": "/əˈnæl.ə.ɡəs/",
+    "audioUrl": "",
+    "syllables": [
+      "a",
+      "nal",
+      "o",
+      "gous"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "similar in a way that helps you compare two things",
+    "examples": [
+      "A hotel allotment is analogous to a block of reserved seats on a train."
+    ],
+    "collocations": [
+      "analogous to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "arbitrary",
+    "lemma": "arbitrary",
+    "level": "C2",
+    "ipa": "/ˈɑɹ.bɪ.tɹɛ(ə).ɹi/",
+    "audioUrl": "",
+    "syllables": [
+      "ar",
+      "bi",
+      "trar",
+      "y"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "based on chance or personal choice, not on a clear rule",
+    "examples": [
+      "The extra fee seemed arbitrary, so she asked the hotel to explain it."
+    ],
+    "collocations": [
+      "an arbitrary decision"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "assertion",
+    "lemma": "assertion",
+    "level": "C2",
+    "ipa": "/əˈsɜːʃən/",
+    "audioUrl": "",
+    "syllables": [
+      "as",
+      "ser",
+      "tion"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a strong statement that something is true",
+    "examples": [
+      "His assertion that the room was prepaid was correct."
+    ],
+    "collocations": [
+      "an assertion that"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "compile",
+    "lemma": "compile",
+    "level": "C2",
+    "ipa": "/kəmpʌɪl/",
+    "audioUrl": "",
+    "syllables": [
+      "com",
+      "pile"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to collect information and put it together",
+    "examples": [
+      "She will compile the vouchers into one file for the driver."
+    ],
+    "collocations": [
+      "compile a list"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "conceivable",
+    "lemma": "conceivable",
+    "level": "C2",
+    "ipa": "/kənˈsiːvəbl̩/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "ceiv",
+      "a",
+      "ble"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "possible to imagine or believe",
+    "examples": [
+      "It is conceivable that the train will be late after the storm."
+    ],
+    "collocations": [
+      "every conceivable option"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "confer",
+    "lemma": "confer",
+    "level": "C2",
+    "ipa": "/kənˈfɜː/",
+    "audioUrl": "",
+    "syllables": [
+      "con",
+      "fer"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to discuss something in order to decide, or to give an official title",
+    "examples": [
+      "I need to confer with the hotel before I change the dates."
+    ],
+    "collocations": [
+      "confer with"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "culminate",
+    "lemma": "culminate",
+    "level": "C2",
+    "ipa": "/ˈkʌlmɪneɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "cul",
+      "mi",
+      "nate"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to reach the highest or final point",
+    "examples": [
+      "The trip will culminate in a family dinner in the village."
+    ],
+    "collocations": [
+      "culminate in"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "defer",
+    "lemma": "defer",
+    "level": "C2",
+    "ipa": "/dɪˈfɜː(ɹ)/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "fer"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to delay something until a later time",
+    "examples": [
+      "We should defer the booking until the new timetable is published."
+    ],
+    "collocations": [
+      "defer a decision"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "denote",
+    "lemma": "denote",
+    "level": "C2",
+    "ipa": "/dɪˈnəʊt/",
+    "audioUrl": "",
+    "syllables": [
+      "de",
+      "note"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to be a sign of something, or to mean something",
+    "examples": [
+      "The red mark on the itinerary denotes a prepaid service."
+    ],
+    "collocations": [
+      "denote a change"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "discern",
+    "lemma": "discern",
+    "level": "C2",
+    "ipa": "/dɪˈsɜːn/",
+    "audioUrl": "",
+    "syllables": [
+      "dis",
+      "cern"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to notice or recognise something that is not obvious",
+    "examples": [
+      "It was hard to discern the correct terminal from the first email."
+    ],
+    "collocations": [
+      "discern a difference"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "disparity",
+    "lemma": "disparity",
+    "level": "C2",
+    "ipa": "/dɪsˈpæɹɪti/",
+    "audioUrl": "",
+    "syllables": [
+      "dis",
+      "par",
+      "i",
+      "ty"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a large difference, especially an unfair one",
+    "examples": [
+      "There was a disparity between the price on the website and the invoice."
+    ],
+    "collocations": [
+      "a disparity between"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "disseminate",
+    "lemma": "disseminate",
+    "level": "C2",
+    "ipa": "/dɪˈsɛmɪˌneɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "dis",
+      "sem",
+      "i",
+      "nate"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to spread information widely",
+    "examples": [
+      "Please disseminate the new departure time to every guest in the group."
+    ],
+    "collocations": [
+      "disseminate information"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "domain",
+    "lemma": "domain",
+    "level": "C2",
+    "ipa": "/dəʊˈmeɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "do",
+      "main"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "an area of knowledge, activity, or control",
+    "examples": [
+      "Hotel reservations are her main domain at work."
+    ],
+    "collocations": [
+      "in the domain of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "elicit",
+    "lemma": "elicit",
+    "level": "C2",
+    "ipa": "/ɪˈlɪsɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "e",
+      "lic",
+      "it"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to get information or a reaction from someone",
+    "examples": [
+      "A short question will elicit the check-in time from the hotel."
+    ],
+    "collocations": [
+      "elicit a reply"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "empirical",
+    "lemma": "empirical",
+    "level": "C2",
+    "ipa": "/ɪmˈpɪɹɪkəl/",
+    "audioUrl": "",
+    "syllables": [
+      "em",
+      "pir",
+      "i",
+      "cal"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "based on real experience and evidence, not only on theory",
+    "examples": [
+      "We have empirical evidence that earlier transfers miss less traffic."
+    ],
+    "collocations": [
+      "empirical evidence"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "exemplify",
+    "lemma": "exemplify",
+    "level": "C2",
+    "ipa": "/ɛɡˈzɛmplɪfaɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "ex",
+      "em",
+      "pli",
+      "fy"
+    ],
+    "stressIndex": 1,
+    "pos": "verb",
+    "gloss": "to be a typical example of something",
+    "examples": [
+      "This quiet village stay exemplifies the kind of trip she loves."
+    ],
+    "collocations": [
+      "exemplify a style"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "exhaustive",
+    "lemma": "exhaustive",
+    "level": "C2",
+    "ipa": "/ɛɡˈzɔː.stɪv/",
+    "audioUrl": "",
+    "syllables": [
+      "ex",
+      "haus",
+      "tive"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "complete, including everything",
+    "examples": [
+      "The email was not an exhaustive list of every optional tour."
+    ],
+    "collocations": [
+      "an exhaustive list"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "facet",
+    "lemma": "facet",
+    "level": "C2",
+    "ipa": "/ˈfæsɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "fac",
+      "et"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "one side or aspect of something",
+    "examples": [
+      "Pronunciation is only one facet of learning a word."
+    ],
+    "collocations": [
+      "a facet of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "idiosyncrasy",
+    "lemma": "idiosyncrasy",
+    "level": "C2",
+    "ipa": "/ˌɪdiəˈsɪŋkrəsi/",
+    "audioUrl": "",
+    "syllables": [
+      "id",
+      "i",
+      "o",
+      "syn",
+      "cra",
+      "sy"
+    ],
+    "stressIndex": 3,
+    "pos": "noun",
+    "gloss": "a strange habit or unusual feature of one person or thing",
+    "examples": [
+      "One idiosyncrasy of this hotel is that check-in is only after three."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "incumbent",
+    "lemma": "incumbent",
+    "level": "C2",
+    "ipa": "/ɪnˈkʌmbənt/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "cum",
+      "bent"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "necessary as a duty, or describing the person who currently has a role",
+    "examples": [
+      "It is incumbent on us to confirm the names before we issue tickets."
+    ],
+    "collocations": [
+      "incumbent on"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "inherent",
+    "lemma": "inherent",
+    "level": "C2",
+    "ipa": "/ɪnˈhɛɹənt/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "her",
+      "ent"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "existing as a natural part of something",
+    "examples": [
+      "Some risk is inherent in a tight train connection."
+    ],
+    "collocations": [
+      "inherent in"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "integral",
+    "lemma": "integral",
+    "level": "C2",
+    "ipa": "/ˈɪntɪɡɹəl/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "te",
+      "gral"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "necessary as a part of a whole",
+    "examples": [
+      "A clear voucher is an integral part of the arrival plan."
+    ],
+    "collocations": [
+      "an integral part of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "invariably",
+    "lemma": "invariably",
+    "level": "C2",
+    "ipa": "/ɪnˈvɛə.ɹi.ə.bli/",
+    "audioUrl": "",
+    "syllables": [
+      "in",
+      "var",
+      "i",
+      "a",
+      "bly"
+    ],
+    "stressIndex": 1,
+    "pos": "adverb",
+    "gloss": "always, without changing",
+    "examples": [
+      "The first email of the day is invariably about a time change."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "mandate",
+    "lemma": "mandate",
+    "level": "C2",
+    "ipa": "/ˈmæn.deɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "man",
+      "date"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "an official order or authority to do something",
+    "examples": [
+      "She does not have a mandate to offer a refund without approval."
+    ],
+    "collocations": [
+      "a mandate to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "negligible",
+    "lemma": "negligible",
+    "level": "C2",
+    "ipa": "/ˈnɛɡlɪdʒɪbəl/",
+    "audioUrl": "",
+    "syllables": [
+      "neg",
+      "li",
+      "gi",
+      "ble"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "so small that it is not worth considering",
+    "examples": [
+      "The walk from the room to the beach is negligible."
+    ],
+    "collocations": [
+      "a negligible delay"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "nuance",
+    "lemma": "nuance",
+    "level": "C2",
+    "ipa": "/ˈnjuː.ɑːns/",
+    "audioUrl": "",
+    "syllables": [
+      "nu",
+      "ance"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a very small difference in meaning, feeling, or colour",
+    "examples": [
+      "She is learning the nuance between reserved and booked."
+    ],
+    "collocations": [
+      "a subtle nuance"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "paradox",
+    "lemma": "paradox",
+    "level": "C2",
+    "ipa": "/ˈpaɹədɒks/",
+    "audioUrl": "",
+    "syllables": [
+      "par",
+      "a",
+      "dox"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a situation that seems impossible because it has two opposite sides",
+    "examples": [
+      "It is a paradox that working from home can feel both quieter and busier."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "paramount",
+    "lemma": "paramount",
+    "level": "C2",
+    "ipa": "/ˈpa.ɹə.maʊnt/",
+    "audioUrl": "",
+    "syllables": [
+      "par",
+      "a",
+      "mount"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "more important than anything else",
+    "examples": [
+      "Guest safety is paramount when we choose a transfer."
+    ],
+    "collocations": [
+      "of paramount importance"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "pertinent",
+    "lemma": "pertinent",
+    "level": "C2",
+    "ipa": "/ˈpəːtɪnənt/",
+    "audioUrl": "",
+    "syllables": [
+      "per",
+      "ti",
+      "nent"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "directly related to the matter being discussed",
+    "examples": [
+      "The most pertinent detail is the real departure time, not the old one."
+    ],
+    "collocations": [
+      "pertinent to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "plethora",
+    "lemma": "plethora",
+    "level": "C2",
+    "ipa": "/plɪˈθɔːɹə/",
+    "audioUrl": "",
+    "syllables": [
+      "pleth",
+      "o",
+      "ra"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "a large amount, more than you need",
+    "examples": [
+      "The inbox had a plethora of similar questions about breakfast times."
+    ],
+    "collocations": [
+      "a plethora of"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "prerequisite",
+    "lemma": "prerequisite",
+    "level": "C2",
+    "ipa": "/pɹiːˈɹɛkwɪzɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "req",
+      "ui",
+      "site"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "something required before something else can happen",
+    "examples": [
+      "A confirmed room is a prerequisite for issuing the voucher."
+    ],
+    "collocations": [
+      "a prerequisite for"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "presumably",
+    "lemma": "presumably",
+    "level": "C2",
+    "ipa": "/pɹɪˈzjuːməbli/",
+    "audioUrl": "",
+    "syllables": [
+      "pre",
+      "sum",
+      "a",
+      "bly"
+    ],
+    "stressIndex": 1,
+    "pos": "adverb",
+    "gloss": "used when you think something is likely",
+    "examples": [
+      "The driver is late, presumably because of the rain."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "proximity",
+    "lemma": "proximity",
+    "level": "C2",
+    "ipa": "/pɹɑkˈsɪ.mɪ.ti/",
+    "audioUrl": "",
+    "syllables": [
+      "prox",
+      "im",
+      "i",
+      "ty"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "nearness in space or time",
+    "examples": [
+      "The house is in close proximity to her parents home."
+    ],
+    "collocations": [
+      "in close proximity to"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "hometown",
+      "family"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "reconcile",
+    "lemma": "reconcile",
+    "level": "C2",
+    "ipa": "/ˈɹɛkənsaɪl/",
+    "audioUrl": "",
+    "syllables": [
+      "rec",
+      "on",
+      "cile"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to make two different ideas or facts fit together in a satisfactory way",
+    "examples": [
+      "I need to reconcile the times on the voucher with the airline email."
+    ],
+    "collocations": [
+      "reconcile a difference"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "respective",
+    "lemma": "respective",
+    "level": "C2",
+    "ipa": "/ɹɪˈspɛktɪv/",
+    "audioUrl": "",
+    "syllables": [
+      "re",
+      "spec",
+      "tive"
+    ],
+    "stressIndex": 1,
+    "pos": "adjective",
+    "gloss": "belonging separately to each of the people or things just named",
+    "examples": [
+      "Please send each guest to their respective hotels."
+    ],
+    "collocations": [
+      "their respective rooms"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "scrutinise",
+    "lemma": "scrutinise",
+    "level": "C2",
+    "ipa": "/ˈskruːtənaɪz/",
+    "audioUrl": "",
+    "syllables": [
+      "scru",
+      "ti",
+      "nise"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to look at something very carefully",
+    "examples": [
+      "She will scrutinise the names on the ticket before she sends it."
+    ],
+    "collocations": [
+      "scrutinise a document"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "seemingly",
+    "lemma": "seemingly",
+    "level": "C2",
+    "ipa": "/ˈsiːmɪŋli/",
+    "audioUrl": "",
+    "syllables": [
+      "seem",
+      "ing",
+      "ly"
+    ],
+    "stressIndex": 0,
+    "pos": "adverb",
+    "gloss": "in a way that appears to be true, though it may not be",
+    "examples": [
+      "A seemingly small typo can block a passenger at check-in."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "subsequently",
+    "lemma": "subsequently",
+    "level": "C2",
+    "ipa": "/ˈsʌb.sɪ.kwənt.li/",
+    "audioUrl": "",
+    "syllables": [
+      "sub",
+      "se",
+      "quent",
+      "ly"
+    ],
+    "stressIndex": 1,
+    "pos": "adverb",
+    "gloss": "later, after something else",
+    "examples": [
+      "The flight was cancelled and subsequently replaced with a later one."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "substantiate",
+    "lemma": "substantiate",
+    "level": "C2",
+    "ipa": "/səbˈstanʃɪeɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "sub",
+      "stan",
+      "ti",
+      "ate"
+    ],
+    "stressIndex": 2,
+    "pos": "verb",
+    "gloss": "to provide evidence that something is true",
+    "examples": [
+      "The confirmation email will substantiate the prepaid stay."
+    ],
+    "collocations": [
+      "substantiate a claim"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "tacit",
+    "lemma": "tacit",
+    "level": "C2",
+    "ipa": "/ˈtæsɪt/",
+    "audioUrl": "",
+    "syllables": [
+      "tac",
+      "it"
+    ],
+    "stressIndex": 0,
+    "pos": "adjective",
+    "gloss": "understood without being said",
+    "examples": [
+      "There was a tacit agreement that the driver would wait twenty minutes."
+    ],
+    "collocations": [
+      "tacit agreement"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "underpin",
+    "lemma": "underpin",
+    "level": "C2",
+    "ipa": "/ˌʌn.dəˈpɪn/",
+    "audioUrl": "",
+    "syllables": [
+      "un",
+      "der",
+      "pin"
+    ],
+    "stressIndex": 0,
+    "pos": "verb",
+    "gloss": "to support or form the basis of something",
+    "examples": [
+      "Clear emails underpin a calm arrival for every guest."
+    ],
+    "collocations": [
+      "underpin a plan"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "courtesy",
+    "lemma": "courtesy",
+    "level": "C2",
+    "ipa": "/ˈkɜːtəsi/",
+    "audioUrl": "",
+    "syllables": [
+      "cour",
+      "te",
+      "sy"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "polite behaviour, or a polite action given freely",
+    "examples": [
+      "The fruit basket was a courtesy from the hotel, not part of the paid package."
+    ],
+    "collocations": [
+      "a courtesy of"
+    ],
+    "family": [
+      "complimentary"
+    ],
+    "pairs": [],
+    "tags": [
+      "tourism"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "discrepancy",
+    "lemma": "discrepancy",
+    "level": "C2",
+    "ipa": "/dɪsˈkɹɛpənsi/",
+    "audioUrl": "",
+    "syllables": [
+      "dis",
+      "crep",
+      "an",
+      "cy"
+    ],
+    "stressIndex": 1,
+    "pos": "noun",
+    "gloss": "a difference between two things that should be the same",
+    "examples": [
+      "There was a discrepancy between the voucher and the hotel list."
+    ],
+    "collocations": [
+      "a discrepancy between"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "tourism",
+      "work"
+    ],
+    "source": "personal"
+  },
+  {
+    "id": "notwithstanding",
+    "lemma": "notwithstanding",
+    "level": "C2",
+    "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+    "audioUrl": "",
+    "syllables": [
+      "not",
+      "with",
+      "stand",
+      "ing"
+    ],
+    "stressIndex": 2,
+    "pos": "preposition",
+    "gloss": "in spite of",
+    "examples": [
+      "Notwithstanding the delay, the guests still reached the hotel for dinner."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "repertoire",
+    "lemma": "repertoire",
+    "level": "C2",
+    "ipa": "/ˈɹɛp.ə.twɑː/",
+    "audioUrl": "",
+    "syllables": [
+      "rep",
+      "er",
+      "toire"
+    ],
+    "stressIndex": 0,
+    "pos": "noun",
+    "gloss": "the set of skills or pieces a person can perform or use",
+    "examples": [
+      "She is adding work phrases to her English repertoire."
+    ],
+    "collocations": [
+      "a wide repertoire"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "hitherto",
+    "lemma": "hitherto",
+    "level": "C2",
+    "ipa": "/ˈhɪðəˌtuː/",
+    "audioUrl": "",
+    "syllables": [
+      "hith",
+      "er",
+      "to"
+    ],
+    "stressIndex": 0,
+    "pos": "adverb",
+    "gloss": "until now",
+    "examples": [
+      "The hitherto quiet season has suddenly become busy."
+    ],
+    "collocations": [],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "everyday"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "qualitative",
+    "lemma": "qualitative",
+    "level": "C2",
+    "ipa": "/ˈkwɒl.ɪ.tə.tɪv/",
+    "audioUrl": "",
+    "syllables": [
+      "qual",
+      "i",
+      "ta",
+      "tive"
+    ],
+    "stressIndex": 2,
+    "pos": "adjective",
+    "gloss": "relating to the quality of something, not only the amount",
+    "examples": [
+      "We need qualitative comments from the guest, not only a score."
+    ],
+    "collocations": [
+      "qualitative feedback"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  },
+  {
+    "id": "whereby",
+    "lemma": "whereby",
+    "level": "C2",
+    "ipa": "/wɛə(ɹ)ˈbaɪ/",
+    "audioUrl": "",
+    "syllables": [
+      "where",
+      "by"
+    ],
+    "stressIndex": 1,
+    "pos": "adverb",
+    "gloss": "by which, or according to which",
+    "examples": [
+      "They use a simple system whereby every change is confirmed in writing."
+    ],
+    "collocations": [
+      "a system whereby"
+    ],
+    "family": [],
+    "pairs": [],
+    "tags": [
+      "work"
+    ],
+    "source": "starter"
+  }
+]
