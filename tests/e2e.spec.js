@@ -73,10 +73,15 @@ test.describe("Word Duo MVP", () => {
     await expect(page.getByTestId("level-A1")).toHaveClass(/is-on/);
     await shot(page, "01-home-mobile");
     await page.getByTestId("nav-snap").click();
+    await expect(page.getByTestId("prompt")).toBeVisible();
+    await expect(page.getByTestId("ipa")).toHaveText(/^\/.+\/$/);
+    await expect(page.getByTestId("hint-btn")).toBeVisible();
     for (let i = 0; i < 3; i += 1) {
       const btn = page.locator("[data-correct='1']");
       await expect(btn).toBeEnabled();
       await btn.click();
+      await expect(page.getByTestId("next")).toBeVisible();
+      await page.getByTestId("next").click();
     }
     await expect(page.getByTestId("results")).toBeVisible();
     await expect(page.getByTestId("results")).toContainText("3/3");
@@ -91,11 +96,15 @@ test.describe("Word Duo MVP", () => {
     await page.reload({ waitUntil: "networkidle" });
     await page.getByTestId("nav-twins").click();
     await expect(page.getByTestId("hear")).toBeVisible();
+    await expect(page.getByTestId("ipa-0")).toHaveText(/^\/.+\/$/);
+    await expect(page.getByTestId("ipa-1")).toHaveText(/^\/.+\/$/);
     await page.getByTestId("hear").click();
     for (let i = 0; i < 3; i += 1) {
       const btn = page.locator("[data-correct='1']");
       await expect(btn).toBeEnabled();
       await btn.click();
+      await expect(page.getByTestId("next")).toBeVisible();
+      await page.getByTestId("next").click();
     }
     await expect(page.getByTestId("results")).toBeVisible();
     await expect(page.getByTestId("results")).toContainText("3/3");
@@ -108,6 +117,7 @@ test.describe("Word Duo MVP", () => {
     const errors = await open(page);
     await page.getByTestId("nav-say").click();
     await expect(page.getByTestId("prompt")).toBeVisible();
+    await expect(page.getByTestId("ipa")).toHaveText(/^\/.+\/$/);
     await shot(page, "04-say-it");
     for (let i = 0; i < 3; i += 1) {
       await page.getByTestId("hear").click();
@@ -149,9 +159,53 @@ test.describe("Word Duo MVP", () => {
       const btn = page.locator("[data-correct='1']");
       await expect(btn).toBeEnabled();
       await btn.click();
+      await expect(page.getByTestId("next")).toBeVisible();
+      await page.getByTestId("next").click();
     }
     await expect(page.getByTestId("results")).toBeVisible();
     await shot(page, "08-duo-results");
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+
+  test("Vietnamese hint button and always-show toggle", async ({ page }) => {
+    await mockSpeech(page);
+    const errors = await open(page);
+    await page.getByTestId("nav-snap").click();
+    await expect(page.getByTestId("hint-btn")).toBeVisible();
+    await expect(page.getByTestId("ipa")).toBeVisible();
+    await page.getByTestId("hint-btn").click();
+    await expect(page.getByTestId("vi-hint")).toBeVisible();
+    await expect(page.getByTestId("vi-hint")).not.toHaveText("");
+    await shot(page, "10-snap-hint-mobile");
+    await page.getByRole("button", { name: "Home" }).click();
+    await page.getByRole("button", { name: "Cài đặt" }).click();
+    await expect(page.getByTestId("hint-demand")).toHaveClass(/is-on/);
+    await page.getByTestId("hint-always").click();
+    await expect(page.getByTestId("hint-always")).toHaveClass(/is-on/);
+    await page.getByRole("button", { name: "Home" }).click();
+    await page.getByTestId("nav-snap").click();
+    await expect(page.getByTestId("vi-hint")).toBeVisible();
+    await expect(page.getByTestId("hint-btn")).toHaveCount(0);
+    await shot(page, "11-snap-always-mobile");
+    await page.getByRole("button", { name: "Home" }).click();
+    await page.getByRole("button", { name: "Settings" }).or(page.getByRole("button", { name: "Cài đặt" })).click();
+    await page.getByTestId("hint-off").click();
+    await page.getByRole("button", { name: "Home" }).click();
+    await page.getByTestId("nav-snap").click();
+    await expect(page.getByTestId("ipa")).toBeVisible();
+    await expect(page.getByTestId("hint-btn")).toHaveCount(0);
+    await expect(page.getByTestId("vi-hint")).toHaveCount(0);
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+
+  test("Say It pronunciation tip on demand", async ({ page }) => {
+    await mockSpeech(page, { recognize: false });
+    const errors = await open(page);
+    await page.getByTestId("nav-say").click();
+    await expect(page.getByTestId("ipa")).toHaveText(/^\/.+\/$/);
+    await page.getByTestId("hint-btn").click();
+    await expect(page.getByTestId("vi-tip")).toBeVisible();
+    await shot(page, "12-say-hint-mobile");
     expect(errors, errors.join("\n")).toEqual([]);
   });
 });

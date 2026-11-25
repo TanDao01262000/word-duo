@@ -353,3 +353,42 @@ h2, h3 { font-family: var(--display); margin: 0 0 6px; letter-spacing: -0.02em; 
 @media (prefers-reduced-motion: reduce) {
   .btn, .chip, .option, .play-card, .bar > span, .listen { transition: none; animation: none; }
 }
+
+.word-block { text-align: center; }
+.word-block .word { margin-bottom: 0; }
+.word-block .ipa {
+  margin: 2px 0 8px;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.option .ipa, .opt-ipa {
+  display: block;
+  margin: 2px 0 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-align: left;
+}
+.hint-btn { margin: 8px auto 0; display: inline-flex; }
+.vi-hint {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #efe6ff;
+  text-align: left;
+}
+.vi-meaning { margin: 0; font-weight: 800; }
+.vi-note { margin: 4px 0 0; color: var(--muted); font-size: 0.9rem; font-weight: 650; }
+.tip-title { margin: 0 0 4px; font-weight: 800; font-size: 0.85rem; }
+.review-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: baseline;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.review-row:last-child { border-bottom: 0; }
+.review-row .ipa { text-align: right; margin: 0; }
+.version { font-variant-numeric: tabular-nums; }

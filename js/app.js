@@ -7,7 +7,7 @@ import {
   addXp,
   markSessionPlayed,
   resetStore,
-} from "./storage.js";
+} from "./storage.js?v=20261125-1";
 import {
   canRecognize,
   canSynthesize,
@@ -16,8 +16,10 @@ import {
   stopRecognition,
   recognize,
   heardMatches,
-} from "./speech.js";
+} from "./speech.js?v=20261125-1";
+import { PITFALL_TIPS, sayTipsFor, twinsTipFor } from "./tips.js?v=20261125-1";
 
+const VERSION = "20261125-1";
 const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const LEVEL_RANK = Object.fromEntries(LEVELS.map((l, i) => [l, i]));
 const E2E = new URLSearchParams(location.search).has("e2e");
@@ -71,8 +73,56 @@ function profile() {
 function persist() {
   saveStore(store);
 }
+function hintMode() {
+  const mode = profile().hintMode;
+  return mode === "off" || mode === "always" ? mode : "demand";
+}
+function uiVi() {
+  return hintMode() !== "off";
+}
 function hint(key) {
-  return profile().viHints && VI[key] ? `<span class="hint">${escapeHtml(VI[key])}</span>` : "";
+  return uiVi() && VI[key] ? `<span class="hint">${escapeHtml(VI[key])}</span>` : "";
+}
+function hintOpen(round) {
+  return hintMode() === "always" || Boolean(round && round.hintOn);
+}
+function wordBlock(lemma, ipa, { testid = "prompt", ipaTestid = "ipa", tag = "h2" } = {}) {
+  return `<div class="word-block">
+    <${tag} class="word" data-testid="${testid}">${escapeHtml(lemma)}</${tag}>
+    <p class="ipa" data-testid="${ipaTestid}">${escapeHtml(ipa || "")}</p>
+  </div>`;
+}
+function viMeaningHtml(word) {
+  if (!word || !word.vi) return "";
+  const note = word.viNote ? `<p class="vi-note">${escapeHtml(word.viNote)}</p>` : "";
+  return `<div class="vi-hint" data-testid="vi-hint"><p class="vi-meaning">${escapeHtml(word.vi)}</p>${note}</div>`;
+}
+function hintButton(alreadyOn) {
+  if (hintMode() !== "demand" || alreadyOn) return "";
+  return `<button class="btn ghost hint-btn" data-action="use-hint" data-testid="hint-btn">Gợi ý 🇻🇳</button>`;
+}
+function meaningHintPanel(word, round, { afterAnswer = false } = {}) {
+  if (hintMode() === "off") return "";
+  const show = afterAnswer || hintOpen(round);
+  return `${hintButton(show)}${show ? viMeaningHtml(word) : ""}`;
+}
+function sayHintPanel(word, round) {
+  if (hintMode() === "off") return "";
+  const show = hintOpen(round) || Boolean(round && round.result);
+  if (!show) return hintButton(false);
+  const tips = sayTipsFor(word).map((line) => `<p class="vi-note">${escapeHtml(line)}</p>`).join("");
+  return `${viMeaningHtml(word)}<div class="vi-hint" data-testid="vi-tip"><p class="tip-title">Phát âm</p>${tips}</div>`;
+}
+function twinsHintPanel(pair, round, { afterAnswer = false } = {}) {
+  if (hintMode() === "off") return "";
+  const show = afterAnswer || hintOpen(round);
+  if (!show) return hintButton(false);
+  const tip = twinsTipFor(pair);
+  const meanings = afterAnswer
+    ? `<p class="vi-meaning">${escapeHtml(pair.a.lemma)} — ${escapeHtml(pair.a.vi || "")}</p>
+       <p class="vi-meaning" style="margin-top:6px">${escapeHtml(pair.b.lemma)} — ${escapeHtml(pair.b.vi || "")}</p>`
+    : "";
+  return `<div class="vi-hint" data-testid="vi-tip"><p class="tip-title">${escapeHtml(tip.title)}</p><p class="vi-note">${escapeHtml(tip.body)}</p>${meanings}</div>`;
 }
 function escapeHtml(value) {
   return String(value)
@@ -187,9 +237,11 @@ function glossOptions(word) {
   ]);
 }
 
-function xpFor(correct, streak, firstTry = false) {
+function xpFor(correct, streak, firstTry = false, usedHint = false) {
   if (!correct) return 0;
-  return 10 + Math.min(streak, 5) * 2 + (firstTry ? 5 : 0);
+  const streakBonus = usedHint ? 0 : Math.min(streak, 5) * 2;
+  const tryBonus = firstTry && !usedHint ? 5 : 0;
+  return 10 + streakBonus + tryBonus;
 }
 
 function shell(inner, { back = true, title } = {}) {
@@ -200,7 +252,7 @@ function shell(inner, { back = true, title } = {}) {
         <span class="logo" aria-hidden="true"></span>
         <div>
           <h1>Word Duo</h1>
-          <p>${p.viHints ? escapeHtml(VI.subtitle) : "Vocab and pronunciation, for two"}</p>
+          <p>${uiVi() ? escapeHtml(VI.subtitle) : "Vocab and pronunciation, for two"}</p>
         </div>
       </a>
       <div class="stats">
@@ -218,7 +270,7 @@ function renderHome() {
   const p = profile();
   const due = dueWords(store, words);
   const shared = store.shared.streakDays
-    ? `<p class="lede">${escapeHtml(VI.shared)}: <strong>${store.shared.streakDays}</strong>${p.viHints ? "" : " day streak together"}.</p>`
+    ? `<p class="lede">${escapeHtml(VI.shared)}: <strong>${store.shared.streakDays}</strong>${uiVi() ? "" : " day streak together"}.</p>`
     : "";
   view = "home";
   app.innerHTML = shell(
@@ -252,7 +304,7 @@ function renderHome() {
       ${playCard("review", "Review", `${due.length} due today`, "↻", due.length)}
       ${playCard("duo", "Duo", VI.duoHint, "2")}
     </div>
-    <p class="footnote">A starter word bank, not an official exam list. British English by default.</p>
+    <p class="footnote">A starter word bank, not an official exam list. IPA is American English. <span class="version">Bản ${VERSION}</span></p>
     `,
     { back: false }
   );
@@ -292,10 +344,15 @@ function renderSettings() {
           <option value="en-US" ${p.accent === "en-US" ? "selected" : ""}>American English</option>
         </select>
       </div>
-      <label class="toggle">
-        <span>Vietnamese hints</span>
-        <input type="checkbox" data-action="vi" ${p.viHints ? "checked" : ""}>
-      </label>
+      <p class="lede" style="margin-top:8px">Vietnamese hints${hint("settings")}</p>
+      <div class="levels" data-testid="hint-mode">
+        ${["off", "demand", "always"].map((mode) => {
+          const labels = { off: "Off", demand: "On demand", always: "Always show" };
+          const viLabels = { off: "Tắt", demand: "Khi bấm gợi ý", always: "Hiện sẵn" };
+          return `<button class="chip ${p.hintMode === mode ? "is-on" : ""}" data-action="hint-mode" data-mode="${mode}" data-testid="hint-${mode}">${labels[mode]}${uiVi() ? `<span class="hint">${viLabels[mode]}</span>` : ""}</button>`;
+        }).join("")}
+      </div>
+      <p class="lede">On demand is the default: tap Gợi ý 🇻🇳 when you want a meaning or a pronunciation tip. IPA stays visible under every word, in American English.</p>
     </div>
     <p class="lede">Progress stays on this device in local storage. No account needed.</p>
     `,
@@ -367,8 +424,9 @@ function renderSnap() {
     ${duo ? `<div class="banner info">${escapeHtml(VI.passPhone)} — ${escapeHtml(player.name)}</div>` : ""}
     <div class="card">
       <p class="meta">${escapeHtml(round.word.level)} · ${escapeHtml(round.word.pos)}</p>
-      <h2 class="word" data-testid="prompt">${escapeHtml(round.word.lemma)}</h2>
+      ${wordBlock(round.word.lemma, round.word.ipa)}
       <p class="lede" style="text-align:center">${hint("snap") || "Pick the meaning"}</p>
+      ${meaningHintPanel(round.word, round, { afterAnswer: round.picked != null || round.timedOut })}
       <div class="options">
         ${round.options
           .map(
@@ -379,6 +437,11 @@ function renderSnap() {
           )
           .join("")}
       </div>
+      ${
+        round.picked != null || round.timedOut
+          ? `<button class="btn primary wide" data-action="snap-next" data-testid="next" style="margin-top:12px">${escapeHtml(VI.next)}</button>`
+          : ""
+      }
     </div>
     `,
     { title: game.review ? "Review · Meaning Snap" : "Meaning Snap" }
@@ -407,23 +470,24 @@ function answerSnap(optionIndex, timedOut = false) {
   } else {
     game.streak = 0;
   }
-  const gained = xpFor(correct, game.streak);
+  const gained = xpFor(correct, game.streak, false, Boolean(round.hintOn));
   game.xp += gained;
   addXp(store, gained);
   recordResult(store, round.word.id, "meaning", correct);
   persist();
   renderSnap();
-  setTimeout(() => {
-    if (!game) return;
-    game.index += 1;
-    game.locked = false;
-    if (game.type === "duo-snap") game.turn = game.turn === 0 ? 1 : 0;
-    if (game.index >= game.items.length) renderResults();
-    else {
-      tickSnap();
-      renderSnap();
-    }
-  }, 850);
+}
+
+function nextSnap() {
+  if (!game || (game.type !== "snap" && game.type !== "duo-snap") || !game.locked) return;
+  game.index += 1;
+  game.locked = false;
+  if (game.type === "duo-snap") game.turn = game.turn === 0 ? 1 : 0;
+  if (game.index >= game.items.length) renderResults();
+  else {
+    tickSnap();
+    renderSnap();
+  }
 }
 
 function startSay({ review = false } = {}) {
@@ -460,8 +524,8 @@ function renderSay() {
   const fallback = !game.support;
   const status = round.result
     ? round.result === "right"
-      ? `<div class="banner ok">${profile().viHints ? "Đúng rồi!" : "Nice!"} ${round.heard ? ` ${escapeHtml(VI.heard)}: “${escapeHtml(round.heard)}”` : ""}</div>`
-      : `<div class="banner bad">${profile().viHints ? "Gần đúng, thử lại nhé." : "Not quite."} ${round.heard ? `${escapeHtml(VI.heard)}: “${escapeHtml(round.heard)}”` : ""}</div>`
+      ? `<div class="banner ok">${uiVi() ? "Đúng rồi!" : "Nice!"} ${round.heard ? ` ${escapeHtml(VI.heard)}: “${escapeHtml(round.heard)}”` : ""}</div>`
+      : `<div class="banner bad">${uiVi() ? "Gần đúng, thử lại nhé." : "Not quite."} ${round.heard ? `${escapeHtml(VI.heard)}: “${escapeHtml(round.heard)}”` : ""}</div>`
     : "";
   app.innerHTML = shell(
     `
@@ -473,9 +537,9 @@ function renderSay() {
     ${fallback ? `<div class="banner warn" data-testid="speech-fallback">${escapeHtml(VI.fallback)}</div>` : ""}
     <div class="card">
       <p class="meta">${escapeHtml(word.level)} · ${escapeHtml(word.pos)}</p>
-      <h2 class="word" data-testid="prompt">${escapeHtml(word.lemma)}</h2>
-      <p class="ipa" data-testid="ipa">${escapeHtml(word.ipa || " ")}</p>
+      ${wordBlock(word.lemma, word.ipa)}
       <p class="lede" style="text-align:center">${escapeHtml(word.gloss)}</p>
+      ${sayHintPanel(word, round)}
       <div class="row">
         <button class="btn peach" data-action="hear" data-testid="hear" ${game.synth ? "" : "disabled"}>${escapeHtml(VI.hear)}</button>
         ${
@@ -563,7 +627,7 @@ function finishSayRound(round, ok) {
     game.correct += 1;
     game.streak += 1;
   } else game.streak = 0;
-  const gained = xpFor(ok, game.streak, Boolean(round.firstTry));
+  const gained = xpFor(ok, game.streak, Boolean(round.firstTry), Boolean(round.hintOn));
   game.xp += gained;
   addXp(store, gained);
   recordResult(store, round.word.id, "speaking", ok);
@@ -617,11 +681,13 @@ function renderTwins() {
   const speaker = store.profiles[game.turn];
   const listener = store.profiles[game.turn === 0 ? 1 : 0];
   const bar = Math.round((game.index / game.items.length) * 100);
-  const order = shuffle([
-    { side: pair.target, item: target },
-    { side: pair.target === "a" ? "b" : "a", item: other },
-  ]);
-  game.buttonOrder = order;
+  if (!pair.buttonOrder) {
+    pair.buttonOrder = shuffle([
+      { side: pair.target, item: target },
+      { side: pair.target === "a" ? "b" : "a", item: other },
+    ]);
+  }
+  const order = pair.buttonOrder;
 
   if (duo && game.phase === "say") {
     app.innerHTML = shell(
@@ -631,8 +697,8 @@ function renderTwins() {
       <div class="banner info">${escapeHtml(VI.passPhone)} — ${escapeHtml(speaker.name)} speaks, ${escapeHtml(listener.name)} listens</div>
       <div class="card secret-word">
         <p class="meta">Say this word clearly</p>
-        <h2 class="word" data-testid="secret">${escapeHtml(target.lemma)}</h2>
-        <p class="ipa">${escapeHtml(target.ipa || "")}</p>
+        ${wordBlock(target.lemma, target.ipa, { testid: "secret" })}
+        ${sayHintPanel({ lemma: target.lemma, ipa: target.ipa, syllables: (wordByLemma(target.lemma) || {}).syllables, stressIndex: (wordByLemma(target.lemma) || {}).stressIndex, vi: target.vi, viNote: target.viNote }, currentTwin())}
         <div class="row">
           <button class="btn peach" data-action="hear-target" data-testid="hear">${escapeHtml(VI.hear)}</button>
           <button class="btn primary" data-action="twins-passed" data-testid="passed">${escapeHtml(VI.ISaidIt)}</button>
@@ -660,16 +726,22 @@ function renderTwins() {
         ${escapeHtml(VI.hear)}
       </button>
       ${showSentence && pair.heard ? `<p class="lede">In a sentence: “${escapeHtml(sentence)}”</p>` : ""}
+      ${twinsHintPanel(pair, pair, { afterAnswer: Boolean(pair.picked) })}
       <div class="row" style="margin-top:8px">
         ${order
           .map(
             (opt, i) => `
           <button class="option ${twinsClass(pair, opt.side)}" data-action="twins-answer" data-side="${opt.side}"
             data-testid="option-${i}" ${E2E && opt.side === pair.target ? 'data-correct="1"' : ""}
-            ${game.locked ? "disabled" : ""}>${escapeHtml(opt.item.lemma)}</button>`
+            ${game.locked ? "disabled" : ""}><span class="opt-word">${escapeHtml(opt.item.lemma)}</span><span class="opt-ipa" data-testid="ipa-${i}">${escapeHtml(opt.item.ipa || "")}</span></button>`
           )
           .join("")}
       </div>
+      ${
+        pair.picked
+          ? `<button class="btn primary wide" data-action="twins-next" data-testid="next" style="margin-top:12px">${escapeHtml(VI.next)}</button>`
+          : ""
+      }
     </div>
     `,
     { title: duo ? "Duo · Twin Sounds" : game.review ? "Review · Twin Sounds" : "Twin Sounds" }
@@ -715,22 +787,23 @@ function answerTwins(side) {
     game.streak += 1;
     if (game.type === "duo-twins") game.scores[game.turn] += 1;
   } else game.streak = 0;
-  const gained = xpFor(ok, game.streak);
+  const gained = xpFor(ok, game.streak, false, Boolean(pair.hintOn));
   game.xp += gained;
   addXp(store, gained);
   const linked = wordByLemma(pair.a.lemma) || wordByLemma(pair.b.lemma);
   if (linked) recordResult(store, linked.id, "listening", ok);
   persist();
   renderTwins();
-  setTimeout(() => {
-    if (!game) return;
-    game.index += 1;
-    game.locked = false;
-    game.phase = game.type === "duo-twins" ? "say" : "listen";
-    if (game.type === "duo-twins") game.turn = game.turn === 0 ? 1 : 0;
-    if (game.index >= game.items.length) renderResults();
-    else renderTwins();
-  }, 900);
+}
+
+function nextTwins() {
+  if (!game || (game.type !== "twins" && game.type !== "duo-twins") || !game.locked) return;
+  game.index += 1;
+  game.locked = false;
+  game.phase = game.type === "duo-twins" ? "say" : "listen";
+  if (game.type === "duo-twins") game.turn = game.turn === 0 ? 1 : 0;
+  if (game.index >= game.items.length) renderResults();
+  else renderTwins();
 }
 
 function startReview() {
@@ -740,7 +813,40 @@ function startReview() {
     renderEmptyReview();
     return;
   }
-  // Alternate meaning and speaking for due cards; use twins when a pair exists.
+  game = { type: "review-list", items: due };
+  view = "review";
+  renderReviewList();
+}
+
+function renderReviewList() {
+  const due = game.items || dueWords(store, words);
+  app.innerHTML = shell(
+    `
+    <div class="card">
+      <p class="lede">${due.length} word${due.length === 1 ? "" : "s"} due today</p>
+      <div data-testid="review-list">
+        ${due
+          .map(
+            (w) => `
+          <div class="review-row">
+            <div>
+              <strong data-testid="review-word">${escapeHtml(w.lemma)}</strong>
+              ${hintMode() !== "off" && w.vi ? `<div class="hint">${escapeHtml(w.vi)}</div>` : ""}
+            </div>
+            <p class="ipa" data-testid="review-ipa">${escapeHtml(w.ipa || "")}</p>
+          </div>`
+          )
+          .join("")}
+      </div>
+      <button class="btn primary wide" data-action="review-start" data-testid="review-start" style="margin-top:14px">Start review</button>
+    </div>
+    `,
+    { title: "Review" }
+  );
+}
+
+function playReview() {
+  const due = dueWords(store, words);
   const items = shuffle(due).slice(0, roundCount());
   const withPairs = items.filter((w) => w.pairs && w.pairs.length);
   if (withPairs.length >= 2 && Math.random() < 0.34) startTwins({ review: true });
@@ -839,7 +945,18 @@ function syncHash(to) {
   }
 }
 
+function useHint() {
+  if (!game || !game.items || game.items[game.index] == null) return;
+  const round = game.items[game.index];
+  if (round.hintOn) return;
+  round.hintOn = true;
+  if (game.type === "snap" || game.type === "duo-snap") renderSnap();
+  else if (game.type === "say") renderSay();
+  else if (game.type === "twins" || game.type === "duo-twins") renderTwins();
+}
+
 function go(to) {
+
   stopRecognition();
   stopSpeaking();
   clearSnapTimer();
@@ -871,6 +988,16 @@ app.addEventListener("click", (event) => {
     persist();
     renderHome();
   } else if (action === "snap-answer") answerSnap(Number(btn.dataset.index));
+  else if (action === "snap-next") nextSnap();
+  else if (action === "twins-next") nextTwins();
+  else if (action === "review-start") playReview();
+  else if (action === "use-hint") useHint();
+  else if (action === "hint-mode") {
+    profile().hintMode = btn.dataset.mode === "off" || btn.dataset.mode === "always" ? btn.dataset.mode : "demand";
+    persist();
+    if (view === "settings") renderSettings();
+    else if (view === "home") renderHome();
+  }
   else if (action === "hear") {
     const word = game && game.items && game.items[game.index] && game.items[game.index].word;
     if (word) hearWord(word.lemma);
@@ -897,10 +1024,6 @@ app.addEventListener("change", (event) => {
   } else if (action === "accent") {
     profile().accent = el.value === "en-US" ? "en-US" : "en-GB";
     persist();
-  } else if (action === "vi") {
-    profile().viHints = el.checked;
-    persist();
-    renderSettings();
   }
 });
 
@@ -912,11 +1035,11 @@ window.addEventListener("hashchange", () => {
 async function init() {
   try {
     const [w, p] = await Promise.all([
-      fetch("data/words.json").then((r) => {
+      fetch(`data/words.json?v=${VERSION}`).then((r) => {
         if (!r.ok) throw new Error("Could not load words");
         return r.json();
       }),
-      fetch("data/pairs.json").then((r) => {
+      fetch(`data/pairs.json?v=${VERSION}`).then((r) => {
         if (!r.ok) throw new Error("Could not load pairs");
         return r.json();
       }),

@@ -12,15 +12,15 @@ Live site: https://tandao01262000.github.io/word-duo/
 - **Review** — a Leitner box schedule brings due words back (1, 3, 7, 14, then 30 days). A miss returns the card to box 1.
 - **Duo** — pass the phone. Meaning Snap is take turns. Twin Sounds is “I say, you hear.”
 
-Progress, XP, and daily streaks stay in `localStorage` on this device. You can keep two player profiles on the same phone. Turn on Vietnamese hints in Settings if you like.
+Progress, XP, and daily streaks stay in `localStorage` on this device. You can keep two player profiles on the same phone.
 
-British English is the default. American English is a toggle.
+Each word shows American IPA under the spelling. Vietnamese meanings and pronunciation tips can be Off, On demand (tap Gợi ý 🇻🇳; this is the default), or Always show, in Settings. Text-to-speech defaults to British English, with an American toggle.
 
 ## Word bank
 
 This is an original starter list (about 50 words per level, plus a personal tourism, booking, family, and hometown bank). It is **not** the Oxford 3000/5000 or the English Vocabulary Profile, which we cannot redistribute here. Levels are assigned reasonably, not from an official exam syllabus.
 
-IPA is bundled from the [Free Dictionary API](https://dictionaryapi.dev/) (Wiktionary-based), with a few careful corrections.
+Each entry includes American IPA (with stress marks) and a Vietnamese meaning written for this project.
 
 ## Run locally
 

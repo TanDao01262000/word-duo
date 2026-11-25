@@ -3,7 +3,7 @@
     "id": "bag",
     "lemma": "bag",
     "level": "A1",
-    "ipa": "/ˈbæːɡ/",
+    "ipa": "/bæɡ/",
     "audioUrl": "",
     "syllables": [
       "bag"
@@ -22,13 +22,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "túi",
+    "viNote": "Túi để đựng và mang đồ theo."
   },
   {
     "id": "beach",
     "lemma": "beach",
     "level": "A1",
-    "ipa": "/biːt͡ʃ/",
+    "ipa": "/biːtʃ/",
     "audioUrl": "",
     "syllables": [
       "beach"
@@ -47,13 +49,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bãi biển",
+    "viNote": ""
   },
   {
     "id": "bed",
     "lemma": "bed",
     "level": "A1",
-    "ipa": "/bed/",
+    "ipa": "/bɛd/",
     "audioUrl": "",
     "syllables": [
       "bed"
@@ -74,13 +78,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "giường",
+    "viNote": ""
   },
   {
     "id": "bird",
     "lemma": "bird",
     "level": "A1",
-    "ipa": "/bɜd/",
+    "ipa": "/bɝd/",
     "audioUrl": "",
     "syllables": [
       "bird"
@@ -97,13 +103,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chim",
+    "viNote": ""
   },
   {
     "id": "breakfast",
     "lemma": "breakfast",
     "level": "A1",
-    "ipa": "/ˈbɹɛkfəst/",
+    "ipa": "/ˈbrɛkfəst/",
     "audioUrl": "",
     "syllables": [
       "break",
@@ -124,13 +132,15 @@
       "everyday",
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bữa sáng",
+    "viNote": "Bữa ăn đầu tiên trong ngày."
   },
   {
     "id": "brother",
     "lemma": "brother",
     "level": "A1",
-    "ipa": "/ˈbɹɐðɘ(ɹ)/",
+    "ipa": "/ˈbrʌðər/",
     "audioUrl": "",
     "syllables": [
       "broth",
@@ -150,13 +160,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "anh trai hoặc em trai",
+    "viNote": ""
   },
   {
     "id": "bus",
     "lemma": "bus",
     "level": "A1",
-    "ipa": "/bɐs/",
+    "ipa": "/bʌs/",
     "audioUrl": "",
     "syllables": [
       "bus"
@@ -178,7 +190,9 @@
       "everyday",
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "xe buýt",
+    "viNote": ""
   },
   {
     "id": "cake",
@@ -203,13 +217,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bánh ngọt",
+    "viNote": "Thường dùng cho sinh nhật hoặc bữa trà."
   },
   {
     "id": "car",
     "lemma": "car",
     "level": "A1",
-    "ipa": "/kɑː/",
+    "ipa": "/kɑr/",
     "audioUrl": "",
     "syllables": [
       "car"
@@ -228,13 +244,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "xe hơi, ô tô",
+    "viNote": ""
   },
   {
     "id": "chair",
     "lemma": "chair",
     "level": "A1",
-    "ipa": "/t͡ʃɛə(ɹ)/",
+    "ipa": "/tʃɛr/",
     "audioUrl": "",
     "syllables": [
       "chair"
@@ -251,13 +269,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ghế",
+    "viNote": "Ghế cho một người ngồi."
   },
   {
     "id": "city",
     "lemma": "city",
     "level": "A1",
-    "ipa": "/sɪtɪ/",
+    "ipa": "/ˈsɪti/",
     "audioUrl": "",
     "syllables": [
       "cit",
@@ -277,13 +297,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thành phố",
+    "viNote": ""
   },
   {
     "id": "coffee",
     "lemma": "coffee",
     "level": "A1",
-    "ipa": "/ˈkɑ.fi/",
+    "ipa": "/ˈkɔfi/",
     "audioUrl": "",
     "syllables": [
       "cof",
@@ -303,13 +325,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cà phê",
+    "viNote": ""
   },
   {
     "id": "cold",
     "lemma": "cold",
     "level": "A1",
-    "ipa": "/kɔʊld/",
+    "ipa": "/koʊld/",
     "audioUrl": "",
     "syllables": [
       "cold"
@@ -326,13 +350,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lạnh",
+    "viNote": "Nói về nhiệt độ thấp, không phải bệnh cảm."
   },
   {
     "id": "daughter",
     "lemma": "daughter",
     "level": "A1",
-    "ipa": "/ˈdɑ.tɚ/",
+    "ipa": "/ˈdɔtər/",
     "audioUrl": "",
     "syllables": [
       "daugh",
@@ -352,13 +378,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "con gái",
+    "viNote": ""
   },
   {
     "id": "dinner",
     "lemma": "dinner",
     "level": "A1",
-    "ipa": "/ˈdɪnə/",
+    "ipa": "/ˈdɪnər/",
     "audioUrl": "",
     "syllables": [
       "din",
@@ -379,13 +407,15 @@
       "everyday",
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bữa tối",
+    "viNote": "Bữa ăn chính, thường vào buổi tối."
   },
   {
     "id": "door",
     "lemma": "door",
     "level": "A1",
-    "ipa": "/dɔː/",
+    "ipa": "/dɔr/",
     "audioUrl": "",
     "syllables": [
       "door"
@@ -404,7 +434,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cửa",
+    "viNote": ""
   },
   {
     "id": "email",
@@ -432,13 +464,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thư điện tử, email",
+    "viNote": ""
   },
   {
     "id": "evening",
     "lemma": "evening",
     "level": "A1",
-    "ipa": "/ˈivnɪŋ/",
+    "ipa": "/ˈiːvnɪŋ/",
     "audioUrl": "",
     "syllables": [
       "eve",
@@ -458,13 +492,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "buổi tối",
+    "viNote": "Phần cuối ngày, sau buổi chiều."
   },
   {
     "id": "family",
     "lemma": "family",
     "level": "A1",
-    "ipa": "/ˈfɛm(ɘ)li/",
+    "ipa": "/ˈfæməli/",
     "audioUrl": "",
     "syllables": [
       "fam",
@@ -485,13 +521,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "gia đình",
+    "viNote": ""
   },
   {
     "id": "father",
     "lemma": "father",
     "level": "A1",
-    "ipa": "/ˈfaːðə/",
+    "ipa": "/ˈfɑðər/",
     "audioUrl": "",
     "syllables": [
       "fa",
@@ -511,7 +549,9 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "bố, cha",
+    "viNote": ""
   },
   {
     "id": "flight",
@@ -543,13 +583,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chuyến bay",
+    "viNote": ""
   },
   {
     "id": "flower",
     "lemma": "flower",
     "level": "A1",
-    "ipa": "/ˈflaʊ.ə/",
+    "ipa": "/ˈflaʊər/",
     "audioUrl": "",
     "syllables": [
       "flow",
@@ -567,7 +609,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hoa",
+    "viNote": ""
   },
   {
     "id": "food",
@@ -593,13 +637,15 @@
       "everyday",
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thức ăn",
+    "viNote": ""
   },
   {
     "id": "friend",
     "lemma": "friend",
     "level": "A1",
-    "ipa": "/fɹɛnd/",
+    "ipa": "/frɛnd/",
     "audioUrl": "",
     "syllables": [
       "friend"
@@ -618,13 +664,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bạn, người bạn",
+    "viNote": ""
   },
   {
     "id": "garden",
     "lemma": "garden",
     "level": "A1",
-    "ipa": "/ˈɡɑːdn̩/",
+    "ipa": "/ˈɡɑrdən/",
     "audioUrl": "",
     "syllables": [
       "gar",
@@ -642,7 +690,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "vườn",
+    "viNote": ""
   },
   {
     "id": "guest",
@@ -669,13 +719,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "khách",
+    "viNote": "Khách đến nhà hoặc khách nghỉ khách sạn."
   },
   {
     "id": "happy",
     "lemma": "happy",
     "level": "A1",
-    "ipa": "/ˈhæpiː/",
+    "ipa": "/ˈhæpi/",
     "audioUrl": "",
     "syllables": [
       "hap",
@@ -695,13 +747,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "vui, hạnh phúc",
+    "viNote": ""
   },
   {
     "id": "hotel",
     "lemma": "hotel",
     "level": "A1",
-    "ipa": "/(h)əʊˈtɛl/",
+    "ipa": "/hoʊˈtɛl/",
     "audioUrl": "",
     "syllables": [
       "ho",
@@ -722,13 +776,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "khách sạn",
+    "viNote": ""
   },
   {
     "id": "house",
     "lemma": "house",
     "level": "A1",
-    "ipa": "/hʌʊs/",
+    "ipa": "/haʊs/",
     "audioUrl": "",
     "syllables": [
       "house"
@@ -746,13 +802,15 @@
       "hometown",
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "nhà",
+    "viNote": "Tòa nhà nơi một gia đình sống."
   },
   {
     "id": "kitchen",
     "lemma": "kitchen",
     "level": "A1",
-    "ipa": "/ˈkɪt͡ʃən/",
+    "ipa": "/ˈkɪtʃən/",
     "audioUrl": "",
     "syllables": [
       "kitch",
@@ -770,13 +828,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhà bếp",
+    "viNote": ""
   },
   {
     "id": "lunch",
     "lemma": "lunch",
     "level": "A1",
-    "ipa": "/lʌnt͡ʃ/",
+    "ipa": "/lʌntʃ/",
     "audioUrl": "",
     "syllables": [
       "lunch"
@@ -795,13 +855,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bữa trưa",
+    "viNote": ""
   },
   {
     "id": "mother",
     "lemma": "mother",
     "level": "A1",
-    "ipa": "/ˈmʌðə(ɹ)/",
+    "ipa": "/ˈmʌðər/",
     "audioUrl": "",
     "syllables": [
       "moth",
@@ -821,7 +883,9 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "mẹ",
+    "viNote": ""
   },
   {
     "id": "night",
@@ -846,13 +910,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ban đêm",
+    "viNote": ""
   },
   {
     "id": "phone",
     "lemma": "phone",
     "level": "A1",
-    "ipa": "/fəʊ̯n/",
+    "ipa": "/foʊn/",
     "audioUrl": "",
     "syllables": [
       "phone"
@@ -873,7 +939,9 @@
       "everyday",
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "điện thoại",
+    "viNote": ""
   },
   {
     "id": "plane",
@@ -900,13 +968,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "máy bay",
+    "viNote": ""
   },
   {
     "id": "rain",
     "lemma": "rain",
     "level": "A1",
-    "ipa": "/ɹeɪn/",
+    "ipa": "/reɪn/",
     "audioUrl": "",
     "syllables": [
       "rain"
@@ -925,13 +995,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mưa",
+    "viNote": ""
   },
   {
     "id": "rice",
     "lemma": "rice",
     "level": "A1",
-    "ipa": "/ɹaɪs/",
+    "ipa": "/raɪs/",
     "audioUrl": "",
     "syllables": [
       "rice"
@@ -952,13 +1024,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "lúa, gạo",
+    "viNote": "Trong ví dụ này là ruộng lúa quanh nhà."
   },
   {
     "id": "room",
     "lemma": "room",
     "level": "A1",
-    "ipa": "/ɹuːm/",
+    "ipa": "/ruːm/",
     "audioUrl": "",
     "syllables": [
       "room"
@@ -978,7 +1052,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "phòng",
+    "viNote": ""
   },
   {
     "id": "school",
@@ -1003,13 +1079,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "trường học",
+    "viNote": ""
   },
   {
     "id": "sister",
     "lemma": "sister",
     "level": "A1",
-    "ipa": "/ˈsɪs.tə/",
+    "ipa": "/ˈsɪstər/",
     "audioUrl": "",
     "syllables": [
       "sis",
@@ -1029,13 +1107,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chị gái hoặc em gái",
+    "viNote": ""
   },
   {
     "id": "son",
     "lemma": "son",
     "level": "A1",
-    "ipa": "/sɒn/",
+    "ipa": "/sʌn/",
     "audioUrl": "",
     "syllables": [
       "son"
@@ -1054,13 +1134,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "con trai",
+    "viNote": ""
   },
   {
     "id": "student",
     "lemma": "student",
     "level": "A1",
-    "ipa": "/ˈstjuː.dənt/",
+    "ipa": "/ˈstuːdənt/",
     "audioUrl": "",
     "syllables": [
       "stu",
@@ -1078,7 +1160,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "học sinh, sinh viên",
+    "viNote": ""
   },
   {
     "id": "table",
@@ -1102,7 +1186,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bàn",
+    "viNote": ""
   },
   {
     "id": "ticket",
@@ -1129,13 +1215,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "vé",
+    "viNote": "Vé tàu, vé máy bay, hoặc mã để được vào."
   },
   {
     "id": "village",
     "lemma": "village",
     "level": "A1",
-    "ipa": "/ˈvɪlɪd͡ʒ/",
+    "ipa": "/ˈvɪlɪdʒ/",
     "audioUrl": "",
     "syllables": [
       "vil",
@@ -1155,13 +1243,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "làng",
+    "viNote": ""
   },
   {
     "id": "walk",
     "lemma": "walk",
     "level": "A1",
-    "ipa": "/wɔːk/",
+    "ipa": "/wɔk/",
     "audioUrl": "",
     "syllables": [
       "walk"
@@ -1182,13 +1272,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đi bộ",
+    "viNote": ""
   },
   {
     "id": "warm",
     "lemma": "warm",
     "level": "A1",
-    "ipa": "/wɔːm/",
+    "ipa": "/wɔrm/",
     "audioUrl": "",
     "syllables": [
       "warm"
@@ -1205,13 +1297,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "ấm",
+    "viNote": "Hơi nóng, dễ chịu."
   },
   {
     "id": "water",
     "lemma": "water",
     "level": "A1",
-    "ipa": "/ˈwoːtə/",
+    "ipa": "/ˈwɔtər/",
     "audioUrl": "",
     "syllables": [
       "wa",
@@ -1231,13 +1325,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nước",
+    "viNote": ""
   },
   {
     "id": "window",
     "lemma": "window",
     "level": "A1",
-    "ipa": "/ˈwɪndəʊ/",
+    "ipa": "/ˈwɪndoʊ/",
     "audioUrl": "",
     "syllables": [
       "win",
@@ -1255,13 +1351,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cửa sổ",
+    "viNote": ""
   },
   {
     "id": "work",
     "lemma": "work",
     "level": "A1",
-    "ipa": "/wɜːk/",
+    "ipa": "/wɝk/",
     "audioUrl": "",
     "syllables": [
       "work"
@@ -1281,7 +1379,9 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "công việc",
+    "viNote": "Việc làm, hoặc những việc bạn làm trong công việc."
   },
   {
     "id": "book",
@@ -1311,13 +1411,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "đặt chỗ",
+    "viNote": "Book a room/flight = đặt phòng hoặc đặt vé, không phải cuốn sách."
   },
   {
     "id": "airport",
     "lemma": "airport",
     "level": "A2",
-    "ipa": "/ˈɛə.pɔːt/",
+    "ipa": "/ˈɛrpɔrt/",
     "audioUrl": "",
     "syllables": [
       "air",
@@ -1337,13 +1439,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sân bay",
+    "viNote": ""
   },
   {
     "id": "birthday",
     "lemma": "birthday",
     "level": "A2",
-    "ipa": "/ˈbɜːθ.deɪ/",
+    "ipa": "/ˈbɝθdeɪ/",
     "audioUrl": "",
     "syllables": [
       "birth",
@@ -1363,7 +1467,9 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sinh nhật",
+    "viNote": ""
   },
   {
     "id": "busy",
@@ -1387,13 +1493,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bận",
+    "viNote": ""
   },
   {
     "id": "cinema",
     "lemma": "cinema",
     "level": "A2",
-    "ipa": "/ˈsɪn.ɪ.mɑː/",
+    "ipa": "/ˈsɪnəmə/",
     "audioUrl": "",
     "syllables": [
       "cin",
@@ -1414,13 +1522,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "rạp chiếu phim",
+    "viNote": ""
   },
   {
     "id": "client",
     "lemma": "client",
     "level": "A2",
-    "ipa": "/ˈklʌɪənt/",
+    "ipa": "/ˈklaɪənt/",
     "audioUrl": "",
     "syllables": [
       "cli",
@@ -1441,13 +1551,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "khách hàng",
+    "viNote": "Người trả tiền cho dịch vụ của công ty, khác với customer ở chỗ thường là dịch vụ."
   },
   {
     "id": "countryside",
     "lemma": "countryside",
     "level": "A2",
-    "ipa": "/ˈkʌntrisaɪd/",
+    "ipa": "/ˈkʌntriˌsaɪd/",
     "audioUrl": "",
     "syllables": [
       "coun",
@@ -1468,13 +1580,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "nông thôn, miền quê",
+    "viNote": ""
   },
   {
     "id": "customer",
     "lemma": "customer",
     "level": "A2",
-    "ipa": "/ˈkʌstəmə/",
+    "ipa": "/ˈkʌstəmər/",
     "audioUrl": "",
     "syllables": [
       "cus",
@@ -1495,7 +1609,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "khách mua hàng",
+    "viNote": ""
   },
   {
     "id": "delay",
@@ -1521,13 +1637,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự chậm trễ, chuyến bị trễ",
+    "viNote": ""
   },
   {
     "id": "depart",
     "lemma": "depart",
     "level": "A2",
-    "ipa": "/dɪˈpɑːt/",
+    "ipa": "/dɪˈpɑrt/",
     "audioUrl": "",
     "syllables": [
       "de",
@@ -1549,13 +1667,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "khởi hành, rời đi",
+    "viNote": "Dùng cho máy bay, tàu, xe buýt."
   },
   {
     "id": "early",
     "lemma": "early",
     "level": "A2",
-    "ipa": "/ˈɜː.li/",
+    "ipa": "/ˈɝli/",
     "audioUrl": "",
     "syllables": [
       "ear",
@@ -1575,13 +1695,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sớm",
+    "viNote": ""
   },
   {
     "id": "enough",
     "lemma": "enough",
     "level": "A2",
-    "ipa": "/iˈnʌf/",
+    "ipa": "/ɪˈnʌf/",
     "audioUrl": "",
     "syllables": [
       "e",
@@ -1601,7 +1723,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đủ",
+    "viNote": ""
   },
   {
     "id": "famous",
@@ -1627,13 +1751,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nổi tiếng",
+    "viNote": ""
   },
   {
     "id": "farmer",
     "lemma": "farmer",
     "level": "A2",
-    "ipa": "/fɑːmə/",
+    "ipa": "/ˈfɑrmər/",
     "audioUrl": "",
     "syllables": [
       "farm",
@@ -1652,13 +1778,15 @@
       "family",
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "nông dân",
+    "viNote": ""
   },
   {
     "id": "forget",
     "lemma": "forget",
     "level": "A2",
-    "ipa": "/fəˈɡɛt/",
+    "ipa": "/fərˈɡɛt/",
     "audioUrl": "",
     "syllables": [
       "for",
@@ -1676,13 +1804,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "quên",
+    "viNote": ""
   },
   {
     "id": "holiday",
     "lemma": "holiday",
     "level": "A2",
-    "ipa": "/ˈhɒlɪdeɪ/",
+    "ipa": "/ˈhɑlədeɪ/",
     "audioUrl": "",
     "syllables": [
       "hol",
@@ -1704,13 +1834,15 @@
       "family",
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "kỳ nghỉ, ngày lễ",
+    "viNote": "Thời gian không làm việc, hoặc chuyến đi chơi."
   },
   {
     "id": "hometown",
     "lemma": "hometown",
     "level": "A2",
-    "ipa": "/ˈhəʊmtaʊn/",
+    "ipa": "/ˈhoʊmtaʊn/",
     "audioUrl": "",
     "syllables": [
       "home",
@@ -1728,13 +1860,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "quê, quê nhà",
+    "viNote": "Thị trấn hoặc làng nơi bạn lớn lên."
   },
   {
     "id": "hungry",
     "lemma": "hungry",
     "level": "A2",
-    "ipa": "/ˈhʌŋ.ɡɹi/",
+    "ipa": "/ˈhʌŋɡri/",
     "audioUrl": "",
     "syllables": [
       "hun",
@@ -1754,13 +1888,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đói",
+    "viNote": ""
   },
   {
     "id": "island",
     "lemma": "island",
     "level": "A2",
-    "ipa": "/ˈaɪ̯lənd/",
+    "ipa": "/ˈaɪlənd/",
     "audioUrl": "",
     "syllables": [
       "is",
@@ -1778,13 +1914,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hòn đảo",
+    "viNote": ""
   },
   {
     "id": "job",
     "lemma": "job",
     "level": "A2",
-    "ipa": "/d͡ʒɒb/",
+    "ipa": "/dʒɑb/",
     "audioUrl": "",
     "syllables": [
       "job"
@@ -1803,13 +1941,15 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "công việc, việc làm",
+    "viNote": ""
   },
   {
     "id": "luggage",
     "lemma": "luggage",
     "level": "A2",
-    "ipa": "/ˈlʌɡɪd͡ʒ/",
+    "ipa": "/ˈlʌɡɪdʒ/",
     "audioUrl": "",
     "syllables": [
       "lug",
@@ -1829,7 +1969,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "hành lý",
+    "viNote": ""
   },
   {
     "id": "map",
@@ -1854,13 +1996,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bản đồ",
+    "viNote": ""
   },
   {
     "id": "neighbour",
     "lemma": "neighbour",
     "level": "A2",
-    "ipa": "/ˈneɪbə/",
+    "ipa": "/ˈneɪbər/",
     "audioUrl": "",
     "syllables": [
       "neigh",
@@ -1881,13 +2025,15 @@
       "hometown",
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "hàng xóm",
+    "viNote": "Cách viết British; tiếng Mỹ viết neighbor."
   },
   {
     "id": "passport",
     "lemma": "passport",
     "level": "A2",
-    "ipa": "/ˈpɑːspɔːt/",
+    "ipa": "/ˈpæspɔrt/",
     "audioUrl": "",
     "syllables": [
       "pass",
@@ -1907,7 +2053,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "hộ chiếu",
+    "viNote": ""
   },
   {
     "id": "polite",
@@ -1931,7 +2079,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lịch sự",
+    "viNote": ""
   },
   {
     "id": "queue",
@@ -1956,13 +2106,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hàng người chờ",
+    "viNote": "Tiếng Mỹ thường nói line."
   },
   {
     "id": "quiet",
     "lemma": "quiet",
     "level": "A2",
-    "ipa": "/ˈkwaɪ.ət/",
+    "ipa": "/ˈkwaɪət/",
     "audioUrl": "",
     "syllables": [
       "qui",
@@ -1982,13 +2134,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "yên tĩnh",
+    "viNote": ""
   },
   {
     "id": "relax",
     "lemma": "relax",
     "level": "A2",
-    "ipa": "/ɹɪˈlæks/",
+    "ipa": "/rɪˈlæks/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -2006,13 +2160,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thư giãn",
+    "viNote": ""
   },
   {
     "id": "restaurant",
     "lemma": "restaurant",
     "level": "A2",
-    "ipa": "/ˈɹɛs.t(ə).ɹ(ə)nt/",
+    "ipa": "/ˈrɛstərənt/",
     "audioUrl": "",
     "syllables": [
       "res",
@@ -2033,13 +2189,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhà hàng",
+    "viNote": ""
   },
   {
     "id": "return",
     "lemma": "return",
     "level": "A2",
-    "ipa": "/ɹɪˈtɜːn/",
+    "ipa": "/rɪˈtɝn/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -2059,7 +2217,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "vé khứ hồi",
+    "viNote": "Ở đây là vé đi và về, không phải động từ quay lại."
   },
   {
     "id": "season",
@@ -2085,13 +2245,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mùa",
+    "viNote": "Một phần của năm, như mùa hè hoặc mùa đông."
   },
   {
     "id": "share",
     "lemma": "share",
     "level": "A2",
-    "ipa": "/ʃɛə/",
+    "ipa": "/ʃɛr/",
     "audioUrl": "",
     "syllables": [
       "share"
@@ -2111,13 +2273,15 @@
       "family",
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chia sẻ",
+    "viNote": ""
   },
   {
     "id": "shopping",
     "lemma": "shopping",
     "level": "A2",
-    "ipa": "/ˈʃɒpɪŋ/",
+    "ipa": "/ˈʃɑpɪŋ/",
     "audioUrl": "",
     "syllables": [
       "shop",
@@ -2137,13 +2301,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "việc đi mua sắm",
+    "viNote": ""
   },
   {
     "id": "sightseeing",
     "lemma": "sightseeing",
     "level": "A2",
-    "ipa": "/ˈsaɪtsiːɪŋ/",
+    "ipa": "/ˈsaɪtˌsiːɪŋ/",
     "audioUrl": "",
     "syllables": [
       "sight",
@@ -2164,7 +2330,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tham quan, ngắm cảnh",
+    "viNote": ""
   },
   {
     "id": "station",
@@ -2190,7 +2358,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ga, bến",
+    "viNote": "Ga tàu hoặc bến xe buýt."
   },
   {
     "id": "stay",
@@ -2215,7 +2385,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "ở lại, lưu trú",
+    "viNote": "Ở hoặc ngủ đâu đó trong thời gian ngắn."
   },
   {
     "id": "sunny",
@@ -2241,13 +2413,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nắng, có nhiều nắng",
+    "viNote": ""
   },
   {
     "id": "surprise",
     "lemma": "surprise",
     "level": "A2",
-    "ipa": "/səˈpɹaɪz/",
+    "ipa": "/sərˈpraɪz/",
     "audioUrl": "",
     "syllables": [
       "sur",
@@ -2267,13 +2441,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự ngạc nhiên, điều bất ngờ",
+    "viNote": ""
   },
   {
     "id": "sweater",
     "lemma": "sweater",
     "level": "A2",
-    "ipa": "/ˈswetə/",
+    "ipa": "/ˈswɛtər/",
     "audioUrl": "",
     "syllables": [
       "sweat",
@@ -2291,7 +2467,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "áo len, áo sweater",
+    "viNote": ""
   },
   {
     "id": "tidy",
@@ -2315,13 +2493,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "gọn gàng, ngăn nắp",
+    "viNote": ""
   },
   {
     "id": "tired",
     "lemma": "tired",
     "level": "A2",
-    "ipa": "/taɪəd/",
+    "ipa": "/ˈtaɪərd/",
     "audioUrl": "",
     "syllables": [
       "tired"
@@ -2340,13 +2520,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mệt",
+    "viNote": ""
   },
   {
     "id": "travel",
     "lemma": "travel",
     "level": "A2",
-    "ipa": "/ˈtɹævəl/",
+    "ipa": "/ˈtrævəl/",
     "audioUrl": "",
     "syllables": [
       "trav",
@@ -2367,7 +2549,9 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "đi lại, du lịch",
+    "viNote": ""
   },
   {
     "id": "useful",
@@ -2391,7 +2575,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hữu ích",
+    "viNote": ""
   },
   {
     "id": "visit",
@@ -2417,13 +2603,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thăm, đến thăm",
+    "viNote": ""
   },
   {
     "id": "weather",
     "lemma": "weather",
     "level": "A2",
-    "ipa": "/ˈwɛðə/",
+    "ipa": "/ˈwɛðər/",
     "audioUrl": "",
     "syllables": [
       "weath",
@@ -2441,13 +2629,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thời tiết",
+    "viNote": ""
   },
   {
     "id": "weekend",
     "lemma": "weekend",
     "level": "A2",
-    "ipa": "/wiːˈkɛnd/",
+    "ipa": "/ˈwiːkɛnd/",
     "audioUrl": "",
     "syllables": [
       "week",
@@ -2467,13 +2657,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "cuối tuần",
+    "viNote": "Thứ Bảy và Chủ nhật."
   },
   {
     "id": "worried",
     "lemma": "worried",
     "level": "A2",
-    "ipa": "/ˈwʌɹid/",
+    "ipa": "/ˈwɝid/",
     "audioUrl": "",
     "syllables": [
       "wor",
@@ -2493,13 +2685,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lo lắng",
+    "viNote": ""
   },
   {
     "id": "province",
     "lemma": "province",
     "level": "A2",
-    "ipa": "/ˈpɹɒvɪns/",
+    "ipa": "/ˈprɑvɪns/",
     "audioUrl": "",
     "syllables": [
       "prov",
@@ -2517,13 +2711,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "tỉnh",
+    "viNote": ""
   },
   {
     "id": "autumn",
     "lemma": "autumn",
     "level": "A2",
-    "ipa": "/ˈɔːtəm/",
+    "ipa": "/ˈɔtəm/",
     "audioUrl": "",
     "syllables": [
       "au",
@@ -2543,7 +2739,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mùa thu",
+    "viNote": "Tiếng Mỹ cũng nói fall."
   },
   {
     "id": "change",
@@ -2568,7 +2766,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thay đổi",
+    "viNote": "Ở đây là động từ: làm cho khác đi, không phải tiền lẻ."
   },
   {
     "id": "please",
@@ -2591,13 +2791,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "làm ơn, xin vui lòng",
+    "viNote": "Lời lịch sự khi nhờ hoặc xin điều gì."
   },
   {
     "id": "accommodation",
     "lemma": "accommodation",
     "level": "B1",
-    "ipa": "/əˌkɒməˈdeɪʃn/",
+    "ipa": "/əˌkɑməˈdeɪʃən/",
     "audioUrl": "",
     "syllables": [
       "ac",
@@ -2620,7 +2822,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chỗ ở",
+    "viNote": "Chỗ nghỉ như phòng khách sạn, không phải 'sự thích nghi'."
   },
   {
     "id": "advice",
@@ -2646,13 +2850,15 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lời khuyên",
+    "viNote": "Danh từ không đếm được: a piece of advice, không phải advices."
   },
   {
     "id": "agree",
     "lemma": "agree",
     "level": "B1",
-    "ipa": "/əˈɡɹi/",
+    "ipa": "/əˈɡriː/",
     "audioUrl": "",
     "syllables": [
       "a",
@@ -2672,13 +2878,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đồng ý",
+    "viNote": ""
   },
   {
     "id": "arrange",
     "lemma": "arrange",
     "level": "B1",
-    "ipa": "/əˈɹeɪndʒ/",
+    "ipa": "/əˈreɪndʒ/",
     "audioUrl": "",
     "syllables": [
       "ar",
@@ -2699,13 +2907,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sắp xếp, thu xếp",
+    "viNote": ""
   },
   {
     "id": "available",
     "lemma": "available",
     "level": "B1",
-    "ipa": "/əˈveɪləb(ə)l/",
+    "ipa": "/əˈveɪləbəl/",
     "audioUrl": "",
     "syllables": [
       "a",
@@ -2727,7 +2937,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "còn trống, có sẵn",
+    "viNote": "Phòng còn trống, hoặc người rảnh để gặp."
   },
   {
     "id": "avoid",
@@ -2751,7 +2963,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tránh",
+    "viNote": ""
   },
   {
     "id": "booking",
@@ -2780,13 +2994,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "đơn đặt chỗ",
+    "viNote": "Việc đặt phòng, bàn hoặc ghế."
   },
   {
     "id": "cancel",
     "lemma": "cancel",
     "level": "B1",
-    "ipa": "/ˈkænsl̩/",
+    "ipa": "/ˈkænsəl/",
     "audioUrl": "",
     "syllables": [
       "can",
@@ -2808,13 +3024,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "hủy",
+    "viNote": ""
   },
   {
     "id": "confirm",
     "lemma": "confirm",
     "level": "B1",
-    "ipa": "/kənˈfɜːm/",
+    "ipa": "/kənˈfɝm/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -2836,13 +3054,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "xác nhận",
+    "viNote": ""
   },
   {
     "id": "convenient",
     "lemma": "convenient",
     "level": "B1",
-    "ipa": "/kənˈviːniənt/",
+    "ipa": "/kənˈviːnjənt/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -2861,7 +3081,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tiện, thuận tiện",
+    "viNote": ""
   },
   {
     "id": "decision",
@@ -2891,13 +3113,15 @@
       "family",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "quyết định",
+    "viNote": ""
   },
   {
     "id": "describe",
     "lemma": "describe",
     "level": "B1",
-    "ipa": "/dəˈskɹaɪb/",
+    "ipa": "/dɪˈskraɪb/",
     "audioUrl": "",
     "syllables": [
       "de",
@@ -2915,13 +3139,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mô tả",
+    "viNote": ""
   },
   {
     "id": "discount",
     "lemma": "discount",
     "level": "B1",
-    "ipa": "/dɪsˈkaʊnt/",
+    "ipa": "/ˈdɪskaʊnt/",
     "audioUrl": "",
     "syllables": [
       "dis",
@@ -2941,13 +3167,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "giảm giá",
+    "viNote": ""
   },
   {
     "id": "experience",
     "lemma": "experience",
     "level": "B1",
-    "ipa": "/ɪkˈspɪə.ɹɪəns/",
+    "ipa": "/ɪkˈspɪriəns/",
     "audioUrl": "",
     "syllables": [
       "ex",
@@ -2969,13 +3197,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "kinh nghiệm; trải nghiệm",
+    "viNote": "Ở đây là kiến thức có được từ việc đã làm, hoặc điều đã xảy ra với bạn."
   },
   {
     "id": "flexible",
     "lemma": "flexible",
     "level": "B1",
-    "ipa": "/ˈflɛk.sə.bəl/",
+    "ipa": "/ˈflɛksəbəl/",
     "audioUrl": "",
     "syllables": [
       "flex",
@@ -2996,7 +3226,9 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "linh hoạt",
+    "viNote": ""
   },
   {
     "id": "include",
@@ -3022,13 +3254,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bao gồm",
+    "viNote": ""
   },
   {
     "id": "journey",
     "lemma": "journey",
     "level": "B1",
-    "ipa": "/ˈd͡ʒɜːni/",
+    "ipa": "/ˈdʒɝni/",
     "audioUrl": "",
     "syllables": [
       "jour",
@@ -3048,7 +3282,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hành trình, chuyến đi",
+    "viNote": ""
   },
   {
     "id": "mention",
@@ -3072,13 +3308,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhắc đến",
+    "viNote": "Nói ngắn gọn về một điều gì."
   },
   {
     "id": "offer",
     "lemma": "offer",
     "level": "B1",
-    "ipa": "/ˈɑfɚ/",
+    "ipa": "/ˈɔfər/",
     "audioUrl": "",
     "syllables": [
       "of",
@@ -3099,13 +3337,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "đề nghị, mời, đưa ra",
+    "viNote": "Nói rằng bạn sẽ cho hoặc sẽ làm điều gì."
   },
   {
     "id": "prefer",
     "lemma": "prefer",
     "level": "B1",
-    "ipa": "/pɹɪˈfɜː/",
+    "ipa": "/prɪˈfɝ/",
     "audioUrl": "",
     "syllables": [
       "pre",
@@ -3125,13 +3365,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thích hơn",
+    "viNote": ""
   },
   {
     "id": "prepare",
     "lemma": "prepare",
     "level": "B1",
-    "ipa": "/pɹɪˈpɛə/",
+    "ipa": "/prɪˈpɛr/",
     "audioUrl": "",
     "syllables": [
       "pre",
@@ -3151,13 +3393,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chuẩn bị",
+    "viNote": ""
   },
   {
     "id": "provide",
     "lemma": "provide",
     "level": "B1",
-    "ipa": "/pɹəˈvaɪd/",
+    "ipa": "/prəˈvaɪd/",
     "audioUrl": "",
     "syllables": [
       "pro",
@@ -3177,13 +3421,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cung cấp",
+    "viNote": ""
   },
   {
     "id": "receipt",
     "lemma": "receipt",
     "level": "B1",
-    "ipa": "/ɹɪˈsiːt/",
+    "ipa": "/rɪˈsiːt/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -3203,13 +3449,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "biên lai, hóa đơn thanh toán",
+    "viNote": ""
   },
   {
     "id": "reservation",
     "lemma": "reservation",
     "level": "B1",
-    "ipa": "/ˌɹɛzəˈveɪʃən/",
+    "ipa": "/ˌrɛzərˈveɪʃən/",
     "audioUrl": "",
     "syllables": [
       "res",
@@ -3234,13 +3482,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chỗ đã đặt, đặt chỗ",
+    "viNote": "Việc giữ phòng, bàn hoặc ghế cho bạn."
   },
   {
     "id": "responsible",
     "lemma": "responsible",
     "level": "B1",
-    "ipa": "/ɹɪˈspɒnsəbl̩/",
+    "ipa": "/rɪˈspɑnsəbəl/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -3262,13 +3512,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chịu trách nhiệm",
+    "viNote": ""
   },
   {
     "id": "schedule",
     "lemma": "schedule",
     "level": "B1",
-    "ipa": "/ˈʃedjuːl/",
+    "ipa": "/ˈskɛdʒuːl/",
     "audioUrl": "",
     "syllables": [
       "sched",
@@ -3289,13 +3541,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "lịch trình, thời khóa biểu",
+    "viNote": "Cách đọc Mỹ; tiếng Anh Anh thường là /ˈʃɛdjuːl/."
   },
   {
     "id": "suggest",
     "lemma": "suggest",
     "level": "B1",
-    "ipa": "/səˈdʒɛst/",
+    "ipa": "/səɡˈdʒɛst/",
     "audioUrl": "",
     "syllables": [
       "sug",
@@ -3315,13 +3569,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đề xuất, gợi ý",
+    "viNote": ""
   },
   {
     "id": "suitable",
     "lemma": "suitable",
     "level": "B1",
-    "ipa": "/ˈsuːtəbl/",
+    "ipa": "/ˈsuːtəbəl/",
     "audioUrl": "",
     "syllables": [
       "suit",
@@ -3342,13 +3598,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phù hợp",
+    "viNote": ""
   },
   {
     "id": "support",
     "lemma": "support",
     "level": "B1",
-    "ipa": "/səˈpɔːt/",
+    "ipa": "/səˈpɔrt/",
     "audioUrl": "",
     "syllables": [
       "sup",
@@ -3368,13 +3626,15 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "ủng hộ, hỗ trợ",
+    "viNote": ""
   },
   {
     "id": "transfer",
     "lemma": "transfer",
     "level": "B1",
-    "ipa": "/ˈtɹænzfɜː/",
+    "ipa": "/ˈtrænsfɝ/",
     "audioUrl": "",
     "syllables": [
       "trans",
@@ -3395,13 +3655,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "xe đưa đón",
+    "viNote": "Trong tour, airport transfer = xe đưa khách từ sân bay tới khách sạn."
   },
   {
     "id": "typical",
     "lemma": "typical",
     "level": "B1",
-    "ipa": "/ˈtɪpɪkl̩/",
+    "ipa": "/ˈtɪpɪkəl/",
     "audioUrl": "",
     "syllables": [
       "typ",
@@ -3422,13 +3684,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "điển hình, thường thấy",
+    "viNote": ""
   },
   {
     "id": "voucher",
     "lemma": "voucher",
     "level": "B1",
-    "ipa": "/ˈvaʊtʃə(ɹ)/",
+    "ipa": "/ˈvaʊtʃər/",
     "audioUrl": "",
     "syllables": [
       "vouch",
@@ -3448,13 +3712,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "phiếu, voucher",
+    "viNote": "Phiếu hoặc mã dùng thay tiền, ví dụ voucher khách sạn."
   },
   {
     "id": "accept",
     "lemma": "accept",
     "level": "B1",
-    "ipa": "/ækˈsɛpt/",
+    "ipa": "/əkˈsɛpt/",
     "audioUrl": "",
     "syllables": [
       "ac",
@@ -3474,7 +3740,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chấp nhận",
+    "viNote": ""
   },
   {
     "id": "attend",
@@ -3500,13 +3768,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tham dự",
+    "viNote": ""
   },
   {
     "id": "celebrate",
     "lemma": "celebrate",
     "level": "B1",
-    "ipa": "/ˈsɛl.ə.bɹeɪt/",
+    "ipa": "/ˈsɛləbreɪt/",
     "audioUrl": "",
     "syllables": [
       "cel",
@@ -3527,7 +3797,9 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ăn mừng, kỷ niệm",
+    "viNote": ""
   },
   {
     "id": "complain",
@@ -3553,7 +3825,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phàn nàn, khiếu nại",
+    "viNote": ""
   },
   {
     "id": "connect",
@@ -3579,13 +3853,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nối, kết nối",
+    "viNote": "Nối hai thứ, hoặc nối chuyến bay."
   },
   {
     "id": "culture",
     "lemma": "culture",
     "level": "B1",
-    "ipa": "/ˈkʌlt͡ʃə/",
+    "ipa": "/ˈkʌltʃər/",
     "audioUrl": "",
     "syllables": [
       "cul",
@@ -3604,13 +3880,15 @@
       "hometown",
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "văn hóa",
+    "viNote": ""
   },
   {
     "id": "difference",
     "lemma": "difference",
     "level": "B1",
-    "ipa": "/ˈdɪfəɹən(t)s/",
+    "ipa": "/ˈdɪfərəns/",
     "audioUrl": "",
     "syllables": [
       "dif",
@@ -3629,13 +3907,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự khác biệt",
+    "viNote": ""
   },
   {
     "id": "direction",
     "lemma": "direction",
     "level": "B1",
-    "ipa": "/d(a)ɪˈɹɛk.ʃən/",
+    "ipa": "/dəˈrɛkʃən/",
     "audioUrl": "",
     "syllables": [
       "di",
@@ -3656,13 +3936,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hướng đi; chỉ đường",
+    "viNote": ""
   },
   {
     "id": "event",
     "lemma": "event",
     "level": "B1",
-    "ipa": "/əˈvɛnt/",
+    "ipa": "/ɪˈvɛnt/",
     "audioUrl": "",
     "syllables": [
       "e",
@@ -3682,13 +3964,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự kiện",
+    "viNote": ""
   },
   {
     "id": "improve",
     "lemma": "improve",
     "level": "B1",
-    "ipa": "/ɪmˈpɹuːv/",
+    "ipa": "/ɪmˈpruːv/",
     "audioUrl": "",
     "syllables": [
       "im",
@@ -3708,13 +3992,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cải thiện, tiến bộ",
+    "viNote": ""
   },
   {
     "id": "invitation",
     "lemma": "invitation",
     "level": "B1",
-    "ipa": "/ɪn.vɪˈteɪ.ʃn̩/",
+    "ipa": "/ˌɪnvɪˈteɪʃən/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -3738,13 +4024,15 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lời mời",
+    "viNote": ""
   },
   {
     "id": "local",
     "lemma": "local",
     "level": "B1",
-    "ipa": "/ˈləʊkl̩/",
+    "ipa": "/ˈloʊkəl/",
     "audioUrl": "",
     "syllables": [
       "lo",
@@ -3765,13 +4053,15 @@
       "hometown",
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "địa phương, ở gần đó",
+    "viNote": ""
   },
   {
     "id": "necessary",
     "lemma": "necessary",
     "level": "B1",
-    "ipa": "/ˈnɛsəsɹɪ/",
+    "ipa": "/ˈnɛsəˌsɛri/",
     "audioUrl": "",
     "syllables": [
       "nec",
@@ -3793,7 +4083,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cần thiết",
+    "viNote": ""
   },
   {
     "id": "prepaid",
@@ -3819,13 +4111,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "trả trước, đã thanh toán sẵn",
+    "viNote": ""
   },
   {
     "id": "departure",
     "lemma": "departure",
     "level": "B1",
-    "ipa": "/dɪˈpɑː(ɹ)tjə(ɹ)/",
+    "ipa": "/dɪˈpɑrtʃər/",
     "audioUrl": "",
     "syllables": [
       "de",
@@ -3848,13 +4142,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chuyến khởi hành, lúc xuất phát",
+    "viNote": ""
   },
   {
     "id": "almost",
     "lemma": "almost",
     "level": "B1",
-    "ipa": "/ɔːl.ˈməʊst/",
+    "ipa": "/ˈɔlmoʊst/",
     "audioUrl": "",
     "syllables": [
       "al",
@@ -3872,7 +4168,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "gần như, hầu như",
+    "viNote": ""
   },
   {
     "id": "check-in",
@@ -3898,13 +4196,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thủ tục nhận phòng hoặc làm thủ tục",
+    "viNote": "Dùng ở khách sạn hoặc sân bay."
   },
   {
     "id": "request",
     "lemma": "request",
     "level": "B1",
-    "ipa": "/ɹɪˈkwɛst/",
+    "ipa": "/rɪˈkwɛst/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -3926,13 +4226,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "yêu cầu, lời đề nghị",
+    "viNote": ""
   },
   {
     "id": "advantage",
     "lemma": "advantage",
     "level": "B2",
-    "ipa": "/ədˈvɑːn.tɪdʒ/",
+    "ipa": "/ədˈvæntɪdʒ/",
     "audioUrl": "",
     "syllables": [
       "ad",
@@ -3953,13 +4255,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lợi thế, điều có lợi",
+    "viNote": ""
   },
   {
     "id": "alternative",
     "lemma": "alternative",
     "level": "B2",
-    "ipa": "/ɒl.ˈtɜː(ɹ).nə.tɪv/",
+    "ipa": "/ɔlˈtɝnətɪv/",
     "audioUrl": "",
     "syllables": [
       "al",
@@ -3981,13 +4285,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phương án khác, lựa chọn khác",
+    "viNote": ""
   },
   {
     "id": "attitude",
     "lemma": "attitude",
     "level": "B2",
-    "ipa": "/ˈætɪˌtjuːd/",
+    "ipa": "/ˈætɪtuːd/",
     "audioUrl": "",
     "syllables": [
       "at",
@@ -4008,13 +4314,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thái độ",
+    "viNote": ""
   },
   {
     "id": "benefit",
     "lemma": "benefit",
     "level": "B2",
-    "ipa": "/ˈbɛn.ɪ.fɪt/",
+    "ipa": "/ˈbɛnəfɪt/",
     "audioUrl": "",
     "syllables": [
       "ben",
@@ -4035,13 +4343,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lợi ích",
+    "viNote": ""
   },
   {
     "id": "challenge",
     "lemma": "challenge",
     "level": "B2",
-    "ipa": "/ˈtʃæl.əndʒ/",
+    "ipa": "/ˈtʃælɪndʒ/",
     "audioUrl": "",
     "syllables": [
       "chal",
@@ -4061,13 +4371,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thách thức",
+    "viNote": ""
   },
   {
     "id": "coincidence",
     "lemma": "coincidence",
     "level": "B2",
-    "ipa": "/kəʊˈɪnsɪdəns/",
+    "ipa": "/koʊˈɪnsɪdəns/",
     "audioUrl": "",
     "syllables": [
       "co",
@@ -4089,7 +4401,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự trùng hợp tình cờ",
+    "viNote": ""
   },
   {
     "id": "commitment",
@@ -4116,13 +4430,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cam kết, trách nhiệm đã nhận",
+    "viNote": ""
   },
   {
     "id": "comparison",
     "lemma": "comparison",
     "level": "B2",
-    "ipa": "/kəmˈpæɹɪsən/",
+    "ipa": "/kəmˈpærɪsən/",
     "audioUrl": "",
     "syllables": [
       "com",
@@ -4146,13 +4462,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự so sánh",
+    "viNote": ""
   },
   {
     "id": "complicated",
     "lemma": "complicated",
     "level": "B2",
-    "ipa": "/ˈkɒmplɪkeɪtɪd/",
+    "ipa": "/ˈkɑmplɪkeɪtɪd/",
     "audioUrl": "",
     "syllables": [
       "com",
@@ -4172,7 +4490,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phức tạp",
+    "viNote": ""
   },
   {
     "id": "condition",
@@ -4199,13 +4519,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tình trạng",
+    "viNote": "Ở đây là tình trạng của phòng hoặc đồ vật, không phải điều kiện giao kèo."
   },
   {
     "id": "consequence",
     "lemma": "consequence",
     "level": "B2",
-    "ipa": "/ˈkɒnsɪkwɛns/",
+    "ipa": "/ˈkɑnsəkwəns/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -4226,13 +4548,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hậu quả, hệ quả",
+    "viNote": ""
   },
   {
     "id": "contrast",
     "lemma": "contrast",
     "level": "B2",
-    "ipa": "/ˈkɒntɹɑːst/",
+    "ipa": "/ˈkɑntræst/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -4252,13 +4576,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự tương phản, sự khác biệt rõ",
+    "viNote": ""
   },
   {
     "id": "contribute",
     "lemma": "contribute",
     "level": "B2",
-    "ipa": "/kənˈt(ʃ)ɹɪb.juːt/",
+    "ipa": "/kənˈtrɪbjut/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -4279,13 +4605,15 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đóng góp",
+    "viNote": ""
   },
   {
     "id": "definitely",
     "lemma": "definitely",
     "level": "B2",
-    "ipa": "/ˈdɛf.nɪt.li/",
+    "ipa": "/ˈdɛfənətli/",
     "audioUrl": "",
     "syllables": [
       "def",
@@ -4305,7 +4633,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chắc chắn",
+    "viNote": ""
   },
   {
     "id": "detail",
@@ -4331,13 +4661,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chi tiết",
+    "viNote": ""
   },
   {
     "id": "economy",
     "lemma": "economy",
     "level": "B2",
-    "ipa": "/iːˈkɒn.ə.mi/",
+    "ipa": "/ɪˈkɑnəmi/",
     "audioUrl": "",
     "syllables": [
       "e",
@@ -4359,7 +4691,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nền kinh tế",
+    "viNote": ""
   },
   {
     "id": "environment",
@@ -4387,13 +4721,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "môi trường",
+    "viNote": "Thế giới tự nhiên, hoặc hoàn cảnh xung quanh bạn."
   },
   {
     "id": "estimate",
     "lemma": "estimate",
     "level": "B2",
-    "ipa": "/ˈɛstɨmɨt/",
+    "ipa": "/ˈɛstəmeɪt/",
     "audioUrl": "",
     "syllables": [
       "es",
@@ -4414,13 +4750,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ước tính",
+    "viNote": ""
   },
   {
     "id": "evidence",
     "lemma": "evidence",
     "level": "B2",
-    "ipa": "/ˈevɪdəns/",
+    "ipa": "/ˈɛvɪdəns/",
     "audioUrl": "",
     "syllables": [
       "ev",
@@ -4439,13 +4777,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bằng chứng",
+    "viNote": ""
   },
   {
     "id": "feature",
     "lemma": "feature",
     "level": "B2",
-    "ipa": "/ˈfiːtʃə/",
+    "ipa": "/ˈfiːtʃər/",
     "audioUrl": "",
     "syllables": [
       "fea",
@@ -4465,13 +4805,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đặc điểm, điểm nổi bật",
+    "viNote": ""
   },
   {
     "id": "focus",
     "lemma": "focus",
     "level": "B2",
-    "ipa": "/ˈfəʊ.kəs/",
+    "ipa": "/ˈfoʊkəs/",
     "audioUrl": "",
     "syllables": [
       "fo",
@@ -4491,7 +4833,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tập trung",
+    "viNote": ""
   },
   {
     "id": "impact",
@@ -4517,13 +4861,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tác động mạnh",
+    "viNote": ""
   },
   {
     "id": "income",
     "lemma": "income",
     "level": "B2",
-    "ipa": "/ˈɪnˌkʌm/",
+    "ipa": "/ˈɪnkʌm/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -4543,13 +4889,15 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thu nhập",
+    "viNote": ""
   },
   {
     "id": "independent",
     "lemma": "independent",
     "level": "B2",
-    "ipa": "/ɪndɪˈpɛndənt/",
+    "ipa": "/ˌɪndɪˈpɛndənt/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -4570,13 +4918,15 @@
       "work",
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "độc lập, tự lập",
+    "viNote": ""
   },
   {
     "id": "influence",
     "lemma": "influence",
     "level": "B2",
-    "ipa": "/ˈɪn.flu.əns/",
+    "ipa": "/ˈɪnfluəns/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -4597,7 +4947,9 @@
     "tags": [
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "ảnh hưởng",
+    "viNote": ""
   },
   {
     "id": "intend",
@@ -4623,13 +4975,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "dự định",
+    "viNote": ""
   },
   {
     "id": "itinerary",
     "lemma": "itinerary",
     "level": "B2",
-    "ipa": "/aɪˈtɪnərəri/",
+    "ipa": "/aɪˈtɪnəˌrɛri/",
     "audioUrl": "",
     "syllables": [
       "i",
@@ -4652,7 +5006,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "lịch trình chuyến đi",
+    "viNote": "Bản kế hoạch các nơi sẽ đến và thời gian trong chuyến đi."
   },
   {
     "id": "maintain",
@@ -4678,13 +5034,15 @@
     "tags": [
       "hometown"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "giữ, bảo dưỡng, duy trì",
+    "viNote": ""
   },
   {
     "id": "measure",
     "lemma": "measure",
     "level": "B2",
-    "ipa": "/ˈmɛʒə/",
+    "ipa": "/ˈmɛʒər/",
     "audioUrl": "",
     "syllables": [
       "meas",
@@ -4702,13 +5060,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đo; đo lường",
+    "viNote": ""
   },
   {
     "id": "obvious",
     "lemma": "obvious",
     "level": "B2",
-    "ipa": "/ˈɒ.vɪəs/",
+    "ipa": "/ˈɑbviəs/",
     "audioUrl": "",
     "syllables": [
       "ob",
@@ -4727,7 +5087,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "rõ ràng, hiển nhiên",
+    "viNote": ""
   },
   {
     "id": "occasion",
@@ -4754,13 +5116,15 @@
     "tags": [
       "family"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "dịp, dịp đặc biệt",
+    "viNote": ""
   },
   {
     "id": "opportunity",
     "lemma": "opportunity",
     "level": "B2",
-    "ipa": "/ˌɒp.əˈtjuː.nɪ.tɪ/",
+    "ipa": "/ˌɑpərˈtuːnəti/",
     "audioUrl": "",
     "syllables": [
       "op",
@@ -4783,13 +5147,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "cơ hội",
+    "viNote": ""
   },
   {
     "id": "option",
     "lemma": "option",
     "level": "B2",
-    "ipa": "/ˈɒpʃən/",
+    "ipa": "/ˈɑpʃən/",
     "audioUrl": "",
     "syllables": [
       "op",
@@ -4809,13 +5175,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "lựa chọn, phương án",
+    "viNote": ""
   },
   {
     "id": "persuade",
     "lemma": "persuade",
     "level": "B2",
-    "ipa": "/pəˈsweɪd/",
+    "ipa": "/pərˈsweɪd/",
     "audioUrl": "",
     "syllables": [
       "per",
@@ -4835,13 +5203,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thuyết phục",
+    "viNote": ""
   },
   {
     "id": "previous",
     "lemma": "previous",
     "level": "B2",
-    "ipa": "/ˈpɹiːvɪəs/",
+    "ipa": "/ˈpriːviəs/",
     "audioUrl": "",
     "syllables": [
       "pre",
@@ -4862,13 +5232,15 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "trước đó, lần trước",
+    "viNote": ""
   },
   {
     "id": "process",
     "lemma": "process",
     "level": "B2",
-    "ipa": "/ˈpɹoʊsɛs/",
+    "ipa": "/ˈprɑsɛs/",
     "audioUrl": "",
     "syllables": [
       "proc",
@@ -4888,13 +5260,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "quy trình",
+    "viNote": "Một chuỗi bước để làm việc gì."
   },
   {
     "id": "require",
     "lemma": "require",
     "level": "B2",
-    "ipa": "/ɹɪˈkwaɪə/",
+    "ipa": "/rɪˈkwaɪər/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -4914,13 +5288,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đòi hỏi, cần phải có",
+    "viNote": ""
   },
   {
     "id": "resource",
     "lemma": "resource",
     "level": "B2",
-    "ipa": "/ɹɪˈsɔɹs/",
+    "ipa": "/ˈriːsɔrs/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -4940,13 +5316,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nguồn, tài nguyên, tư liệu",
+    "viNote": ""
   },
   {
     "id": "significant",
     "lemma": "significant",
     "level": "B2",
-    "ipa": "/sɪɡˈnɪ.fɪ.kənt/",
+    "ipa": "/sɪɡˈnɪfɪkənt/",
     "audioUrl": "",
     "syllables": [
       "sig",
@@ -4968,13 +5346,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đáng kể, quan trọng",
+    "viNote": ""
   },
   {
     "id": "source",
     "lemma": "source",
     "level": "B2",
-    "ipa": "/sɔːs/",
+    "ipa": "/sɔrs/",
     "audioUrl": "",
     "syllables": [
       "source"
@@ -4993,13 +5373,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nguồn",
+    "viNote": "Nơi hoặc người mà thông tin hay sự việc đến từ đó."
   },
   {
     "id": "specific",
     "lemma": "specific",
     "level": "B2",
-    "ipa": "/spəˈsɪf.ɪk/",
+    "ipa": "/spəˈsɪfɪk/",
     "audioUrl": "",
     "syllables": [
       "spe",
@@ -5020,13 +5402,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cụ thể, rõ ràng",
+    "viNote": ""
   },
   {
     "id": "standard",
     "lemma": "standard",
     "level": "B2",
-    "ipa": "/ˈstændəd/",
+    "ipa": "/ˈstændərd/",
     "audioUrl": "",
     "syllables": [
       "stan",
@@ -5046,13 +5430,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tiêu chuẩn, mức chất lượng",
+    "viNote": ""
   },
   {
     "id": "temporary",
     "lemma": "temporary",
     "level": "B2",
-    "ipa": "/ˈtɛmpəɹi/",
+    "ipa": "/ˈtɛmpəˌrɛri/",
     "audioUrl": "",
     "syllables": [
       "tem",
@@ -5074,13 +5460,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tạm thời",
+    "viNote": ""
   },
   {
     "id": "trend",
     "lemma": "trend",
     "level": "B2",
-    "ipa": "/tɹɛnd/",
+    "ipa": "/trɛnd/",
     "audioUrl": "",
     "syllables": [
       "trend"
@@ -5099,13 +5487,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "xu hướng",
+    "viNote": ""
   },
   {
     "id": "variety",
     "lemma": "variety",
     "level": "B2",
-    "ipa": "/vəˈɹaɪ.ɪ.ti/",
+    "ipa": "/vəˈraɪəti/",
     "audioUrl": "",
     "syllables": [
       "va",
@@ -5127,7 +5517,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự đa dạng, nhiều loại",
+    "viNote": ""
   },
   {
     "id": "willing",
@@ -5153,13 +5545,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sẵn lòng",
+    "viNote": ""
   },
   {
     "id": "reliable",
     "lemma": "reliable",
     "level": "B2",
-    "ipa": "/ɹɪˈlaɪəbəl/",
+    "ipa": "/rɪˈlaɪəbəl/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -5181,13 +5575,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "đáng tin cậy",
+    "viNote": ""
   },
   {
     "id": "rural",
     "lemma": "rural",
     "level": "B2",
-    "ipa": "/ˈɹɔːɹəl/",
+    "ipa": "/ˈrʊrəl/",
     "audioUrl": "",
     "syllables": [
       "ru",
@@ -5207,7 +5603,9 @@
     "tags": [
       "hometown"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thuộc nông thôn",
+    "viNote": "Ở vùng quê, không phải ở thành phố."
   },
   {
     "id": "balance",
@@ -5233,13 +5631,15 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sự cân bằng",
+    "viNote": "Ở đây là sự cân bằng giữa công việc và nghỉ ngơi, không phải số dư tài khoản."
   },
   {
     "id": "overview",
     "lemma": "overview",
     "level": "B2",
-    "ipa": "/ˈəʊvə(ɹ)ˌvjuː/",
+    "ipa": "/ˈoʊvərˌvjuː/",
     "audioUrl": "",
     "syllables": [
       "o",
@@ -5260,13 +5660,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phần tổng quan",
+    "viNote": ""
   },
   {
     "id": "accurate",
     "lemma": "accurate",
     "level": "C1",
-    "ipa": "/ˈæk.jə.ɹɪt/",
+    "ipa": "/ˈækjərət/",
     "audioUrl": "",
     "syllables": [
       "ac",
@@ -5287,7 +5689,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chính xác",
+    "viNote": ""
   },
   {
     "id": "amend",
@@ -5313,13 +5717,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sửa, điều chỉnh",
+    "viNote": "Sửa một đặt chỗ hoặc tài liệu để cho đúng hơn."
   },
   {
     "id": "anticipate",
     "lemma": "anticipate",
     "level": "C1",
-    "ipa": "/ænˈtɪs.ɪ.peɪt/",
+    "ipa": "/ænˈtɪsəˌpeɪt/",
     "audioUrl": "",
     "syllables": [
       "an",
@@ -5341,13 +5747,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lường trước, dự liệu",
+    "viNote": "Mong đợi điều gì và chuẩn bị sẵn."
   },
   {
     "id": "assessment",
     "lemma": "assessment",
     "level": "C1",
-    "ipa": "/əˈsesmənt/",
+    "ipa": "/əˈsɛsmənt/",
     "audioUrl": "",
     "syllables": [
       "as",
@@ -5370,7 +5778,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự đánh giá",
+    "viNote": ""
   },
   {
     "id": "assume",
@@ -5396,13 +5806,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cho rằng",
+    "viNote": "Tin là đúng khi chưa có đủ bằng chứng."
   },
   {
     "id": "complimentary",
     "lemma": "complimentary",
     "level": "C1",
-    "ipa": "/ˌkɒmplɪˈmentəri/",
+    "ipa": "/ˌkɑmpləˈmɛntəri/",
     "audioUrl": "",
     "syllables": [
       "com",
@@ -5425,13 +5837,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "miễn phí, được tặng",
+    "viNote": "Nghĩa ở đây là cho không, như một sự lịch sự — không phải lời khen."
   },
   {
     "id": "confirmation",
     "lemma": "confirmation",
     "level": "C1",
-    "ipa": "/ˌkɒn.fəˈmeɪ.ʃən/",
+    "ipa": "/ˌkɑnfərˈmeɪʃən/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -5455,7 +5869,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thư hoặc lời xác nhận",
+    "viNote": ""
   },
   {
     "id": "consistent",
@@ -5482,13 +5898,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhất quán, khớp nhau",
+    "viNote": ""
   },
   {
     "id": "crucial",
     "lemma": "crucial",
     "level": "C1",
-    "ipa": "/ˈkɹuː.ʃəl/",
+    "ipa": "/ˈkruːʃəl/",
     "audioUrl": "",
     "syllables": [
       "cru",
@@ -5508,13 +5926,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cực kỳ quan trọng",
+    "viNote": ""
   },
   {
     "id": "efficient",
     "lemma": "efficient",
     "level": "C1",
-    "ipa": "/əˈfɪʃənt/",
+    "ipa": "/ɪˈfɪʃənt/",
     "audioUrl": "",
     "syllables": [
       "ef",
@@ -5533,13 +5953,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hiệu quả, không lãng phí",
+    "viNote": ""
   },
   {
     "id": "emerge",
     "lemma": "emerge",
     "level": "C1",
-    "ipa": "/iˈmɜːd͡ʒ/",
+    "ipa": "/ɪˈmɝdʒ/",
     "audioUrl": "",
     "syllables": [
       "e",
@@ -5557,13 +5979,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "xuất hiện, lộ ra",
+    "viNote": ""
   },
   {
     "id": "ensure",
     "lemma": "ensure",
     "level": "C1",
-    "ipa": "/ɪnˈʃɔː/",
+    "ipa": "/ɪnˈʃʊr/",
     "audioUrl": "",
     "syllables": [
       "en",
@@ -5583,7 +6007,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bảo đảm, làm cho chắc chắn",
+    "viNote": ""
   },
   {
     "id": "equivalent",
@@ -5611,13 +6037,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tương đương",
+    "viNote": ""
   },
   {
     "id": "evaluate",
     "lemma": "evaluate",
     "level": "C1",
-    "ipa": "/ɨˈvaljʊeɪt/",
+    "ipa": "/ɪˈvæljueɪt/",
     "audioUrl": "",
     "syllables": [
       "e",
@@ -5639,13 +6067,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đánh giá",
+    "viNote": ""
   },
   {
     "id": "evident",
     "lemma": "evident",
     "level": "C1",
-    "ipa": "/ˈɛ.vɪ.dənt/",
+    "ipa": "/ˈɛvɪdənt/",
     "audioUrl": "",
     "syllables": [
       "ev",
@@ -5666,7 +6096,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "rõ, dễ thấy",
+    "viNote": ""
   },
   {
     "id": "explicit",
@@ -5693,13 +6125,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "rõ ràng, nói trắng ra",
+    "viNote": "Nói hoặc ghi rõ, không để mơ hồ."
   },
   {
     "id": "facilitate",
     "lemma": "facilitate",
     "level": "C1",
-    "ipa": "/fəˈsɪləteɪt/",
+    "ipa": "/fəˈsɪləˌteɪt/",
     "audioUrl": "",
     "syllables": [
       "fa",
@@ -5721,7 +6155,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "làm cho dễ hơn, tạo điều kiện",
+    "viNote": ""
   },
   {
     "id": "fluctuate",
@@ -5746,13 +6182,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "dao động, lên xuống thất thường",
+    "viNote": ""
   },
   {
     "id": "framework",
     "lemma": "framework",
     "level": "C1",
-    "ipa": "/ˈfɹeɪm.wɜːk/",
+    "ipa": "/ˈfreɪmwɝk/",
     "audioUrl": "",
     "syllables": [
       "frame",
@@ -5772,13 +6210,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "khung, khung sườn",
+    "viNote": "Cấu trúc cơ bản để dựa vào đó mà làm việc."
   },
   {
     "id": "implication",
     "lemma": "implication",
     "level": "C1",
-    "ipa": "/ˌɪmpləˈkeɪʃən/",
+    "ipa": "/ˌɪmplɪˈkeɪʃən/",
     "audioUrl": "",
     "syllables": [
       "im",
@@ -5800,7 +6240,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hệ quả; ý nghĩa hàm ẩn",
+    "viNote": "Kết quả có thể xảy ra, hoặc nghĩa không được nói thẳng."
   },
   {
     "id": "inevitable",
@@ -5827,13 +6269,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "không tránh được, tất yếu",
+    "viNote": ""
   },
   {
     "id": "interpret",
     "lemma": "interpret",
     "level": "C1",
-    "ipa": "/ɪnˈtɜː.pɹɪt/",
+    "ipa": "/ɪnˈtɝprɪt/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -5854,13 +6298,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hiểu, giải thích",
+    "viNote": "Hiểu hoặc giải nghĩa một thông tin, không chỉ là phiên dịch."
   },
   {
     "id": "justify",
     "lemma": "justify",
     "level": "C1",
-    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "ipa": "/ˈdʒʌstəˌfaɪ/",
     "audioUrl": "",
     "syllables": [
       "jus",
@@ -5881,13 +6327,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bào chữa, đưa lý do chính đáng",
+    "viNote": ""
   },
   {
     "id": "minimise",
     "lemma": "minimise",
     "level": "C1",
-    "ipa": "/ˈmɪnɪmaɪz/",
+    "ipa": "/ˈmɪnəˌmaɪz/",
     "audioUrl": "",
     "syllables": [
       "min",
@@ -5908,13 +6356,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "giảm đến mức thấp nhất",
+    "viNote": "Cách viết British; tiếng Mỹ viết minimize."
   },
   {
     "id": "notion",
     "lemma": "notion",
     "level": "C1",
-    "ipa": "/ˈnəʊʃən/",
+    "ipa": "/ˈnoʊʃən/",
     "audioUrl": "",
     "syllables": [
       "no",
@@ -5934,13 +6384,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ý niệm, quan niệm",
+    "viNote": ""
   },
   {
     "id": "overbook",
     "lemma": "overbook",
     "level": "C1",
-    "ipa": "/ˌəʊvəˈbʊk/",
+    "ipa": "/ˌoʊvərˈbʊk/",
     "audioUrl": "",
     "syllables": [
       "o",
@@ -5961,13 +6413,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "bán hoặc đặt quá số chỗ thực có",
+    "viNote": ""
   },
   {
     "id": "persist",
     "lemma": "persist",
     "level": "C1",
-    "ipa": "/pəˈsɪst/",
+    "ipa": "/pərˈsɪst/",
     "audioUrl": "",
     "syllables": [
       "per",
@@ -5987,13 +6441,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "kéo dài, vẫn tiếp tục",
+    "viNote": "Tiếp tục dù gặp khó, hoặc lỗi vẫn còn."
   },
   {
     "id": "prior",
     "lemma": "prior",
     "level": "C1",
-    "ipa": "/ˈpɹaɪɚ/",
+    "ipa": "/ˈpraɪər/",
     "audioUrl": "",
     "syllables": [
       "pri",
@@ -6014,13 +6470,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "trước",
+    "viNote": "Prior to = trước khi."
   },
   {
     "id": "proportion",
     "lemma": "proportion",
     "level": "C1",
-    "ipa": "/pɹəˈpɔːʃən/",
+    "ipa": "/prəˈpɔrʃən/",
     "audioUrl": "",
     "syllables": [
       "pro",
@@ -6041,13 +6499,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tỷ lệ, phần",
+    "viNote": ""
   },
   {
     "id": "reluctant",
     "lemma": "reluctant",
     "level": "C1",
-    "ipa": "/ɹɪˈlʌktənt/",
+    "ipa": "/rɪˈlʌktənt/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -6068,13 +6528,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "miễn cưỡng, không muốn",
+    "viNote": ""
   },
   {
     "id": "relevant",
     "lemma": "relevant",
     "level": "C1",
-    "ipa": "/ˈɹɛləvənt/",
+    "ipa": "/ˈrɛləvənt/",
     "audioUrl": "",
     "syllables": [
       "rel",
@@ -6095,13 +6557,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "liên quan, sát với vấn đề",
+    "viNote": ""
   },
   {
     "id": "surcharge",
     "lemma": "surcharge",
     "level": "C1",
-    "ipa": "/ˈsɜːtʃɑːdʒ/",
+    "ipa": "/ˈsɝtʃɑrdʒ/",
     "audioUrl": "",
     "syllables": [
       "sur",
@@ -6121,7 +6585,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "phụ phí",
+    "viNote": ""
   },
   {
     "id": "sustain",
@@ -6147,13 +6613,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "duy trì, giữ cho tiếp tục",
+    "viNote": ""
   },
   {
     "id": "thorough",
     "lemma": "thorough",
     "level": "C1",
-    "ipa": "/ˈθʌɹə/",
+    "ipa": "/ˈθɝoʊ/",
     "audioUrl": "",
     "syllables": [
       "thor",
@@ -6173,13 +6641,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "kỹ lưỡng, chu đáo",
+    "viNote": ""
   },
   {
     "id": "undertake",
     "lemma": "undertake",
     "level": "C1",
-    "ipa": "/ʌndəˈteɪk/",
+    "ipa": "/ˌʌndərˈteɪk/",
     "audioUrl": "",
     "syllables": [
       "un",
@@ -6200,13 +6670,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đảm nhận, nhận làm",
+    "viNote": ""
   },
   {
     "id": "virtually",
     "lemma": "virtually",
     "level": "C1",
-    "ipa": "/ˈvɜːtʃuəli/",
+    "ipa": "/ˈvɝtʃuəli/",
     "audioUrl": "",
     "syllables": [
       "vir",
@@ -6228,13 +6700,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "hầu như; gần như hoàn toàn qua máy tính",
+    "viNote": "Trong ví dụ: công việc gần như làm hết từ nhà."
   },
   {
     "id": "widespread",
     "lemma": "widespread",
     "level": "C1",
-    "ipa": "/ˈwaɪdspred/",
+    "ipa": "/ˈwaɪdˌsprɛd/",
     "audioUrl": "",
     "syllables": [
       "wide",
@@ -6252,13 +6726,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lan rộng, xảy ra ở nhiều nơi",
+    "viNote": ""
   },
   {
     "id": "allocate",
     "lemma": "allocate",
     "level": "C1",
-    "ipa": "/ˈæl.ə.keɪt/",
+    "ipa": "/ˈæləˌkeɪt/",
     "audioUrl": "",
     "syllables": [
       "al",
@@ -6279,13 +6755,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "phân bổ, dành riêng một phần",
+    "viNote": "Ví dụ: allocate a room = sắp một phòng cho ai."
   },
   {
     "id": "capability",
     "lemma": "capability",
     "level": "C1",
-    "ipa": "/keɪpəˈbɪləti/",
+    "ipa": "/ˌkeɪpəˈbɪləti/",
     "audioUrl": "",
     "syllables": [
       "ca",
@@ -6308,13 +6786,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "khả năng, năng lực",
+    "viNote": ""
   },
   {
     "id": "coherent",
     "lemma": "coherent",
     "level": "C1",
-    "ipa": "/koːˈhiɹənt/",
+    "ipa": "/koʊˈhɪrənt/",
     "audioUrl": "",
     "syllables": [
       "co",
@@ -6335,13 +6815,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mạch lạc, nhất quán",
+    "viNote": ""
   },
   {
     "id": "compensate",
     "lemma": "compensate",
     "level": "C1",
-    "ipa": "/ˈkɒm.pən.seɪt/",
+    "ipa": "/ˈkɑmpənˌseɪt/",
     "audioUrl": "",
     "syllables": [
       "com",
@@ -6362,7 +6844,9 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bồi thường, đền bù",
+    "viNote": ""
   },
   {
     "id": "concise",
@@ -6388,13 +6872,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ngắn gọn, súc tích",
+    "viNote": ""
   },
   {
     "id": "constraint",
     "lemma": "constraint",
     "level": "C1",
-    "ipa": "/kənˈstɹeɪnt/",
+    "ipa": "/kənˈstreɪnt/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -6414,7 +6900,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ràng buộc, giới hạn",
+    "viNote": ""
   },
   {
     "id": "convey",
@@ -6440,13 +6928,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "truyền đạt, diễn đạt",
+    "viNote": ""
   },
   {
     "id": "criteria",
     "lemma": "criteria",
     "level": "C1",
-    "ipa": "/kɹaɪˈtɪəɹ.i.ə/",
+    "ipa": "/kraɪˈtɪriə/",
     "audioUrl": "",
     "syllables": [
       "cri",
@@ -6468,13 +6958,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "các tiêu chí",
+    "viNote": "Số nhiều của criterion — các chuẩn để đánh giá."
   },
   {
     "id": "duration",
     "lemma": "duration",
     "level": "C1",
-    "ipa": "/djʊˈɹeɪʃn̩/",
+    "ipa": "/dʊˈreɪʃən/",
     "audioUrl": "",
     "syllables": [
       "du",
@@ -6495,13 +6987,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "thời lượng, khoảng thời gian kéo dài",
+    "viNote": ""
   },
   {
     "id": "priority",
     "lemma": "priority",
     "level": "C1",
-    "ipa": "/pɹaɪˈɒɹɨti/",
+    "ipa": "/praɪˈɔrəti/",
     "audioUrl": "",
     "syllables": [
       "pri",
@@ -6523,13 +7017,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "việc được ưu tiên",
+    "viNote": ""
   },
   {
     "id": "clarify",
     "lemma": "clarify",
     "level": "C1",
-    "ipa": "/ˈklæɹɪfaɪ/",
+    "ipa": "/ˈklærəˌfaɪ/",
     "audioUrl": "",
     "syllables": [
       "clar",
@@ -6550,7 +7046,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "làm rõ, làm sáng tỏ",
+    "viNote": ""
   },
   {
     "id": "outcome",
@@ -6576,13 +7074,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "kết quả cuối cùng",
+    "viNote": ""
   },
   {
     "id": "procedure",
     "lemma": "procedure",
     "level": "C1",
-    "ipa": "/pɹəˈsiːdʒə/",
+    "ipa": "/prəˈsiːdʒər/",
     "audioUrl": "",
     "syllables": [
       "pro",
@@ -6603,13 +7103,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thủ tục, quy trình chính thức",
+    "viNote": ""
   },
   {
     "id": "allotment",
     "lemma": "allotment",
     "level": "C2",
-    "ipa": "/əˈlɒtmənt/",
+    "ipa": "/əˈlɑtmənt/",
     "audioUrl": "",
     "syllables": [
       "al",
@@ -6632,13 +7134,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "suất được giữ sẵn, hạn ngạch",
+    "viNote": "Trong khách sạn: room allotment = số phòng giữ cho một đoàn hoặc một công ty."
   },
   {
     "id": "ambiguity",
     "lemma": "ambiguity",
     "level": "C2",
-    "ipa": "/æmbɪˈɡjuːɪti/",
+    "ipa": "/ˌæmbəˈɡjuːəti/",
     "audioUrl": "",
     "syllables": [
       "am",
@@ -6661,13 +7165,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự mơ hồ, chỗ có hơn một nghĩa",
+    "viNote": ""
   },
   {
     "id": "analogous",
     "lemma": "analogous",
     "level": "C2",
-    "ipa": "/əˈnæl.ə.ɡəs/",
+    "ipa": "/əˈnæləɡəs/",
     "audioUrl": "",
     "syllables": [
       "a",
@@ -6689,13 +7195,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tương tự",
+    "viNote": "Giống nhau theo cách giúp so sánh hai việc."
   },
   {
     "id": "arbitrary",
     "lemma": "arbitrary",
     "level": "C2",
-    "ipa": "/ˈɑɹ.bɪ.tɹɛ(ə).ɹi/",
+    "ipa": "/ˈɑrbəˌtrɛri/",
     "audioUrl": "",
     "syllables": [
       "ar",
@@ -6717,13 +7225,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tùy tiện",
+    "viNote": "Dựa trên ý riêng hoặc ngẫu nhiên, không theo quy tắc rõ."
   },
   {
     "id": "assertion",
     "lemma": "assertion",
     "level": "C2",
-    "ipa": "/əˈsɜːʃən/",
+    "ipa": "/əˈsɝʃən/",
     "audioUrl": "",
     "syllables": [
       "as",
@@ -6744,13 +7254,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lời khẳng định chắc chắn",
+    "viNote": ""
   },
   {
     "id": "compile",
     "lemma": "compile",
     "level": "C2",
-    "ipa": "/kəmpʌɪl/",
+    "ipa": "/kəmˈpaɪl/",
     "audioUrl": "",
     "syllables": [
       "com",
@@ -6770,13 +7282,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tập hợp, biên soạn",
+    "viNote": ""
   },
   {
     "id": "conceivable",
     "lemma": "conceivable",
     "level": "C2",
-    "ipa": "/kənˈsiːvəbl̩/",
+    "ipa": "/kənˈsiːvəbəl/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -6798,13 +7312,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "có thể hình dung được",
+    "viNote": ""
   },
   {
     "id": "confer",
     "lemma": "confer",
     "level": "C2",
-    "ipa": "/kənˈfɜː/",
+    "ipa": "/kənˈfɝ/",
     "audioUrl": "",
     "syllables": [
       "con",
@@ -6824,13 +7340,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "bàn bạc",
+    "viNote": "Thảo luận để đi đến quyết định."
   },
   {
     "id": "culminate",
     "lemma": "culminate",
     "level": "C2",
-    "ipa": "/ˈkʌlmɪneɪt/",
+    "ipa": "/ˈkʌlməˌneɪt/",
     "audioUrl": "",
     "syllables": [
       "cul",
@@ -6851,13 +7369,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "kết thúc ở điểm cao nhất, lên đến đỉnh",
+    "viNote": "Culminate in = kết lại bằng."
   },
   {
     "id": "defer",
     "lemma": "defer",
     "level": "C2",
-    "ipa": "/dɪˈfɜː(ɹ)/",
+    "ipa": "/dɪˈfɝ/",
     "audioUrl": "",
     "syllables": [
       "de",
@@ -6877,13 +7397,15 @@
     "tags": [
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "hoãn lại",
+    "viNote": ""
   },
   {
     "id": "denote",
     "lemma": "denote",
     "level": "C2",
-    "ipa": "/dɪˈnəʊt/",
+    "ipa": "/dɪˈnoʊt/",
     "audioUrl": "",
     "syllables": [
       "de",
@@ -6903,13 +7425,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "biểu thị, có nghĩa là",
+    "viNote": ""
   },
   {
     "id": "discern",
     "lemma": "discern",
     "level": "C2",
-    "ipa": "/dɪˈsɜːn/",
+    "ipa": "/dɪˈsɝn/",
     "audioUrl": "",
     "syllables": [
       "dis",
@@ -6929,13 +7453,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhận ra, phân biệt được",
+    "viNote": "Thấy được điều không hiện ra rõ ngay."
   },
   {
     "id": "disparity",
     "lemma": "disparity",
     "level": "C2",
-    "ipa": "/dɪsˈpæɹɪti/",
+    "ipa": "/dɪˈspærəti/",
     "audioUrl": "",
     "syllables": [
       "dis",
@@ -6957,13 +7483,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sự chênh lệch lớn",
+    "viNote": ""
   },
   {
     "id": "disseminate",
     "lemma": "disseminate",
     "level": "C2",
-    "ipa": "/dɪˈsɛmɪˌneɪt/",
+    "ipa": "/dɪˈsɛməˌneɪt/",
     "audioUrl": "",
     "syllables": [
       "dis",
@@ -6985,13 +7513,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "phổ biến, truyền đi rộng",
+    "viNote": ""
   },
   {
     "id": "domain",
     "lemma": "domain",
     "level": "C2",
-    "ipa": "/dəʊˈmeɪn/",
+    "ipa": "/doʊˈmeɪn/",
     "audioUrl": "",
     "syllables": [
       "do",
@@ -7011,7 +7541,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "lĩnh vực",
+    "viNote": "Một khoảng chuyên môn, hoạt động hoặc quyền quản lý."
   },
   {
     "id": "elicit",
@@ -7038,13 +7570,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "khơi ra, moi được thông tin hoặc phản hồi",
+    "viNote": ""
   },
   {
     "id": "empirical",
     "lemma": "empirical",
     "level": "C2",
-    "ipa": "/ɪmˈpɪɹɪkəl/",
+    "ipa": "/ɛmˈpɪrɪkəl/",
     "audioUrl": "",
     "syllables": [
       "em",
@@ -7066,13 +7600,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "dựa trên bằng chứng thực tế",
+    "viNote": "Dựa vào kinh nghiệm và số liệu thật, không chỉ lý thuyết."
   },
   {
     "id": "exemplify",
     "lemma": "exemplify",
     "level": "C2",
-    "ipa": "/ɛɡˈzɛmplɪfaɪ/",
+    "ipa": "/ɪɡˈzɛmpləˌfaɪ/",
     "audioUrl": "",
     "syllables": [
       "ex",
@@ -7094,13 +7630,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "là ví dụ điển hình cho",
+    "viNote": ""
   },
   {
     "id": "exhaustive",
     "lemma": "exhaustive",
     "level": "C2",
-    "ipa": "/ɛɡˈzɔː.stɪv/",
+    "ipa": "/ɪɡˈzɔstɪv/",
     "audioUrl": "",
     "syllables": [
       "ex",
@@ -7121,7 +7659,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đầy đủ, bao quát hết",
+    "viNote": ""
   },
   {
     "id": "facet",
@@ -7147,7 +7687,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "khía cạnh",
+    "viNote": ""
   },
   {
     "id": "idiosyncrasy",
@@ -7175,7 +7717,9 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nét riêng, thói kỳ lạ",
+    "viNote": ""
   },
   {
     "id": "incumbent",
@@ -7202,13 +7746,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "có bổn phận phải làm",
+    "viNote": "It is incumbent on us = chúng ta có trách nhiệm phải làm. Không phải người đang giữ chức ở đây."
   },
   {
     "id": "inherent",
     "lemma": "inherent",
     "level": "C2",
-    "ipa": "/ɪnˈhɛɹənt/",
+    "ipa": "/ɪnˈhɪrənt/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -7229,13 +7775,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "vốn có, vốn nằm trong",
+    "viNote": ""
   },
   {
     "id": "integral",
     "lemma": "integral",
     "level": "C2",
-    "ipa": "/ˈɪntɪɡɹəl/",
+    "ipa": "/ˈɪntəɡrəl/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -7256,13 +7804,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "không thể thiếu, là phần thiết yếu",
+    "viNote": ""
   },
   {
     "id": "invariably",
     "lemma": "invariably",
     "level": "C2",
-    "ipa": "/ɪnˈvɛə.ɹi.ə.bli/",
+    "ipa": "/ɪnˈvɛriəbli/",
     "audioUrl": "",
     "syllables": [
       "in",
@@ -7283,13 +7833,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "luôn luôn, không lần nào khác",
+    "viNote": ""
   },
   {
     "id": "mandate",
     "lemma": "mandate",
     "level": "C2",
-    "ipa": "/ˈmæn.deɪt/",
+    "ipa": "/ˈmændeɪt/",
     "audioUrl": "",
     "syllables": [
       "man",
@@ -7309,13 +7861,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "thẩm quyền, lệnh phải làm",
+    "viNote": ""
   },
   {
     "id": "negligible",
     "lemma": "negligible",
     "level": "C2",
-    "ipa": "/ˈnɛɡlɪdʒɪbəl/",
+    "ipa": "/ˈnɛɡlɪdʒəbəl/",
     "audioUrl": "",
     "syllables": [
       "neg",
@@ -7337,13 +7891,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "không đáng kể",
+    "viNote": ""
   },
   {
     "id": "nuance",
     "lemma": "nuance",
     "level": "C2",
-    "ipa": "/ˈnjuː.ɑːns/",
+    "ipa": "/ˈnuːɑns/",
     "audioUrl": "",
     "syllables": [
       "nu",
@@ -7363,13 +7919,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sắc thái nghĩa rất nhỏ",
+    "viNote": ""
   },
   {
     "id": "paradox",
     "lemma": "paradox",
     "level": "C2",
-    "ipa": "/ˈpaɹədɒks/",
+    "ipa": "/ˈpærəˌdɑks/",
     "audioUrl": "",
     "syllables": [
       "par",
@@ -7388,13 +7946,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nghịch lý",
+    "viNote": ""
   },
   {
     "id": "paramount",
     "lemma": "paramount",
     "level": "C2",
-    "ipa": "/ˈpa.ɹə.maʊnt/",
+    "ipa": "/ˈpærəˌmaʊnt/",
     "audioUrl": "",
     "syllables": [
       "par",
@@ -7415,13 +7975,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "quan trọng hơn hết",
+    "viNote": ""
   },
   {
     "id": "pertinent",
     "lemma": "pertinent",
     "level": "C2",
-    "ipa": "/ˈpəːtɪnənt/",
+    "ipa": "/ˈpɝtənənt/",
     "audioUrl": "",
     "syllables": [
       "per",
@@ -7442,13 +8004,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sát vấn đề, liên quan trực tiếp",
+    "viNote": ""
   },
   {
     "id": "plethora",
     "lemma": "plethora",
     "level": "C2",
-    "ipa": "/plɪˈθɔːɹə/",
+    "ipa": "/ˈplɛθərə/",
     "audioUrl": "",
     "syllables": [
       "pleth",
@@ -7469,13 +8033,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "quá nhiều, dư thừa",
+    "viNote": ""
   },
   {
     "id": "prerequisite",
     "lemma": "prerequisite",
     "level": "C2",
-    "ipa": "/pɹiːˈɹɛkwɪzɪt/",
+    "ipa": "/priˈrɛkwəzɪt/",
     "audioUrl": "",
     "syllables": [
       "pre",
@@ -7497,13 +8063,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "điều kiện tiên quyết",
+    "viNote": ""
   },
   {
     "id": "presumably",
     "lemma": "presumably",
     "level": "C2",
-    "ipa": "/pɹɪˈzjuːməbli/",
+    "ipa": "/prɪˈzuːməbli/",
     "audioUrl": "",
     "syllables": [
       "pre",
@@ -7523,13 +8091,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "có lẽ, đoán là",
+    "viNote": ""
   },
   {
     "id": "proximity",
     "lemma": "proximity",
     "level": "C2",
-    "ipa": "/pɹɑkˈsɪ.mɪ.ti/",
+    "ipa": "/prɑkˈsɪməti/",
     "audioUrl": "",
     "syllables": [
       "prox",
@@ -7552,13 +8122,15 @@
       "hometown",
       "family"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sự gần",
+    "viNote": "Gần về không gian hoặc thời gian."
   },
   {
     "id": "reconcile",
     "lemma": "reconcile",
     "level": "C2",
-    "ipa": "/ˈɹɛkənsaɪl/",
+    "ipa": "/ˈrɛkənˌsaɪl/",
     "audioUrl": "",
     "syllables": [
       "rec",
@@ -7579,13 +8151,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "đối chiếu cho khớp, dung hòa",
+    "viNote": "Làm cho hai thông tin hoặc hai ý khác nhau đi được với nhau."
   },
   {
     "id": "respective",
     "lemma": "respective",
     "level": "C2",
-    "ipa": "/ɹɪˈspɛktɪv/",
+    "ipa": "/rɪˈspɛktɪv/",
     "audioUrl": "",
     "syllables": [
       "re",
@@ -7606,13 +8180,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "của từng bên, tương ứng",
+    "viNote": ""
   },
   {
     "id": "scrutinise",
     "lemma": "scrutinise",
     "level": "C2",
-    "ipa": "/ˈskruːtənaɪz/",
+    "ipa": "/ˈskruːtəˌnaɪz/",
     "audioUrl": "",
     "syllables": [
       "scru",
@@ -7633,7 +8209,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "xem xét rất kỹ",
+    "viNote": "Cách viết British; tiếng Mỹ viết scrutinize."
   },
   {
     "id": "seemingly",
@@ -7658,13 +8236,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "tưởng chừng, có vẻ",
+    "viNote": "Trông như đúng, nhưng chưa chắc đã đúng."
   },
   {
     "id": "subsequently",
     "lemma": "subsequently",
     "level": "C2",
-    "ipa": "/ˈsʌb.sɪ.kwənt.li/",
+    "ipa": "/ˈsʌbsəkwəntli/",
     "audioUrl": "",
     "syllables": [
       "sub",
@@ -7684,13 +8264,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "sau đó",
+    "viNote": ""
   },
   {
     "id": "substantiate",
     "lemma": "substantiate",
     "level": "C2",
-    "ipa": "/səbˈstanʃɪeɪt/",
+    "ipa": "/səbˈstænʃiˌeɪt/",
     "audioUrl": "",
     "syllables": [
       "sub",
@@ -7712,7 +8294,9 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "chứng minh bằng bằng chứng",
+    "viNote": ""
   },
   {
     "id": "tacit",
@@ -7738,13 +8322,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "ngầm, không nói ra",
+    "viNote": ""
   },
   {
     "id": "underpin",
     "lemma": "underpin",
     "level": "C2",
-    "ipa": "/ˌʌn.dəˈpɪn/",
+    "ipa": "/ˌʌndərˈpɪn/",
     "audioUrl": "",
     "syllables": [
       "un",
@@ -7765,13 +8351,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "làm nền tảng, chống đỡ",
+    "viNote": ""
   },
   {
     "id": "courtesy",
     "lemma": "courtesy",
     "level": "C2",
-    "ipa": "/ˈkɜːtəsi/",
+    "ipa": "/ˈkɝtəsi/",
     "audioUrl": "",
     "syllables": [
       "cour",
@@ -7794,13 +8382,15 @@
     "tags": [
       "tourism"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "sự lịch sự; đãi ngộ tử tế",
+    "viNote": "Một cử chỉ lịch sự được cho không, như giỏ trái cây của khách sạn."
   },
   {
     "id": "discrepancy",
     "lemma": "discrepancy",
     "level": "C2",
-    "ipa": "/dɪsˈkɹɛpənsi/",
+    "ipa": "/dɪˈskrɛpənsi/",
     "audioUrl": "",
     "syllables": [
       "dis",
@@ -7823,13 +8413,15 @@
       "tourism",
       "work"
     ],
-    "source": "personal"
+    "source": "personal",
+    "vi": "chỗ không khớp",
+    "viNote": "Sự khác nhau giữa hai thứ lẽ ra phải giống nhau."
   },
   {
     "id": "notwithstanding",
     "lemma": "notwithstanding",
     "level": "C2",
-    "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+    "ipa": "/ˌnɑtwɪθˈstændɪŋ/",
     "audioUrl": "",
     "syllables": [
       "not",
@@ -7849,13 +8441,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "mặc dù, bất chấp",
+    "viNote": ""
   },
   {
     "id": "repertoire",
     "lemma": "repertoire",
     "level": "C2",
-    "ipa": "/ˈɹɛp.ə.twɑː/",
+    "ipa": "/ˈrɛpərˌtwɑr/",
     "audioUrl": "",
     "syllables": [
       "rep",
@@ -7876,13 +8470,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "vốn kỹ năng, vốn câu chữ có thể dùng",
+    "viNote": ""
   },
   {
     "id": "hitherto",
     "lemma": "hitherto",
     "level": "C2",
-    "ipa": "/ˈhɪðəˌtuː/",
+    "ipa": "/ˌhɪðərˈtuː/",
     "audioUrl": "",
     "syllables": [
       "hith",
@@ -7901,13 +8497,15 @@
     "tags": [
       "everyday"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "cho đến nay, trước tới giờ",
+    "viNote": ""
   },
   {
     "id": "qualitative",
     "lemma": "qualitative",
     "level": "C2",
-    "ipa": "/ˈkwɒl.ɪ.tə.tɪv/",
+    "ipa": "/ˈkwɑləˌteɪtɪv/",
     "audioUrl": "",
     "syllables": [
       "qual",
@@ -7929,13 +8527,15 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "về chất lượng",
+    "viNote": "Nói về tính chất, không chỉ về số lượng."
   },
   {
     "id": "whereby",
     "lemma": "whereby",
     "level": "C2",
-    "ipa": "/wɛə(ɹ)ˈbaɪ/",
+    "ipa": "/wɛrˈbaɪ/",
     "audioUrl": "",
     "syllables": [
       "where",
@@ -7955,6 +8555,8 @@
     "tags": [
       "work"
     ],
-    "source": "starter"
+    "source": "starter",
+    "vi": "nhờ đó, theo đó",
+    "viNote": "A system whereby = một cách làm nhờ đó mà…"
   }
 ]

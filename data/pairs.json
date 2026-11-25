@@ -6,12 +6,14 @@
     "a": {
       "lemma": "think",
       "ipa": "/θɪŋk/",
-      "gloss": "to use your mind"
+      "gloss": "to use your mind",
+      "vi": "nghĩ, suy nghĩ"
     },
     "b": {
       "lemma": "sink",
       "ipa": "/sɪŋk/",
-      "gloss": "to go down under water"
+      "gloss": "to go down under water",
+      "vi": "chìm"
     },
     "sentenceA": "I think the room is ready.",
     "sentenceB": "Do not let the phone sink in the water."
@@ -23,12 +25,15 @@
     "a": {
       "lemma": "they",
       "ipa": "/ðeɪ/",
-      "gloss": "the people already mentioned"
+      "gloss": "the people already mentioned",
+      "vi": "họ, chúng",
+      "viNote": "Chỉ những người đã được nhắc đến."
     },
     "b": {
       "lemma": "day",
       "ipa": "/deɪ/",
-      "gloss": "a period of twenty-four hours"
+      "gloss": "a period of twenty-four hours",
+      "vi": "ngày"
     },
     "sentenceA": "They arrive tonight.",
     "sentenceB": "Have a nice day at the beach."
@@ -39,13 +44,15 @@
     "pitfall": "th",
     "a": {
       "lemma": "three",
-      "ipa": "/θɹiː/",
-      "gloss": "the number 3"
+      "ipa": "/θriː/",
+      "gloss": "the number 3",
+      "vi": "ba, số 3"
     },
     "b": {
       "lemma": "tree",
-      "ipa": "/tɹiː/",
-      "gloss": "a tall plant with a wooden trunk"
+      "ipa": "/triː/",
+      "gloss": "a tall plant with a wooden trunk",
+      "vi": "cây"
     },
     "sentenceA": "We need three tickets.",
     "sentenceB": "There is a tree in front of the house."
@@ -57,12 +64,14 @@
     "a": {
       "lemma": "thank",
       "ipa": "/θæŋk/",
-      "gloss": "to tell someone you are grateful"
+      "gloss": "to tell someone you are grateful",
+      "vi": "cảm ơn"
     },
     "b": {
       "lemma": "tank",
       "ipa": "/tæŋk/",
-      "gloss": "a large container for liquid"
+      "gloss": "a large container for liquid",
+      "vi": "bồn, thùng chứa chất lỏng"
     },
     "sentenceA": "I want to thank the driver.",
     "sentenceB": "The water tank is on the roof."
@@ -73,13 +82,15 @@
     "pitfall": "th",
     "a": {
       "lemma": "thin",
-      "ipa": "/ˈθɪn/",
-      "gloss": "not thick, with little distance between the sides"
+      "ipa": "/θɪn/",
+      "gloss": "not thick, with little distance between the sides",
+      "vi": "mỏng"
     },
     "b": {
       "lemma": "tin",
       "ipa": "/tɪn/",
-      "gloss": "a metal container for food or drink"
+      "gloss": "a metal container for food or drink",
+      "vi": "hộp thiếc"
     },
     "sentenceA": "The walls in this room are thin.",
     "sentenceB": "Please open a tin of fruit."
@@ -91,12 +102,14 @@
     "a": {
       "lemma": "thick",
       "ipa": "/θɪk/",
-      "gloss": "not thin, with a large distance between the sides"
+      "gloss": "not thin, with a large distance between the sides",
+      "vi": "dày"
     },
     "b": {
       "lemma": "sick",
       "ipa": "/sɪk/",
-      "gloss": "not well, ill"
+      "gloss": "not well, ill",
+      "vi": "ốm, không khỏe"
     },
     "sentenceA": "The walls of the old house are thick.",
     "sentenceB": "He felt sick after the long bus ride."
@@ -107,13 +120,15 @@
     "pitfall": "th",
     "a": {
       "lemma": "thirty",
-      "ipa": "/ˈθɜːti/",
-      "gloss": "the number 30"
+      "ipa": "/ˈθɝti/",
+      "gloss": "the number 30",
+      "vi": "ba mươi"
     },
     "b": {
       "lemma": "thirteen",
-      "ipa": "/ˌθɜːˈtiːn/",
-      "gloss": "the number 13"
+      "ipa": "/ˌθɝˈtiːn/",
+      "gloss": "the number 13",
+      "vi": "mười ba"
     },
     "sentenceA": "The transfer takes about thirty minutes.",
     "sentenceB": "The train leaves from platform thirteen."
@@ -124,13 +139,15 @@
     "pitfall": "th",
     "a": {
       "lemma": "both",
-      "ipa": "/bəʊθ/",
-      "gloss": "the two things or people, not only one"
+      "ipa": "/boʊθ/",
+      "gloss": "the two things or people, not only one",
+      "vi": "cả hai"
     },
     "b": {
       "lemma": "boat",
-      "ipa": "/bəʊt/",
-      "gloss": "a vehicle that travels on water"
+      "ipa": "/boʊt/",
+      "gloss": "a vehicle that travels on water",
+      "vi": "thuyền, tàu nhỏ"
     },
     "sentenceA": "Both rooms are prepaid.",
     "sentenceB": "They took a boat to the island."
@@ -142,12 +159,14 @@
     "a": {
       "lemma": "see",
       "ipa": "/siː/",
-      "gloss": "to notice with your eyes"
+      "gloss": "to notice with your eyes",
+      "vi": "nhìn thấy"
     },
     "b": {
       "lemma": "she",
       "ipa": "/ʃiː/",
-      "gloss": "a woman or girl already mentioned"
+      "gloss": "a woman or girl already mentioned",
+      "vi": "cô ấy, chị ấy"
     },
     "sentenceA": "I can see the beach from here.",
     "sentenceB": "She works from home."
@@ -159,12 +178,14 @@
     "a": {
       "lemma": "sip",
       "ipa": "/sɪp/",
-      "gloss": "to drink a very small amount"
+      "gloss": "to drink a very small amount",
+      "vi": "nhấp một ngụm nhỏ"
     },
     "b": {
       "lemma": "ship",
       "ipa": "/ʃɪp/",
-      "gloss": "a large boat for sea travel"
+      "gloss": "a large boat for sea travel",
+      "vi": "tàu thủy"
     },
     "sentenceA": "She took a sip of coffee.",
     "sentenceB": "The ship leaves in the evening."
@@ -176,12 +197,14 @@
     "a": {
       "lemma": "seat",
       "ipa": "/siːt/",
-      "gloss": "a place to sit"
+      "gloss": "a place to sit",
+      "vi": "chỗ ngồi, ghế"
     },
     "b": {
       "lemma": "sheet",
       "ipa": "/ʃiːt/",
-      "gloss": "a large piece of cloth for a bed, or a piece of paper"
+      "gloss": "a large piece of cloth for a bed, or a piece of paper",
+      "vi": "ga trải giường; tờ giấy"
     },
     "sentenceA": "Please keep this seat for the child.",
     "sentenceB": "There is a clean sheet on the bed."
@@ -193,12 +216,14 @@
     "a": {
       "lemma": "save",
       "ipa": "/seɪv/",
-      "gloss": "to keep someone or something safe, or to keep money"
+      "gloss": "to keep someone or something safe, or to keep money",
+      "vi": "cứu; lưu lại, tiết kiệm"
     },
     "b": {
       "lemma": "shave",
       "ipa": "/ʃeɪv/",
-      "gloss": "to cut hair from the skin with a razor"
+      "gloss": "to cut hair from the skin with a razor",
+      "vi": "cạo (râu, lông)"
     },
     "sentenceA": "This copy will save the booking details.",
     "sentenceB": "He wants to shave before dinner."
@@ -210,12 +235,14 @@
     "a": {
       "lemma": "sell",
       "ipa": "/sɛl/",
-      "gloss": "to give something in exchange for money"
+      "gloss": "to give something in exchange for money",
+      "vi": "bán"
     },
     "b": {
       "lemma": "shell",
       "ipa": "/ʃɛl/",
-      "gloss": "the hard outer part of some sea animals or eggs"
+      "gloss": "the hard outer part of some sea animals or eggs",
+      "vi": "vỏ (sò, trứng)"
     },
     "sentenceA": "They sell fruit at the market.",
     "sentenceB": "The child found a shell on the beach."
@@ -226,13 +253,15 @@
     "pitfall": "s-sh",
     "a": {
       "lemma": "sock",
-      "ipa": "/sɒk/",
-      "gloss": "a piece of clothing for the foot"
+      "ipa": "/sɑk/",
+      "gloss": "a piece of clothing for the foot",
+      "vi": "chiếc vớ, tất"
     },
     "b": {
       "lemma": "shock",
-      "ipa": "/ʃɒk/",
-      "gloss": "a sudden, strong, unpleasant surprise"
+      "ipa": "/ʃɑk/",
+      "gloss": "a sudden, strong, unpleasant surprise",
+      "vi": "cú sốc, sự choáng"
     },
     "sentenceA": "Pack a warm sock for the mountain night.",
     "sentenceB": "The cancelled flight was a shock."
@@ -243,13 +272,16 @@
     "pitfall": "s-sh",
     "a": {
       "lemma": "class",
-      "ipa": "/klas/",
-      "gloss": "a group of students, or a level of quality"
+      "ipa": "/klæs/",
+      "gloss": "a group of students, or a level of quality",
+      "vi": "lớp học; hạng, loại",
+      "viNote": "Trong ví dụ: first-class = hạng nhất."
     },
     "b": {
       "lemma": "clash",
-      "ipa": "/klaʃ/",
-      "gloss": "a short fight, or a serious disagreement of times or colours"
+      "ipa": "/klæʃ/",
+      "gloss": "a short fight, or a serious disagreement of times or colours",
+      "vi": "va chạm, trùng giờ, xung đột"
     },
     "sentenceA": "They booked a first-class seat.",
     "sentenceB": "The two tours clash on Friday morning."
@@ -261,12 +293,14 @@
     "a": {
       "lemma": "sign",
       "ipa": "/saɪn/",
-      "gloss": "a notice that gives information, or a movement that has a meaning"
+      "gloss": "a notice that gives information, or a movement that has a meaning",
+      "vi": "biển chỉ dẫn; cử chỉ ra hiệu"
     },
     "b": {
       "lemma": "shine",
       "ipa": "/ʃaɪn/",
-      "gloss": "to give out light, or to be bright"
+      "gloss": "to give out light, or to be bright",
+      "vi": "chiếu sáng, tỏa sáng"
     },
     "sentenceA": "Follow the sign to the station.",
     "sentenceB": "The sun will shine on the rice field."
@@ -278,12 +312,14 @@
     "a": {
       "lemma": "flight",
       "ipa": "/flaɪt/",
-      "gloss": "a journey in a plane"
+      "gloss": "a journey in a plane",
+      "vi": "chuyến bay"
     },
     "b": {
       "lemma": "fight",
       "ipa": "/faɪt/",
-      "gloss": "an act of arguing or hitting, or an effort against something"
+      "gloss": "an act of arguing or hitting, or an effort against something",
+      "vi": "cuộc cãi nhau hoặc đánh nhau"
     },
     "sentenceA": "The flight is fully prepaid.",
     "sentenceB": "Please do not fight about the window seat."
@@ -294,13 +330,15 @@
     "pitfall": "cluster",
     "a": {
       "lemma": "street",
-      "ipa": "/stɹiːt/",
-      "gloss": "a road in a town with buildings along it"
+      "ipa": "/striːt/",
+      "gloss": "a road in a town with buildings along it",
+      "vi": "phố, đường trong phố"
     },
     "b": {
       "lemma": "seat",
       "ipa": "/siːt/",
-      "gloss": "a place to sit"
+      "gloss": "a place to sit",
+      "vi": "chỗ ngồi, ghế"
     },
     "sentenceA": "The hotel is on a quiet street.",
     "sentenceB": "There is a seat by the window."
@@ -312,12 +350,14 @@
     "a": {
       "lemma": "play",
       "ipa": "/pleɪ/",
-      "gloss": "to take part in a game, or to make music"
+      "gloss": "to take part in a game, or to make music",
+      "vi": "chơi, diễn"
     },
     "b": {
       "lemma": "pray",
-      "ipa": "/pɹeɪ/",
-      "gloss": "to speak to a god, often to ask for help"
+      "ipa": "/preɪ/",
+      "gloss": "to speak to a god, often to ask for help",
+      "vi": "cầu nguyện"
     },
     "sentenceA": "The children play in the garden.",
     "sentenceB": "They pray in the morning."
@@ -329,12 +369,14 @@
     "a": {
       "lemma": "blue",
       "ipa": "/bluː/",
-      "gloss": "the colour of a clear sky"
+      "gloss": "the colour of a clear sky",
+      "vi": "màu xanh dương"
     },
     "b": {
       "lemma": "brew",
-      "ipa": "/bɹuː/",
-      "gloss": "to make tea or coffee with hot water"
+      "ipa": "/bruː/",
+      "gloss": "to make tea or coffee with hot water",
+      "vi": "pha (trà, cà phê)"
     },
     "sentenceA": "The sea is a deep blue this morning.",
     "sentenceB": "I will brew a pot of tea."
@@ -345,13 +387,15 @@
     "pitfall": "cluster",
     "a": {
       "lemma": "pressed",
-      "ipa": "/prest/",
-      "gloss": "pushed firmly, or busy and short of time"
+      "ipa": "/prɛst/",
+      "gloss": "pushed firmly, or busy and short of time",
+      "vi": "đã nhấn; đang bận và thiếu thời gian"
     },
     "b": {
       "lemma": "pest",
       "ipa": "/pɛst/",
-      "gloss": "an insect or animal that causes damage"
+      "gloss": "an insect or animal that causes damage",
+      "vi": "sâu bệnh, loài gây hại"
     },
     "sentenceA": "She pressed the button for the next floor.",
     "sentenceB": "A pest in the rice field can ruin the crop."
@@ -363,12 +407,14 @@
     "a": {
       "lemma": "cloud",
       "ipa": "/klaʊd/",
-      "gloss": "a white or grey mass in the sky"
+      "gloss": "a white or grey mass in the sky",
+      "vi": "đám mây"
     },
     "b": {
       "lemma": "crowd",
-      "ipa": "/kɹaʊd/",
-      "gloss": "a large group of people in one place"
+      "ipa": "/kraʊd/",
+      "gloss": "a large group of people in one place",
+      "vi": "đám đông"
     },
     "sentenceA": "There is no cloud in the sky today.",
     "sentenceB": "A crowd waited at the station."
@@ -380,12 +426,15 @@
     "a": {
       "lemma": "book",
       "ipa": "/bʊk/",
-      "gloss": "to arrange to have a room, seat, or ticket later"
+      "gloss": "to arrange to have a room, seat, or ticket later",
+      "vi": "đặt chỗ",
+      "viNote": "Book a room/flight = đặt phòng hoặc đặt vé, không phải cuốn sách."
     },
     "b": {
       "lemma": "booked",
       "ipa": "/bʊkt/",
-      "gloss": "already reserved, or reserved in the past"
+      "gloss": "already reserved, or reserved in the past",
+      "vi": "đã được đặt, đã đặt rồi"
     },
     "sentenceA": "I will book a room tonight.",
     "sentenceB": "The room is already booked."
@@ -396,13 +445,15 @@
     "pitfall": "ending",
     "a": {
       "lemma": "reserve",
-      "ipa": "/ɹɪˈzɜːv/",
-      "gloss": "to arrange to keep something for later"
+      "ipa": "/rɪˈzɝv/",
+      "gloss": "to arrange to keep something for later",
+      "vi": "giữ chỗ, đặt trước"
     },
     "b": {
       "lemma": "reserved",
-      "ipa": "/rɪˈzɜːvd/",
-      "gloss": "kept for someone, or booked already"
+      "ipa": "/rɪˈzɝvd/",
+      "gloss": "kept for someone, or booked already",
+      "vi": "đã được giữ chỗ"
     },
     "sentenceA": "Please reserve a quiet table.",
     "sentenceB": "The table is reserved for seven o clock."
@@ -414,12 +465,14 @@
     "a": {
       "lemma": "flight",
       "ipa": "/flaɪt/",
-      "gloss": "a journey in a plane"
+      "gloss": "a journey in a plane",
+      "vi": "chuyến bay"
     },
     "b": {
       "lemma": "flights",
       "ipa": "/flaɪts/",
-      "gloss": "more than one journey in a plane"
+      "gloss": "more than one journey in a plane",
+      "vi": "các chuyến bay"
     },
     "sentenceA": "The flight leaves at six.",
     "sentenceB": "She books flights every week."
@@ -430,13 +483,15 @@
     "pitfall": "ending",
     "a": {
       "lemma": "walk",
-      "ipa": "/wɔːk/",
-      "gloss": "to move on your feet at a normal speed"
+      "ipa": "/wɔk/",
+      "gloss": "to move on your feet at a normal speed",
+      "vi": "đi bộ"
     },
     "b": {
       "lemma": "walked",
-      "ipa": "/wɔːkt/",
-      "gloss": "moved on your feet in the past"
+      "ipa": "/wɔkt/",
+      "gloss": "moved on your feet in the past",
+      "vi": "đã đi bộ"
     },
     "sentenceA": "We walk to the neighbours house.",
     "sentenceB": "We walked to the rice field yesterday."
@@ -447,13 +502,15 @@
     "pitfall": "ending",
     "a": {
       "lemma": "want",
-      "ipa": "/wɔnt/",
-      "gloss": "to wish to have or do something"
+      "ipa": "/wɑnt/",
+      "gloss": "to wish to have or do something",
+      "vi": "muốn"
     },
     "b": {
       "lemma": "wanted",
-      "ipa": "/ˈwɒntɪd/",
-      "gloss": "wished to have or do something in the past"
+      "ipa": "/ˈwɑntɪd/",
+      "gloss": "wished to have or do something in the past",
+      "vi": "đã muốn"
     },
     "sentenceA": "I want a window seat.",
     "sentenceB": "They wanted a later transfer."
@@ -464,13 +521,15 @@
     "pitfall": "ending",
     "a": {
       "lemma": "watch",
-      "ipa": "/wɒt͡ʃ/",
-      "gloss": "to look at something for a period of time, or a small clock you wear"
+      "ipa": "/wɑtʃ/",
+      "gloss": "to look at something for a period of time, or a small clock you wear",
+      "vi": "xem; đồng hồ đeo tay"
     },
     "b": {
       "lemma": "watches",
-      "ipa": "/ˈwɒtʃɪz/",
-      "gloss": "looks at something, or more than one small clock"
+      "ipa": "/ˈwɑtʃɪz/",
+      "gloss": "looks at something, or more than one small clock",
+      "vi": "xem (ngôi thứ ba); những chiếc đồng hồ"
     },
     "sentenceA": "They watch the sunset from the balcony.",
     "sentenceB": "He watches the departure board."
@@ -482,12 +541,15 @@
     "a": {
       "lemma": "guest",
       "ipa": "/ɡɛst/",
-      "gloss": "a person who visits you or stays in a hotel"
+      "gloss": "a person who visits you or stays in a hotel",
+      "vi": "khách",
+      "viNote": "Khách đến nhà hoặc khách nghỉ khách sạn."
     },
     "b": {
       "lemma": "guessed",
-      "ipa": "/ɡest/",
-      "gloss": "gave an answer without being sure it was right"
+      "ipa": "/ɡɛst/",
+      "gloss": "gave an answer without being sure it was right",
+      "vi": "đã đoán"
     },
     "sentenceA": "The guest is waiting in the lobby.",
     "sentenceB": "I guessed the arrival time and I was wrong."
@@ -499,12 +561,14 @@
     "a": {
       "lemma": "place",
       "ipa": "/pleɪs/",
-      "gloss": "a particular area, building, or position"
+      "gloss": "a particular area, building, or position",
+      "vi": "nơi, chỗ"
     },
     "b": {
       "lemma": "plays",
       "ipa": "/pleɪz/",
-      "gloss": "takes part in a game, or theatre performances"
+      "gloss": "takes part in a game, or theatre performances",
+      "vi": "chơi (ngôi thứ ba); các vở diễn"
     },
     "sentenceA": "This village is a quiet place to stay.",
     "sentenceB": "She plays with the children at the weekend."
@@ -515,13 +579,16 @@
     "pitfall": "ending",
     "a": {
       "lemma": "close",
-      "ipa": "/kləʊz/",
-      "gloss": "to shut something, or not far"
+      "ipa": "/kloʊz/",
+      "gloss": "to shut something, or not far",
+      "vi": "đóng",
+      "viNote": "Ở đây là động từ đóng lại, đọc /kloʊz/, không phải close /kloʊs/ nghĩa là gần."
     },
     "b": {
       "lemma": "clothes",
-      "ipa": "/kləʊðz/",
-      "gloss": "the things you wear"
+      "ipa": "/kloʊðz/",
+      "gloss": "the things you wear",
+      "vi": "quần áo"
     },
     "sentenceA": "Please close the door.",
     "sentenceB": "Pack light clothes for the warm weather."
@@ -532,13 +599,16 @@
     "pitfall": "final",
     "a": {
       "lemma": "rice",
-      "ipa": "/ɹaɪs/",
-      "gloss": "a grain that is a common food"
+      "ipa": "/raɪs/",
+      "gloss": "a grain that is a common food",
+      "vi": "lúa, gạo",
+      "viNote": "Trong ví dụ này là ruộng lúa quanh nhà."
     },
     "b": {
       "lemma": "rise",
       "ipa": "/raɪz/",
-      "gloss": "to go up, or to get up"
+      "gloss": "to go up, or to get up",
+      "vi": "dâng lên, mọc, dậy"
     },
     "sentenceA": "The rice field is behind the house.",
     "sentenceB": "The sun will rise early over the village."
@@ -550,12 +620,15 @@
     "a": {
       "lemma": "life",
       "ipa": "/laɪf/",
-      "gloss": "the time a person is alive, or the way a person lives"
+      "gloss": "the time a person is alive, or the way a person lives",
+      "vi": "cuộc sống, đời sống"
     },
     "b": {
       "lemma": "live",
       "ipa": "/lɪv/",
-      "gloss": "to have your home in a place, or happening now"
+      "gloss": "to have your home in a place, or happening now",
+      "vi": "sống, cư trú",
+      "viNote": "Động từ sống tại một nơi, đọc /lɪv/, không phải live /laɪv/ nghĩa là trực tiếp."
     },
     "sentenceA": "She has a better work-life balance now.",
     "sentenceB": "They live in a small village."
@@ -566,13 +639,15 @@
     "pitfall": "final",
     "a": {
       "lemma": "bus",
-      "ipa": "/bɐs/",
-      "gloss": "a large vehicle that many people ride"
+      "ipa": "/bʌs/",
+      "gloss": "a large vehicle that many people ride",
+      "vi": "xe buýt"
     },
     "b": {
       "lemma": "buzz",
       "ipa": "/bʌz/",
-      "gloss": "a low continuous sound, like a bee"
+      "gloss": "a low continuous sound, like a bee",
+      "vi": "tiếng vo ve"
     },
     "sentenceA": "The bus stops outside the hotel.",
     "sentenceB": "I could hear the buzz of the market."
@@ -584,12 +659,14 @@
     "a": {
       "lemma": "ship",
       "ipa": "/ʃɪp/",
-      "gloss": "a large boat for sea travel"
+      "gloss": "a large boat for sea travel",
+      "vi": "tàu thủy"
     },
     "b": {
       "lemma": "sheep",
       "ipa": "/ʃiːp/",
-      "gloss": "a farm animal kept for wool or meat"
+      "gloss": "a farm animal kept for wool or meat",
+      "vi": "con cừu"
     },
     "sentenceA": "The ship leaves in the evening.",
     "sentenceB": "There are sheep near the rice field."
@@ -601,12 +678,14 @@
     "a": {
       "lemma": "sit",
       "ipa": "/sɪt/",
-      "gloss": "to rest with your body on a chair"
+      "gloss": "to rest with your body on a chair",
+      "vi": "ngồi"
     },
     "b": {
       "lemma": "seat",
       "ipa": "/siːt/",
-      "gloss": "a place to sit"
+      "gloss": "a place to sit",
+      "vi": "chỗ ngồi, ghế"
     },
     "sentenceA": "Please sit by the window.",
     "sentenceB": "This seat is reserved."
@@ -618,12 +697,15 @@
     "a": {
       "lemma": "live",
       "ipa": "/lɪv/",
-      "gloss": "to have your home in a place"
+      "gloss": "to have your home in a place",
+      "vi": "sống, cư trú",
+      "viNote": "Động từ sống tại một nơi, đọc /lɪv/, không phải live /laɪv/ nghĩa là trực tiếp."
     },
     "b": {
       "lemma": "leave",
       "ipa": "/liːv/",
-      "gloss": "to go away from a place"
+      "gloss": "to go away from a place",
+      "vi": "rời đi, để lại"
     },
     "sentenceA": "They live in central Vietnam.",
     "sentenceB": "We leave the hotel at eight."
@@ -634,13 +716,15 @@
     "pitfall": "vowel",
     "a": {
       "lemma": "bad",
-      "ipa": "/bæːd/",
-      "gloss": "not good, or of low quality"
+      "ipa": "/bæd/",
+      "gloss": "not good, or of low quality",
+      "vi": "xấu, tồi"
     },
     "b": {
       "lemma": "bed",
-      "ipa": "/bed/",
-      "gloss": "a piece of furniture you sleep on"
+      "ipa": "/bɛd/",
+      "gloss": "a piece of furniture you sleep on",
+      "vi": "giường"
     },
     "sentenceA": "A bad delay ruined the first morning.",
     "sentenceB": "The bed in the room is comfortable."
@@ -652,12 +736,14 @@
     "a": {
       "lemma": "hat",
       "ipa": "/hæt/",
-      "gloss": "a piece of clothing you wear on your head"
+      "gloss": "a piece of clothing you wear on your head",
+      "vi": "mũ"
     },
     "b": {
       "lemma": "hot",
-      "ipa": "/hɒt/",
-      "gloss": "having a high temperature"
+      "ipa": "/hɑt/",
+      "gloss": "having a high temperature",
+      "vi": "nóng"
     },
     "sentenceA": "Take a hat for the sunny walk.",
     "sentenceB": "The countryside is quite hot at noon."
@@ -669,12 +755,14 @@
     "a": {
       "lemma": "full",
       "ipa": "/fʊl/",
-      "gloss": "containing as much as possible, or complete"
+      "gloss": "containing as much as possible, or complete",
+      "vi": "đầy, hết chỗ"
     },
     "b": {
       "lemma": "fool",
       "ipa": "/fuːl/",
-      "gloss": "a person who acts in a silly way, or to trick someone"
+      "gloss": "a person who acts in a silly way, or to trick someone",
+      "vi": "kẻ ngốc; lừa"
     },
     "sentenceA": "The morning flight is already full.",
     "sentenceB": "Do not let a wrong time fool you."
@@ -685,13 +773,15 @@
     "pitfall": "vowel",
     "a": {
       "lemma": "pool",
-      "ipa": "/pul/",
-      "gloss": "a place made for people to swim"
+      "ipa": "/puːl/",
+      "gloss": "a place made for people to swim",
+      "vi": "hồ bơi"
     },
     "b": {
       "lemma": "pull",
       "ipa": "/pʊl/",
-      "gloss": "to move something toward you"
+      "gloss": "to move something toward you",
+      "vi": "kéo"
     },
     "sentenceA": "The hotel has a small pool.",
     "sentenceB": "Please pull the door, do not push it."

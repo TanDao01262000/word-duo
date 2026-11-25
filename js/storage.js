@@ -24,7 +24,7 @@ function defaultProfile(name) {
     xp: 0,
     streakDays: 0,
     lastPlayedOn: null,
-    viHints: true,
+    hintMode: "demand",
   };
 }
 
@@ -37,7 +37,16 @@ export function defaultStore() {
   };
 }
 
+function normalizeProfile(profile) {
+  const hintMode = profile.hintMode || (profile.viHints === false ? "off" : "demand");
+  return {
+    ...profile,
+    hintMode: hintMode === "off" || hintMode === "always" ? hintMode : "demand",
+  };
+}
+
 export function loadStore() {
+
   try {
     const raw = localStorage.getItem(KEY);
     if (!raw) return defaultStore();
@@ -46,7 +55,7 @@ export function loadStore() {
     return {
       ...base,
       ...parsed,
-      profiles: [0, 1].map((i) => ({ ...base.profiles[i], ...(parsed.profiles && parsed.profiles[i]) })),
+      profiles: [0, 1].map((i) => normalizeProfile({ ...base.profiles[i], ...(parsed.profiles && parsed.profiles[i]) })),
       progress: {
         0: (parsed.progress && parsed.progress[0]) || {},
         1: (parsed.progress && parsed.progress[1]) || {},
