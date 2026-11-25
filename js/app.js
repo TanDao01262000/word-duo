@@ -7,7 +7,7 @@ import {
   addXp,
   markSessionPlayed,
   resetStore,
-} from "./storage.js?v=20261125-1";
+} from "./storage.js?v=20261125-3";
 import {
   canRecognize,
   canSynthesize,
@@ -16,13 +16,16 @@ import {
   stopRecognition,
   recognize,
   heardMatches,
-} from "./speech.js?v=20261125-1";
-import { PITFALL_TIPS, sayTipsFor, twinsTipFor } from "./tips.js?v=20261125-1";
+} from "./speech.js?v=20261125-3";
+import { PITFALL_TIPS, sayTipsFor, twinsTipFor } from "./tips.js?v=20261125-3";
+import { createUsVault } from "./us.js?v=20261125-3";
+import { celebrate, maybeCelebrateStreak, maybeCelebrateLevel, markXpFloor, noteStreakReset } from "./celebrate.js?v=20261125-3";
 
-const VERSION = "20261125-1";
+const VERSION = "20261125-3";
 const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const LEVEL_RANK = Object.fromEntries(LEVELS.map((l, i) => [l, i]));
 const E2E = new URLSearchParams(location.search).has("e2e");
+const us = createUsVault({ version: VERSION });
 const ROUNDS = E2E ? 3 : 10;
 const DUO_ROUNDS = E2E ? 4 : 8;
 
@@ -57,6 +60,13 @@ const VI = {
   next: "Tiếp",
   streak: "Chuỗi ngày",
   shared: "Cả hai đã học",
+  us: "Chúng mình",
+  usHint: "Từ về cuộc sống của hai mình",
+  usLocked: "Nhập mã để mở ảnh và chủ đề Chúng mình",
+  usUnlock: "Mở khóa",
+  usLock: "Khóa Chúng mình",
+  passcode: "Mã mở khóa",
+  passBad: "Mã này chưa đúng. Thử lại nhé.",
 };
 
 const app = document.getElementById("app");
@@ -72,6 +82,9 @@ function profile() {
 }
 function persist() {
   saveStore(store);
+}
+function afterPaint() {
+  us.hydrate(app);
 }
 function hintMode() {
   const mode = profile().hintMode;
@@ -147,7 +160,11 @@ function roundCount(duo = false) {
 }
 
 function wordById(id) {
-  return words.find((w) => w.id === id);
+  return words.find((w) => w.id === id) || (us.isUnlocked() ? us.words().find((w) => w.id === id) : null);
+}
+
+function allPlayableWords() {
+  return us.isUnlocked() ? words.concat(us.words()) : words;
 }
 function wordByLemma(lemma) {
   return words.find((w) => w.lemma === lemma);
@@ -219,14 +236,17 @@ function pickPairs(count, level) {
 }
 
 function glossOptions(word) {
+  const bank = word.id && String(word.id).startsWith("us-") && us.isUnlocked()
+    ? words.concat(us.words())
+    : words;
   const rank = LEVEL_RANK[word.level] ?? 1;
-  const nearby = words.filter((w) => {
+  const nearby = bank.filter((w) => {
     const r = LEVEL_RANK[w.level] ?? 0;
     return w.id !== word.id && w.gloss !== word.gloss && Math.abs(r - rank) <= 1;
   });
   const picks = shuffle(nearby).slice(0, 3);
   while (picks.length < 3) {
-    const extra = words[Math.floor(Math.random() * words.length)];
+    const extra = bank[Math.floor(Math.random() * bank.length)];
     if (extra && extra.id !== word.id && extra.gloss !== word.gloss && !picks.includes(extra)) {
       picks.push(extra);
     }
@@ -249,7 +269,7 @@ function shell(inner, { back = true, title } = {}) {
   return `
     <header class="top">
       <a class="brand" href="#/" data-action="nav" data-to="home">
-        <span class="logo" aria-hidden="true"></span>
+        <span class="logo${us.isUnlocked() ? " has-photo" : ""}" aria-hidden="true">${us.photoTag((us.manifest() || {}).homePortrait || (us.manifest() || {}).usBadge, { className: "logo-photo", alt: "" })}</span>
         <div>
           <h1>Word Duo</h1>
           <p>${uiVi() ? escapeHtml(VI.subtitle) : "Vocab and pronunciation, for two"}</p>
@@ -266,9 +286,90 @@ function shell(inner, { back = true, title } = {}) {
   `;
 }
 
+
+function usHomeHero() {
+  if (!us.isUnlocked()) return "";
+  const mid = us.manifest() || {};
+  return `
+    <div class="card us-hero" data-testid="us-hero">
+      ${us.photoTag(mid.homeHero || mid.usBadge, { className: "us-hero-photo", alt: "", testid: "us-hero-photo" })}
+      <div class="us-hero-copy">
+        <h3>${escapeHtml(VI.us)}</h3>
+        <p>${escapeHtml(VI.usHint)}</p>
+      </div>
+    </div>`;
+}
+
+function usPlayCard() {
+  if (us.isUnlocked()) {
+    const mid = us.manifest() || {};
+    const icon = us.photoTag(mid.usBadge, { className: "us-badge-photo", alt: "" }) || `<span class="icon snap">♥</span>`;
+    return `
+    <button class="play-card" data-action="nav" data-to="us" data-testid="nav-us">
+      ${icon}
+      <div>
+        <h3>${escapeHtml(VI.us)}</h3>
+        <p>${escapeHtml(VI.usHint)}</p>
+      </div>
+      <span class="go">Play</span>
+    </button>`;
+  }
+  return `
+    <button class="play-card is-locked" data-action="nav" data-to="us-unlock" data-testid="nav-us">
+      <span class="icon snap">♥</span>
+      <div>
+        <h3>${escapeHtml(VI.us)}</h3>
+        <p>${escapeHtml(VI.usLocked)}</p>
+      </div>
+      <span class="go">Unlock</span>
+    </button>`;
+}
+
+function renderUnlock(error) {
+  view = "us-unlock";
+  app.innerHTML = shell(
+    `
+    <div class="card" data-testid="us-unlock">
+      <h3>${escapeHtml(VI.us)}</h3>
+      <p class="lede">${escapeHtml(VI.usLocked)}</p>
+      <form class="unlock-form" data-action="us-unlock-form">
+        <label>
+          <span>${escapeHtml(VI.passcode)}</span>
+          <input type="password" name="passcode" autocomplete="off" data-testid="us-passcode" required>
+        </label>
+        ${error ? `<p class="unlock-error" data-testid="us-unlock-error">${escapeHtml(VI.passBad)}</p>` : ""}
+        <button class="btn primary wide" type="submit" data-testid="us-unlock-btn">${escapeHtml(VI.usUnlock)}</button>
+      </form>
+    </div>
+    `,
+    { title: VI.us }
+  );
+}
+
+async function submitUnlock(form) {
+  const input = form.querySelector("[name=passcode]");
+  const value = input ? input.value : "";
+  if (input) input.value = "";
+  try {
+    const ok = await us.unlock(value);
+    if (!ok) return renderUnlock(true);
+    markXpFloor(profile().xp);
+    renderHome();
+    us.hydrate(app);
+  } catch {
+    renderUnlock(true);
+  }
+}
+
+function lockUs() {
+  us.lock();
+  if (view === "settings") renderSettings();
+  else renderHome();
+}
+
 function renderHome() {
   const p = profile();
-  const due = dueWords(store, words);
+  const due = dueWords(store, allPlayableWords());
   const shared = store.shared.streakDays
     ? `<p class="lede">${escapeHtml(VI.shared)}: <strong>${store.shared.streakDays}</strong>${uiVi() ? "" : " day streak together"}.</p>`
     : "";
@@ -291,13 +392,15 @@ function renderHome() {
       ${shared}
       <p class="lede" style="margin-top:12px">Level${hint("level")}</p>
       <div class="levels" data-testid="levels">
-        ${LEVELS.map(
-          (lv) =>
-            `<button class="chip ${p.level === lv ? "is-on" : ""}" data-action="set-level" data-level="${lv}" data-testid="level-${lv}">${lv}</button>`
-        ).join("")}
+        ${LEVELS.map((lv) => {
+          const badge = us.isUnlocked() ? us.photoTag((us.manifest() || {}).levelBadges?.[lv], { className: "chip-photo", alt: "" }) : "";
+          return `<button class="chip ${p.level === lv ? "is-on" : ""}${badge ? " has-photo" : ""}" data-action="set-level" data-level="${lv}" data-testid="level-${lv}">${badge}${lv}</button>`;
+        }).join("")}
       </div>
     </div>
+    ${usHomeHero()}
     <div class="play-grid">
+      ${usPlayCard()}
       ${playCard("snap", "Meaning Snap", VI.snapHint, "Aa")}
       ${playCard("say", "Say It", VI.sayHint, "♪")}
       ${playCard("twins", "Twin Sounds", VI.twinsHint, "🔊")}
@@ -308,6 +411,7 @@ function renderHome() {
     `,
     { back: false }
   );
+  us.hydrate(app);
 }
 
 function playCard(to, title, detail, icon, badge) {
@@ -353,18 +457,31 @@ function renderSettings() {
         }).join("")}
       </div>
       <p class="lede">On demand is the default: tap Gợi ý 🇻🇳 when you want a meaning or a pronunciation tip. IPA stays visible under every word, in American English.</p>
+      ${
+        us.isUnlocked()
+          ? `<button class="btn" style="margin-top:14px" data-action="us-lock" data-testid="us-lock">${escapeHtml(VI.usLock)}</button>`
+          : `<p class="lede" style="margin-top:14px">${escapeHtml(VI.usLocked)}</p>
+             <button class="btn" data-action="nav" data-to="us-unlock" data-testid="nav-us-settings">${escapeHtml(VI.usUnlock)}</button>`
+      }
     </div>
     <p class="lede">Progress stays on this device in local storage. No account needed.</p>
     `,
     { title: "Settings" }
   );
+  us.hydrate(app);
 }
 
-function startSnap({ review = false, duo = false } = {}) {
+function pickUsWords(count) {
+  return shuffle(us.words()).slice(0, count);
+}
+
+function startSnap({ review = false, duo = false, topic } = {}) {
   const level = profile().level;
   const items = review
-    ? shuffle(dueWords(store, words)).slice(0, roundCount(duo))
-    : pickWords(roundCount(duo), level);
+    ? shuffle(dueWords(store, allPlayableWords())).slice(0, roundCount(duo))
+    : topic === "us"
+      ? pickUsWords(roundCount(duo))
+      : pickWords(roundCount(duo), level);
   if (!items.length) {
     game = { type: "empty-review" };
     renderEmptyReview();
@@ -372,6 +489,7 @@ function startSnap({ review = false, duo = false } = {}) {
   }
   game = {
     type: duo ? "duo-snap" : "snap",
+    topic,
     review,
     items: items.map((word) => ({ word, options: glossOptions(word), picked: null, timedOut: false })),
     index: 0,
@@ -423,7 +541,8 @@ function renderSnap() {
     <div class="bar"><span style="width:${bar}%"></span></div>
     ${duo ? `<div class="banner info">${escapeHtml(VI.passPhone)} — ${escapeHtml(player.name)}</div>` : ""}
     <div class="card">
-      <p class="meta">${escapeHtml(round.word.level)} · ${escapeHtml(round.word.pos)}</p>
+      ${us.isUnlocked() && round.word.photo ? us.photoTag(round.word.photo, { className: "snap-photo", alt: "", testid: "us-photo" }) : ""}
+      <p class="meta">${escapeHtml(round.word.level)} · ${escapeHtml(round.word.pos)}${game.topic === "us" ? " · " + escapeHtml(VI.us) : ""}</p>
       ${wordBlock(round.word.lemma, round.word.ipa)}
       <p class="lede" style="text-align:center">${hint("snap") || "Pick the meaning"}</p>
       ${meaningHintPanel(round.word, round, { afterAnswer: round.picked != null || round.timedOut })}
@@ -444,8 +563,9 @@ function renderSnap() {
       }
     </div>
     `,
-    { title: game.review ? "Review · Meaning Snap" : "Meaning Snap" }
+    { title: game.review ? "Review · Meaning Snap" : game.topic === "us" ? "Chúng mình · Meaning Snap" : "Meaning Snap" }
   );
+  us.hydrate(app);
 }
 function optClass(round, i) {
   if (round.picked == null && !round.timedOut) return "";
@@ -470,12 +590,20 @@ function answerSnap(optionIndex, timedOut = false) {
   } else {
     game.streak = 0;
   }
+  const prevXp = profile().xp;
   const gained = xpFor(correct, game.streak, false, Boolean(round.hintOn));
   game.xp += gained;
   addXp(store, gained);
   recordResult(store, round.word.id, "meaning", correct);
   persist();
   renderSnap();
+  if (correct) {
+    maybeCelebrateStreak(us, game.streak, document.getElementById("app"));
+    maybeCelebrateLevel(us, profile().xp, document.getElementById("app"));
+  } else {
+    noteStreakReset();
+  }
+  void prevXp;
 }
 
 function nextSnap() {
@@ -493,7 +621,7 @@ function nextSnap() {
 function startSay({ review = false } = {}) {
   const level = profile().level;
   const items = review
-    ? shuffle(dueWords(store, words)).slice(0, roundCount())
+    ? shuffle(dueWords(store, allPlayableWords())).slice(0, roundCount())
     : pickWords(roundCount(), level);
   if (!items.length) {
     game = { type: "empty-review" };
@@ -568,6 +696,7 @@ function renderSay() {
     `,
     { title: game.review ? "Review · Say It" : "Say It" }
   );
+  afterPaint();
 }
 
 async function hearWord(text) {
@@ -746,6 +875,7 @@ function renderTwins() {
     `,
     { title: duo ? "Duo · Twin Sounds" : game.review ? "Review · Twin Sounds" : "Twin Sounds" }
   );
+  afterPaint();
 }
 
 function twinsClass(pair, side) {
@@ -807,7 +937,7 @@ function nextTwins() {
 }
 
 function startReview() {
-  const due = dueWords(store, words);
+  const due = dueWords(store, allPlayableWords());
   if (!due.length) {
     game = { type: "empty-review" };
     renderEmptyReview();
@@ -819,7 +949,7 @@ function startReview() {
 }
 
 function renderReviewList() {
-  const due = game.items || dueWords(store, words);
+  const due = game.items || dueWords(store, allPlayableWords());
   app.innerHTML = shell(
     `
     <div class="card">
@@ -843,10 +973,11 @@ function renderReviewList() {
     `,
     { title: "Review" }
   );
+  afterPaint();
 }
 
 function playReview() {
-  const due = dueWords(store, words);
+  const due = dueWords(store, allPlayableWords());
   const items = shuffle(due).slice(0, roundCount());
   const withPairs = items.filter((w) => w.pairs && w.pairs.length);
   if (withPairs.length >= 2 && Math.random() < 0.34) startTwins({ review: true });
@@ -868,6 +999,7 @@ function renderEmptyReview() {
     `,
     { title: "Review" }
   );
+  afterPaint();
 }
 
 function renderDuo() {
@@ -889,6 +1021,7 @@ function renderDuo() {
     `,
     { title: "Duo" }
   );
+  afterPaint();
 }
 
 function renderResults() {
@@ -926,7 +1059,12 @@ function renderResults() {
     `,
     { title: "Round over" }
   );
+  us.hydrate(app);
+  const finished = game;
   game = null;
+  if (us.isUnlocked() && finished && finished.correct > 0) {
+    celebrate({ us, reason: "finish", xp: finished.xp, streak: profile().streakDays }, document.getElementById("app"));
+  }
 }
 
 function renderError(message) {
@@ -934,6 +1072,7 @@ function renderError(message) {
     `<div class="card"><p>${escapeHtml(message)}</p>
      <button class="btn primary" data-action="nav" data-to="home">Home</button></div>`
   );
+  afterPaint();
 }
 
 function syncHash(to) {
@@ -965,6 +1104,11 @@ function go(to) {
   if (route === "" || route === "home") return renderHome();
   if (route === "settings") return renderSettings();
   if (route === "snap") return startSnap();
+  if (route === "us") {
+    if (!us.isUnlocked()) return renderUnlock();
+    return startSnap({ topic: "us" });
+  }
+  if (route === "us-unlock") return us.isUnlocked() ? startSnap({ topic: "us" }) : renderUnlock();
   if (route === "say") return startSay();
   if (route === "twins") return startTwins();
   if (route === "review") return startReview();
@@ -1011,6 +1155,14 @@ app.addEventListener("click", (event) => {
   else if (action === "duo-snap") startSnap({ duo: true });
   else if (action === "duo-twins") startTwins({ duo: true });
   else if (action === "replay") go(btn.dataset.to);
+  else if (action === "us-lock") lockUs();
+});
+
+app.addEventListener("submit", (event) => {
+  const form = event.target.closest("[data-action=us-unlock-form]");
+  if (!form) return;
+  event.preventDefault();
+  submitUnlock(form);
 });
 
 app.addEventListener("change", (event) => {
@@ -1029,7 +1181,7 @@ app.addEventListener("change", (event) => {
 
 window.addEventListener("hashchange", () => {
   const to = location.hash.replace(/^#\/?/, "") || "home";
-  if (["home", "settings", "snap", "say", "twins", "review", "duo"].includes(to)) go(to);
+  if (["home", "settings", "snap", "us", "us-unlock", "say", "twins", "review", "duo"].includes(to)) go(to);
 });
 
 async function init() {
@@ -1046,7 +1198,9 @@ async function init() {
     ]);
     words = w;
     pairs = p;
-    if (E2E) window.__WORD_DUO__ = { words, pairs, store, resetStore };
+    await us.tryRestore();
+    markXpFloor(profile().xp);
+    if (E2E) window.__WORD_DUO__ = { words, pairs, store, resetStore, usUnlocked: () => us.isUnlocked() };
     const to = location.hash.replace(/^#\/?/, "") || "home";
     go(to);
   } catch (err) {

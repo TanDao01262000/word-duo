@@ -71,6 +71,9 @@ test.describe("Word Duo MVP", () => {
     await expect(page.getByTestId("nav-snap")).toBeVisible();
     await page.getByTestId("level-A1").click();
     await expect(page.getByTestId("level-A1")).toHaveClass(/is-on/);
+    await expect(page.getByTestId("nav-us")).toBeVisible();
+    await expect(page.getByTestId("us-hero")).toHaveCount(0);
+    await expect(page.locator("[data-testid=us-photo], [data-testid=us-hero-photo], [data-testid=celebrate-photo]")).toHaveCount(0);
     await shot(page, "01-home-mobile");
     await page.getByTestId("nav-snap").click();
     await expect(page.getByTestId("prompt")).toBeVisible();
@@ -208,12 +211,74 @@ test.describe("Word Duo MVP", () => {
     await shot(page, "12-say-hint-mobile");
     expect(errors, errors.join("\n")).toEqual([]);
   });
+
+  test("Us topic stays locked without the passcode", async ({ page }) => {
+    const errors = await open(page);
+    await page.getByTestId("nav-us").click();
+    await expect(page.getByTestId("us-unlock")).toBeVisible();
+    await expect(page.getByTestId("us-passcode")).toHaveAttribute("type", "password");
+    await page.getByTestId("us-passcode").fill("not-the-passcode");
+    await page.getByTestId("us-unlock-btn").click();
+    await expect(page.getByTestId("us-unlock-error")).toBeVisible();
+    await expect(page.getByTestId("us-hero")).toHaveCount(0);
+    await expect(page.locator("[data-testid=us-photo]")).toHaveCount(0);
+    await shot(page, "13-us-locked-mobile");
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+
+  test("Us topic unlocks, shows photos, and celebrates a finished round", async ({ page }) => {
+    const passcode = process.env.WORD_DUO_PASSCODE;
+    test.skip(!passcode, "WORD_DUO_PASSCODE is not set");
+    const errors = await open(page);
+    await page.getByTestId("nav-us").click();
+    await page.getByTestId("us-passcode").fill(passcode);
+    await page.getByTestId("us-unlock-btn").click();
+    await expect(page.getByTestId("us-hero-photo")).toBeVisible({ timeout: 20_000 });
+    await page.getByTestId("nav-us").click();
+    await expect(page.getByTestId("us-photo")).toBeVisible();
+    await expect(page.getByTestId("ipa")).toHaveText(/^\/.+\/$/);
+    await expect(page.getByTestId("prompt")).toBeVisible();
+    await shot(page, "14-us-snap-mobile");
+    for (let i = 0; i < 3; i += 1) {
+      const btn = page.locator("[data-correct='1']");
+      await expect(btn).toBeEnabled();
+      await btn.click();
+      await expect(page.getByTestId("next")).toBeVisible();
+      await page.getByTestId("next").click();
+    }
+    await expect(page.getByTestId("results")).toBeVisible();
+    await expect(page.getByTestId("celebrate")).toBeVisible();
+    await expect(page.getByTestId("celebrate-photo")).toBeVisible();
+    await page.screenshot({ path: require("path").join(shotDir, "15-us-celebrate-mobile.png") });
+    await page.getByTestId("celebrate").click();
+    await page.getByRole("button", { name: "Home" }).click();
+    await expect(page.getByTestId("us-hero")).toBeVisible();
+    await expect(page.getByTestId("us-hero-photo")).toBeVisible();
+    await expect(page.getByTestId("level-A1").locator("img.chip-photo")).toBeVisible();
+    await shot(page, "16-us-home-mobile");
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
 });
 
 test("desktop home has no console errors", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await mockSpeech(page);
   const errors = await open(page);
+  await expect(page.getByTestId("nav-us")).toBeVisible();
+  await expect(page.getByTestId("us-hero")).toHaveCount(0);
   await shot(page, "09-home-desktop");
+  expect(errors, errors.join("\n")).toEqual([]);
+});
+
+test("desktop Us home after unlock", async ({ page }) => {
+  const passcode = process.env.WORD_DUO_PASSCODE;
+  test.skip(!passcode, "WORD_DUO_PASSCODE is not set");
+  await page.setViewportSize({ width: 1280, height: 800 });
+  const errors = await open(page);
+  await page.getByTestId("nav-us").click();
+  await page.getByTestId("us-passcode").fill(passcode);
+  await page.getByTestId("us-unlock-btn").click();
+  await expect(page.getByTestId("us-hero-photo")).toBeVisible({ timeout: 20_000 });
+  await shot(page, "17-us-home-desktop");
   expect(errors, errors.join("\n")).toEqual([]);
 });

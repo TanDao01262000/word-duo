@@ -14,6 +14,8 @@ Live site: https://tandao01262000.github.io/word-duo/
 
 Progress, XP, and daily streaks stay in `localStorage` on this device. You can keep two player profiles on the same phone.
 
+A private **Chúng mình** topic unlocks with a passcode. Personal photos are stored on the site only as AES-GCM encrypted files; nothing is shown until the passcode is entered on that device. The rest of the games work as usual without it.
+
 Each word shows American IPA under the spelling. Vietnamese meanings and pronunciation tips can be Off, On demand (tap Gợi ý 🇻🇳; this is the default), or Always show, in Settings. Text-to-speech defaults to British English, with an American toggle.
 
 ## Word bank
@@ -29,6 +31,8 @@ python3 -m http.server 4173
 ```
 
 Then open http://127.0.0.1:4173/
+
+WORD_DUO_PASSCODE is required only when encrypting or when Playwright tests the unlocked Us topic. Never commit it.
 
 ```bash
 npm install

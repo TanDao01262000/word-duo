@@ -6,3 +6,10 @@ test-screenshots/
 .idea/
 *.log
 __pycache__/
+.env
+word-duo-private/
+photos-raw/
+data/photos/
+data/us-raw/
+*.heic
+*.HEIC

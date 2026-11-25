@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 210000,
+  "salt": "7RKlNXqkGls6lW/EgeEUYQ==",
+  "canary": "ftfFdqR0Er/thj+NJWinEn3U5rQ1MUsL6GgCVIBzk1g9lchfuSjBPijj",
+  "words": "words.bin",
+  "photos": [
+    {
+      "id": "proposal-smile",
+      "file": "photos/proposal-smile.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 52178
+    },
+    {
+      "id": "ring",
+      "file": "photos/ring.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 49436
+    },
+    {
+      "id": "proposal-kiss",
+      "file": "photos/proposal-kiss.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 52576
+    },
+    {
+      "id": "ceremony-hall",
+      "file": "photos/ceremony-hall.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 63390
+    },
+    {
+      "id": "ceremony-flowers",
+      "file": "photos/ceremony-flowers.bin",
+      "mime": "image/webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 66572
+    },
+    {
+      "id": "tea",
+      "file": "photos/tea.bin",
+      "mime": "image/webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 30554
+    },
+    {
+      "id": "ao-dai",
+      "file": "photos/ao-dai.bin",
+      "mime": "image/webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 65196
+    },
+    {
+      "id": "parents",
+      "file": "photos/parents.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 69462
+    },
+    {
+      "id": "village",
+      "file": "photos/village.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 75330
+    },
+    {
+      "id": "marriage",
+      "file": "photos/marriage.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 56660
+    },
+    {
+      "id": "couple-close",
+      "file": "photos/couple-close.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 52588
+    },
+    {
+      "id": "coast",
+      "file": "photos/coast.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 50258
+    },
+    {
+      "id": "hands",
+      "file": "photos/hands.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 81648
+    },
+    {
+      "id": "sunset",
+      "file": "photos/sunset.bin",
+      "mime": "image/webp",
+      "width": 450,
+      "height": 800,
+      "bytes": 33490
+    },
+    {
+      "id": "wave",
+      "file": "photos/wave.bin",
+      "mime": "image/webp",
+      "width": 450,
+      "height": 800,
+      "bytes": 30138
+    },
+    {
+      "id": "restaurant",
+      "file": "photos/restaurant.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 75402
+    },
+    {
+      "id": "hotel",
+      "file": "photos/hotel.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 50670
+    },
+    {
+      "id": "mother",
+      "file": "photos/mother.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 85234
+    },
+    {
+      "id": "temple-evening",
+      "file": "photos/temple-evening.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 54530
+    },
+    {
+      "id": "hue",
+      "file": "photos/hue.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 97702
+    },
+    {
+      "id": "wife-portrait",
+      "file": "photos/wife-portrait.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 39488
+    },
+    {
+      "id": "birthday",
+      "file": "photos/birthday.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 64136
+    },
+    {
+      "id": "hometown-view",
+      "file": "photos/hometown-view.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 72934
+    },
+    {
+      "id": "home",
+      "file": "photos/home.bin",
+      "mime": "image/webp",
+      "width": 368,
+      "height": 800,
+      "bytes": 25628
+    },
+    {
+      "id": "countryside",
+      "file": "photos/countryside.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 56140
+    },
+    {
+      "id": "family-outing",
+      "file": "photos/family-outing.bin",
+      "mime": "image/webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 60714
+    },
+    {
+      "id": "waterfall",
+      "file": "photos/waterfall.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 97134
+    },
+    {
+      "id": "wedding",
+      "file": "photos/wedding.bin",
+      "mime": "image/webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 62528
+    }
+  ],
+  "homeHero": "sunset",
+  "homePortrait": "couple-close",
+  "usBadge": "proposal-smile",
+  "levelBadges": {
+    "A1": "couple-close",
+    "A2": "coast",
+    "B1": "hue",
+    "B2": "proposal-smile",
+    "C1": "waterfall",
+    "C2": "sunset"
+  },
+  "celebrate": [
+    "proposal-kiss",
+    "hands",
+    "wave",
+    "ring",
+    "wedding",
+    "couple-close",
+    "sunset",
+    "proposal-smile"
+  ]
+}
