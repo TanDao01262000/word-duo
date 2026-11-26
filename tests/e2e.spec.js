@@ -15,15 +15,23 @@ function mockSpeech(page, { recognize = true } = {}) {
   return page.addInitScript(({ recognize }) => {
     window.speechSynthesis = {
       speak(u) {
+        this._last = u;
+        this.speaking = true;
+        this.paused = false;
         setTimeout(() => {
+          this.speaking = false;
           if (typeof u.onend === "function") u.onend();
         }, 20);
       },
-      cancel() {},
+      cancel() { this.speaking = false; },
+      resume() { this.paused = false; this._resumed = true; },
+      pause() { this.paused = true; },
       getVoices() {
-        return [{ lang: "en-GB", name: "Fake GB", voiceURI: "fake" }];
+        return [];
       },
       addEventListener() {},
+      speaking: false,
+      paused: false,
     };
     window.SpeechSynthesisUtterance = function (text) {
       this.text = text;
@@ -59,6 +67,24 @@ async function open(page, extra = "") {
   await page.goto(`/?e2e=1${extra}`, { waitUntil: "networkidle" });
   await expect(page.getByRole("heading", { name: "Word Duo" })).toBeVisible();
   return errors;
+}
+
+
+const CRIOS_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/142.0.7444.148 Mobile/15E148 Safari/604.1";
+
+async function withCriOS(browser, run) {
+  const context = await browser.newContext({
+    viewport: { width: 390, height: 844 },
+    isMobile: true,
+    hasTouch: true,
+    userAgent: CRIOS_UA,
+  });
+  const page = await context.newPage();
+  try {
+    await run(page);
+  } finally {
+    await context.close();
+  }
 }
 
 test.describe("Word Duo MVP", () => {
@@ -139,6 +165,7 @@ test.describe("Word Duo MVP", () => {
     const errors = await open(page);
     await page.getByTestId("nav-say").click();
     await expect(page.getByTestId("speech-fallback")).toBeVisible();
+    await expect(page.getByTestId("speech-fallback")).toContainText("cannot score pronunciation automatically");
     await shot(page, "06-say-fallback");
     for (let i = 0; i < 3; i += 1) {
       await page.getByTestId("self-right").click();
@@ -256,6 +283,65 @@ test.describe("Word Duo MVP", () => {
     await expect(page.getByTestId("us-hero-photo")).toBeVisible();
     await expect(page.getByTestId("level-A1").locator("img.chip-photo")).toBeVisible();
     await shot(page, "16-us-home-mobile");
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+});
+
+test("Say It on Chrome iPhone shows a Safari mic message when recognition is missing", async ({ browser }) => {
+  await withCriOS(browser, async (page) => {
+    await mockSpeech(page, { recognize: false });
+    const errors = await open(page);
+    await page.getByTestId("nav-say").click();
+    const banner = page.getByTestId("speech-fallback");
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText("Chrome trên iPhone chưa hỗ trợ mic, hãy mở bằng Safari");
+    await expect(banner).toContainText("Mic isn't supported in Chrome on iPhone, open in Safari");
+    await expect(page.getByTestId("hear")).toBeEnabled();
+    await page.getByTestId("hear").click();
+    await expect(page.getByTestId("listen")).toHaveCount(0);
+    await expect(page.getByTestId("self-right")).toBeVisible();
+    await shot(page, "18-say-crios-fallback-mobile");
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+});
+
+test("Say It on Chrome iPhone uses the mic when webkitSpeechRecognition exists", async ({ browser }) => {
+  await withCriOS(browser, async (page) => {
+    await mockSpeech(page, { recognize: true });
+    const errors = await open(page);
+    await page.getByTestId("nav-say").click();
+    await expect(page.getByTestId("speech-fallback")).toHaveCount(0);
+    await expect(page.getByTestId("listen")).toBeVisible();
+    await page.getByTestId("hear").click();
+    await page.getByTestId("listen").click();
+    await expect(page.getByTestId("next")).toBeVisible();
+    expect(errors, errors.join("\n")).toEqual([]);
+  });
+});
+
+test("Say It on Chrome iPhone falls back if recognition errors", async ({ browser }) => {
+  await withCriOS(browser, async (page) => {
+    await mockSpeech(page, { recognize: true });
+    await page.addInitScript(() => {
+      class BoomRec {
+        start() {
+          setTimeout(() => {
+            if (typeof this.onerror === "function") this.onerror({ error: "service-not-allowed" });
+          }, 10);
+        }
+        stop() {}
+        abort() {}
+      }
+      window.SpeechRecognition = BoomRec;
+      window.webkitSpeechRecognition = BoomRec;
+    });
+    const errors = await open(page);
+    await page.getByTestId("nav-say").click();
+    await page.getByTestId("listen").click();
+    const banner = page.getByTestId("speech-fallback");
+    await expect(banner).toBeVisible();
+    await expect(banner).toContainText("Chrome trên iPhone chưa hỗ trợ mic, hãy mở bằng Safari");
+    await expect(page.getByTestId("self-right")).toBeVisible();
     expect(errors, errors.join("\n")).toEqual([]);
   });
 });

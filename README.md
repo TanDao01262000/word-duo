@@ -16,7 +16,7 @@ Progress, XP, and daily streaks stay in `localStorage` on this device. You can k
 
 A private **Chúng mình** topic unlocks with a passcode. Personal photos are stored on the site only as AES-GCM encrypted files; nothing is shown until the passcode is entered on that device. The rest of the games work as usual without it.
 
-Each word shows American IPA under the spelling. Vietnamese meanings and pronunciation tips can be Off, On demand (tap Gợi ý 🇻🇳; this is the default), or Always show, in Settings. Text-to-speech defaults to British English, with an American toggle.
+Each word shows American IPA under the spelling. Vietnamese meanings and pronunciation tips can be Off, On demand (tap Gợi ý 🇻🇳; this is the default), or Always show, in Settings. Text-to-speech defaults to British English, with an American toggle. On iPhone, playback uses American English so iOS will actually speak the word.
 
 ## Word bank
 
@@ -42,7 +42,8 @@ npm test
 
 ## Browser notes
 
-- **Speaking scores** need the Web Speech API’s speech recognition, HTTPS (or localhost), and a microphone permission. This works in current Chrome and Edge on desktop and Android, and in Safari on recent iOS and macOS, though Safari can be stricter about permissions.
+- **Hearing the word** uses `speechSynthesis`. Chrome on iPhone uses WebKit, so this works there too, as long as playback starts in the same turn as the tap (no waiting for a voice list).
+- **Speaking scores** need the Web Speech API’s speech recognition (`webkitSpeechRecognition` if that is what the browser provides), HTTPS (or localhost), and a microphone permission. This works in current Chrome and Edge on desktop and Android, and in Safari on iOS 14.5 and later. Chrome on iPhone usually does **not** expose the mic API; if it is missing or errors, Say It shows a message to open the page in Safari and falls back to a self-check.
 - **Firefox** (and some in-app browsers) usually cannot score pronunciation. You can still hear the word and mark the attempt yourself.
 - The score is “did the recognizer transcribe the target word?”, not a phoneme-by-phoneme accent score.
 

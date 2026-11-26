@@ -1,49 +1,79 @@
+function hasWindow() {
+  return typeof window !== "undefined";
+}
+
+export function isIOS() {
+  if (!hasWindow()) return false;
+  const ua = navigator.userAgent || "";
+  const iPhoneLike = /iPad|iPhone|iPod/.test(ua);
+  const iPadOs = navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1;
+  return iPhoneLike || iPadOs;
+}
+
+export function isCriOS() {
+  return hasWindow() && /CriOS/i.test(navigator.userAgent || "");
+}
+
 export function canSynthesize() {
-  return typeof window !== "undefined" && "speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function";
+  return hasWindow() && "speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function";
+}
+
+export function recognitionCtor() {
+  if (!hasWindow()) return null;
+  return window.webkitSpeechRecognition || window.SpeechRecognition || null;
 }
 
 export function canRecognize() {
-  return Boolean(
-    typeof window !== "undefined" && (window.SpeechRecognition || window.webkitSpeechRecognition)
-  );
+  return Boolean(recognitionCtor());
 }
 
-function pickVoice(lang) {
-  const voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
-  const prefix = lang.toLowerCase();
-  return (
-    voices.find((v) => v.lang && v.lang.toLowerCase() === prefix) ||
-    voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(prefix.split("-")[0])) ||
-    null
-  );
+export function ttsLang(preferred) {
+  // iOS (including Chrome, which uses WebKit) is reliable with a language
+  // tag and no voice object. American English is the voice iOS plays most
+  // consistently; British tags are often silent if a matching voice is missing.
+  if (isIOS()) return "en-US";
+  return preferred === "en-US" ? "en-US" : "en-GB";
 }
 
-export function speak(text, { lang = "en-GB", rate = 0.92 } = {}) {
+export function recognitionFallbackCopy() {
+  if (isCriOS()) {
+    return {
+      vi: "Chrome trên iPhone chưa hỗ trợ mic, hãy mở bằng Safari",
+      en: "Mic isn't supported in Chrome on iPhone, open in Safari",
+    };
+  }
+  return {
+    vi: "Trình duyệt này không chấm phát âm tự động (thường gặp trên Firefox). Hãy nghe, nói to, rồi tự đánh giá.",
+    en: "This browser cannot score pronunciation automatically (common on Firefox). Listen, say the word, then mark yourself.",
+  };
+}
+
+export function speak(text, { lang, rate = 0.92 } = {}) {
   if (!canSynthesize() || !text) return Promise.resolve();
+  const synth = window.speechSynthesis;
+  const utter = new SpeechSynthesisUtterance(String(text));
+  utter.lang = ttsLang(lang);
+  utter.rate = rate;
+  // Do not assign utter.voice. On iOS WebKit (Safari and CriOS) that is a
+  // common cause of silence, especially when the voice list is still empty.
+
   return new Promise((resolve) => {
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = lang;
-    utter.rate = rate;
-    const voice = pickVoice(lang);
-    if (voice) utter.voice = voice;
-    utter.onend = () => resolve();
-    utter.onerror = () => resolve();
-    try {
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(utter);
-      // Some engines stay silent if voices have not loaded yet.
-      if (window.speechSynthesis.getVoices().length === 0) {
-        window.speechSynthesis.addEventListener(
-          "voiceschanged",
-          () => {
-            const late = pickVoice(lang);
-            if (late) utter.voice = late;
-          },
-          { once: true }
-        );
-      }
-    } catch {
+    let settled = false;
+    const done = () => {
+      if (settled) return;
+      settled = true;
       resolve();
+    };
+    utter.onend = done;
+    utter.onerror = done;
+    try {
+      // Must run in the same turn as the tap. cancel + speak + resume is the
+      // pattern that gets iOS out of a stuck paused state.
+      synth.cancel();
+      synth.speak(utter);
+      if (typeof synth.resume === "function") synth.resume();
+    } catch {
+      done();
     }
   });
 }
@@ -71,8 +101,19 @@ export function stopRecognition() {
   activeRec = null;
 }
 
+function isFatalRecognitionError(code) {
+  return [
+    "unsupported",
+    "not-allowed",
+    "service-not-allowed",
+    "audio-capture",
+    "network",
+    "language-not-supported",
+  ].includes(code);
+}
+
 export function recognize({ lang = "en-GB", timeoutMs = 8000 } = {}) {
-  const Ctor = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const Ctor = recognitionCtor();
   if (!Ctor) {
     return Promise.reject(Object.assign(new Error("unsupported"), { code: "unsupported" }));
   }
@@ -124,6 +165,8 @@ export function recognize({ lang = "en-GB", timeoutMs = 8000 } = {}) {
     }
   });
 }
+
+export { isFatalRecognitionError };
 
 const SPELLING = {
   neighbour: ["neighbor"],

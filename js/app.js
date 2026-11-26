@@ -7,7 +7,7 @@ import {
   addXp,
   markSessionPlayed,
   resetStore,
-} from "./storage.js?v=20261125-3";
+} from "./storage.js?v=20261126-1";
 import {
   canRecognize,
   canSynthesize,
@@ -16,12 +16,14 @@ import {
   stopRecognition,
   recognize,
   heardMatches,
-} from "./speech.js?v=20261125-3";
-import { PITFALL_TIPS, sayTipsFor, twinsTipFor } from "./tips.js?v=20261125-3";
-import { createUsVault } from "./us.js?v=20261125-3";
-import { celebrate, maybeCelebrateStreak, maybeCelebrateLevel, markXpFloor, noteStreakReset } from "./celebrate.js?v=20261125-3";
+  recognitionFallbackCopy,
+  isFatalRecognitionError,
+} from "./speech.js?v=20261126-1";
+import { PITFALL_TIPS, sayTipsFor, twinsTipFor } from "./tips.js?v=20261126-1";
+import { createUsVault } from "./us.js?v=20261126-1";
+import { celebrate, maybeCelebrateStreak, maybeCelebrateLevel, markXpFloor, noteStreakReset } from "./celebrate.js?v=20261126-1";
 
-const VERSION = "20261125-3";
+const VERSION = "20261126-1";
 const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
 const LEVEL_RANK = Object.fromEntries(LEVELS.map((l, i) => [l, i]));
 const E2E = new URLSearchParams(location.search).has("e2e");
@@ -75,7 +77,6 @@ let pairs = [];
 let store = loadStore();
 let view = "home";
 let game = null;
-let speakBusy = false;
 
 function profile() {
   return activeProfile(store);
@@ -447,6 +448,7 @@ function renderSettings() {
           <option value="en-GB" ${p.accent === "en-GB" ? "selected" : ""}>British English</option>
           <option value="en-US" ${p.accent === "en-US" ? "selected" : ""}>American English</option>
         </select>
+        <p class="lede">On iPhone, playback uses American English, which iOS speaks reliably. Chrome on iPhone can play the word, but scoring the mic usually needs Safari.</p>
       </div>
       <p class="lede" style="margin-top:8px">Vietnamese hints${hint("settings")}</p>
       <div class="levels" data-testid="hint-mode">
@@ -662,7 +664,7 @@ function renderSay() {
       <span>${"★".repeat(Math.max(0, 3 - round.attempts))}${"☆".repeat(round.attempts)}</span>
     </div>
     <div class="bar"><span style="width:${bar}%"></span></div>
-    ${fallback ? `<div class="banner warn" data-testid="speech-fallback">${escapeHtml(VI.fallback)}</div>` : ""}
+    ${fallback ? `<div class="banner warn" data-testid="speech-fallback"><p>${escapeHtml(recognitionFallbackCopy().vi)}</p><p>${escapeHtml(recognitionFallbackCopy().en)}</p></div>` : ""}
     <div class="card">
       <p class="meta">${escapeHtml(word.level)} · ${escapeHtml(word.pos)}</p>
       ${wordBlock(word.lemma, word.ipa)}
@@ -699,14 +701,10 @@ function renderSay() {
   afterPaint();
 }
 
-async function hearWord(text) {
-  if (speakBusy) return;
-  speakBusy = true;
-  try {
-    await speak(text, { lang: lang() });
-  } finally {
-    speakBusy = false;
-  }
+function hearWord(text) {
+  // speak() must start in this turn so iOS WebKit (Safari and Chrome) treats
+  // it as a user gesture. Do not await anything beforehand.
+  return speak(text, { lang: lang() });
 }
 
 async function listenSay() {
@@ -730,7 +728,7 @@ async function listenSay() {
     }
   } catch (err) {
     const code = err && err.code;
-    if (code === "unsupported" || code === "not-allowed" || code === "service-not-allowed") {
+    if (isFatalRecognitionError(code)) {
       game.support = false;
     }
     round.heard = "";
